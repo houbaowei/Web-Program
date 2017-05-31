@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery选择器的封装</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="demo"></div>
+<div></div>
+<div></div>
+<div class="one"></div>
+<div class="one demo"></div>
+<div class="one"></div>
+<div></div>
+<div></div>
+<div></div>
+<div id="last"></div>
+</body>
+</html>
+
+<script>
+    function getClass(classname) {
+        // 判断是否支持
+        if (document.getElementsByClassName) {
+            return document.getElementsByClassName(classname);
+        }
+
+        var  arr = [];
+        var dom = document.getElementsByTagName("*");
+        for (var i = 0; i < dom.length; i++) {
+            // 分割 class="test1 test2"这种形式的
+            var txtArr = dom[i].className.split(" ");
+            for (var j = 0; j < txtArr.length; j++) {
+                if (txtArr[j] === classname) {
+                    arr.push(textArr[j]);
+                }
+            }
+        }
+        return arr;
+    }
+
+    function $(str) {
+        var s = str.charAt(0);
+        var ss = str.substr(1);
+
+        switch (s) {
+            case "#" :
+                return document.getElementById(ss);
+                break;
+            case "." :
+                return getClass(ss);
+                break;
+
+            default :
+                return document.getElementsByTagName(str);
+        }
+    }
+
+
+
+    $("#demo").style.backgroundColor = "purple";
+    $("#last").style.backgroundColor = "purple";
+
+    var test = $(".one");
+    for (var i = 0; i < test.length; i++) {
+        test[i].style.backgroundColor = "blue";
+    }
+
+</script>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul, ol {
+            list-style: none;
+        }
+        .box {
+            width: 732px;
+            height: 456px;
+            margin: 100px auto;
+            border: 1px solid #000;
+            box-sizing: border-box;
+            overflow: hidden;
+            position: relative;
+        }
+        .slider {
+            width: 5000px;
+            height: 100%;
+            background-color: #cccccc;
+        }
+        .slider ul li {
+            float: left;
+        }
+        .circle {
+            position: absolute;
+            left: 50%;
+            margin-left: -50px;
+            bottom: 10px;
+        }
+        .circle span {
+            float: left;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background-color: skyblue;
+            text-align: center;
+            line-height: 18px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .circle span.current {
+            background-color: orange;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var scroll = document.getElementById('scroll');
+            var circle = document.createElement('div');
+            circle.setAttribute('class', 'circle');
+            scroll.appendChild(circle);
+            var ul = document.getElementById('ul');
+            var lis = ul.children;
+            for (var i = 0; i < lis.length; i++) {
+                var newSpan = document.createElement('span');
+                newSpan.innerHTML = i+1;
+                circle.appendChild(newSpan);
+            }
+            circle.children[0].setAttribute('class', 'current');
+
+            circle.style.marginLeft = -circle.offsetWidth/2+'px';
+        }
+    </script>
+</head>
+<body>
+<div class="box" id="scroll">
+    <div class="slider">
+        <ul id="ul">
+            <li><img src="images/11.jpg" alt=""></li>
+            <li><img src="images/22.jpg" alt=""></li>
+            <li><img src="images/33.jpg" alt=""></li>
+            <li><img src="images/44.jpg" alt=""></li>
+            <li><img src="images/55.jpg" alt=""></li>
+            <li><img src="images/66.jpg" alt=""></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

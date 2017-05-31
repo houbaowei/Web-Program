@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>倒计时</title>
+    <style>
+        body {
+            font-size: 30px;
+            text-align: center;
+            color: red;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var demo = document.getElementById('demo');
+            var endTime = new Date('2017/10/08 17:30:00');
+            function clock() {
+                var nowTime = new Date();
+                var seconds = parseInt((endTime.getTime() - nowTime.getTime())/1000);
+
+                var d = parseInt(seconds/60/60/24);
+                var h = parseInt(seconds/60/60%24);
+                var m = parseInt(seconds/60%60);
+                var s = parseInt(seconds%60);
+
+                d < 10 ? d = '0' + d : d;
+                h < 10 ? h = '0' + h : h;
+                m < 10 ? m = '0' + m : m;
+                s < 10 ? s = '0' + s : s;
+
+                demo.innerHTML = "距离结束时间还有: "+d+"天 "+h+"小时 "+m+"分钟 "+s+"秒";
+            }
+
+            setInterval(clock, 0);
+        }
+    </script>
+</head>
+<body>
+<div id="demo"></div>
+</body>
+</html>

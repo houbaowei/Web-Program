@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单验证</title>
+    <style>
+        .box {
+            text-align: center;
+            margin: 100px auto;
+        }
+        span {
+            display: inline-block;
+            width: 150px;
+            height: 20px;
+            border: 1px solid #CCCCCC;
+            font-size: 12px;
+            line-height: 20px;
+            text-align: left;
+            padding-left: 20px;
+            background-color: #eeeeee;
+            color: #999;
+        }
+
+        /*正确的样式*/
+        .right {
+            color: #5eff5e;
+            background: url(../images/zhengque.png) no-repeat center left;
+            border: 1px solid #acffac;
+        }
+        /*错误的样式*/
+        .wrong {
+            color: #ff6b39;
+            background: url(../images/wrong.png) no-repeat center left;
+            border: 1px solid #ffac91;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var txt = document.getElementById('score');
+            var res = document.getElementsByTagName('span')[0];
+
+            txt.onblur = function () {
+                if (isNaN(this.value)) { /*验证是否是数字*/
+                    res.className = 'wrong';
+                    res.innerHTML = '请输入数字';
+                } else if (this.value == '') {
+                    res.className = 'wrong';
+                    res.innerHTML = '请输入内容';
+                } else if (this.value > 150 || this.value < 0) {
+                    res.className = 'wrong';
+                    res.innerHTML = '请输入合理的范围';
+                } else {
+                    res.className = 'right';
+                    res.innerHTML = '输入正确';
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="box">
+    <label for="score">语文:</label>
+    <input type="text" id="score">
+    <span>请输入成绩</span>
+</div>
+</body>
+</html>

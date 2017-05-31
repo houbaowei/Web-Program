@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>window.open-打开新窗口</title>
+</head>
+<body>
+<h1 onclick="this.innerHTML='谢谢!'">请点击该文本</h1>
+<input type="button" value="点击我,打开新窗口" id="btn" onclick="Wopen()">
+
+<script>
+    function Wopen() {
+//        var button = document.getElementById('btn');
+//        button.value = 'hahha';
+        window.open('http://www.baidu.com', '_blank', 'width=600px, height=400px, left=300px, top=200px');
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta   http-equiv="Expires"   CONTENT="0">
+		<meta   http-equiv="Cache-Control"   CONTENT="no-cache">
+		<meta   http-equiv="Pragma"   CONTENT="no-cache">
+		
+		<title>jd导航栏</title>
+		<base target="_blank" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<style type="text/css">
+			.nav {
+				margin: 0 auto;
+				width: 800px;
+				height: 50px;
+				background-color: lightgray;	
+				margin-top: 100px;			
+			}
+			ul {
+				list-style: none;
+			}
+			
+			a {
+				text-decoration: none;
+			}
+			
+			
+			
+			ul li {
+				float: left;
+				width: 100px;
+				line-height: 50px;
+				text-align: center;
+			}
+			ul li a {
+				display: inline-block;
+				width: 100px;
+				height: 50px;
+			}
+			
+			/* 伪类 练习 */
+			ul li a:link {
+				color: orangered;
+			}
+			ul li a:visited {
+				color: green;
+				text-decoration: underline;
+			}
+			ul li a:hover {
+				color: deepskyblue;
+			}
+			ul li a:active {
+				color: brown;
+			}
+			
+			ul li:nth-of-type(4) {
+				background-color: yellow;
+				position: relative;
+			}
+			ul li img {
+				position: absolute;
+				top: -4px;
+				left: 50%;
+				margin-left: -12px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="nav">
+			<ul>
+				<li><a href="https://www.baidu.com" >服装城</a></li>
+				<li><a href="#">美妆馆</a></li>
+				<li><a href="#">京东超市</a></li>
+				<li>
+					<a href="#">全球购</a>
+					<img src="../images/hot.png"/>
+				</li>
+				<li><a href="#">闪购</a></li>
+				<li><a href="#">团购</a></li>
+				<li>	<a href="#">拍卖</a></li>
+				<li><a href="#">金融</a></li>
+			</ul>
+		</div>
+	</body>
+</html>

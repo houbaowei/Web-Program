@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tab栏切换</title>
+    <style>
+        .tab {
+            width: 400px;
+            margin: 100px auto;
+            border: 1px solid #000;
+        }
+        .bottom div {
+            width: 100%;
+            height: 300px;
+            background-color: pink;
+            display: none;
+        }
+        .purple {
+            background-color: purple;
+        }
+        .bottom .show {
+            display: block;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var btns = document.getElementsByTagName('button');
+            var divs = document.getElementById('bottom').getElementsByTagName('div');
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].index = i;
+                btns[i].onclick = function () {
+//                    alert('button的索引'+this.index);
+
+                    for (var j = 0; j < btns.length; j++) {
+                        btns[j].className = '';
+                        divs[j].className = '';
+                    }
+                    this.className = 'purple';
+                    divs[this.index].className = 'show';
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="tab">
+    <div class="top">
+        <button class="purple">第一个</button>
+        <button>第二个</button>
+        <button>第三个</button>
+        <button>第四个</button>
+        <button>第五个</button>
+    </div>
+    <div class="bottom" id="bottom">
+        <div class="show">1号盒子</div>
+        <div>2号盒子</div>
+        <div>3号盒子</div>
+        <div>4号盒子</div>
+        <div>5号盒子</div>
+    </div>
+</div>
+</body>
+</html>

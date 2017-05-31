@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>合并单元格</title>
+		<style type="text/css">
+			table {				
+				border-collapse: collapse;
+				text-align: center;
+			}
+			table tr th,td {
+				border: 1px solid #DDDDDD;
+				width: 120px;
+				height: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<table border="1px" cellspacing="0" cellpadding="0">
+			<caption>合并单元格</caption>
+			<tr>
+				<th>壹</th>
+				<th>贰</th>
+				<th>叁</th>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td colspan="2" rowspan="2">2</td>
+				<!--<td>1</td>-->
+			</tr>
+			<tr>
+				<td>1</td>
+				<!--<td></td>-->
+				<!--<td></td>-->
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+		</table>
+	</body>
+</html>

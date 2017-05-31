@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>判断函数参数匹配</title>
+</head>
+<body>
+<script>
+    function params(a, b) {
+        if(params.length != arguments.length) {
+            console.error("对不起,您的参数不匹配,正确的参数数为:"+arguments.length);
+        }
+        else {
+            console.log(a+b);
+        }
+    }
+
+    params(2, 3, 4);
+    params(2, 3);
+</script>
+</body>
+</html>

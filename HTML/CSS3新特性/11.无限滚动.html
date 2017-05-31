@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>无限滚动</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul, li {
+            list-style: none;
+        }
+
+        .infinite {
+            width: 600px;
+            height: 188px;
+            border: 4px solid #000;
+            margin: 100px auto;
+            overflow: hidden;
+        }
+        
+        .infinite ul {
+            width: 2000px;
+            height: 188px;
+            background-color: black;
+            -webkit-animation: move 10s linear 0s infinite normal;
+            -o-animation: move 10s linear 0s infinite normal;
+            animation: move 10s linear 0s infinite normal;
+        }
+        .infinite ul li {
+            float: left;
+            width: 300px;
+            height: 188px;
+            border: 1px solid white;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+        }
+
+        .infinite ul:hover {
+            /* 动画添加给谁,谁就停止 */
+            -webkit-animation-play-state: paused;
+            -moz-animation-play-state: paused;
+            -o-animation-play-state: paused;
+            animation-play-state: paused;
+        }
+
+        .infinite ul:hover li {
+            opacity: 0.5;
+        }
+        .infinite ul li:hover {
+            opacity: 1;
+        }
+
+        @keyframes move {
+            form {
+                margin-left: 0;
+            }
+            to {
+                margin-left: -1200px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="infinite">
+    <ul>
+        <li><img src="images/banner1.png" alt="#"></li>
+        <li><img src="images/banner2.jpg" alt="#"></li>
+        <li><img src="images/banner3.jpg" alt="#"></li>
+        <li><img src="images/banner4.jpg" alt="#"></li>
+        <!--
+            无限滚动的要义:
+                重复添加一组图片,动画完成以后再次跳转时人的肉眼是无法分辨出的
+        -->
+        <li><img src="images/banner1.png" alt="#"></li>
+        <li><img src="images/banner2.jpg" alt="#"></li>
+    </ul>
+</div>
+</body>
+</html>

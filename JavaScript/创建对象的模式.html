@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>创建对象</title>
+</head>
+<body>
+  <script type="text/javascript">
+  
+    // 基本模式1
+    var person1 = new Object();
+    person1.name = "Zhunjiee";
+    person1.age = 25;
+    person1.job = "iOS Engineer";
+    person1.sayName = function () {
+      alert(this.name);
+    };
+
+    // 基本模式2
+    var person2 = {
+      name : "Zhunjiee",
+      age : 25,
+      job : "iOS Engineer",
+      sayName : function () {
+        alert(this.name);
+      }
+    };
+
+    // 工厂模式
+    function createPerson(name, age, job) {
+      var o = new Object();
+      o.name = name;
+      o.age = age;
+      o.job = job;
+      o.sayName = function () {
+        alert(this.name);
+      };
+      return o;
+    }
+    var person3 = createPerson("zhunjiee", 25, "iOS Engineer");
+
+    // 构造函数模式
+    function Person(name, age, job) {
+      this.name = name;
+      this.age = age;
+      this.job = job;
+      this.sayName = function () {
+        alert(this.name);
+      };
+    }
+    var person4 = new Person("zhunjiee", 25, "iOS Engineer");
+
+    /** 构造函数:
+      函数名首字母大写
+      直接使用 this 关键词
+      无需 return 对象
+      在调用时使用 new 操作符
+    */
+
+  </script>
+</body>
+</html>

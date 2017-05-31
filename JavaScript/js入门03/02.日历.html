@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>日历</title>
+    <style>
+        .calendar {
+            width: 250px;
+            height: 180px;
+            background-color: #369;
+            margin: 100px auto;
+            text-align: center;
+        }
+        .calendar p {
+            text-align: center;
+            line-height: 60px;
+            font-size: 12px;
+            color: #FFFFFF;
+        }
+        .calendar span {
+            display: block;
+            width: 200px;
+            margin: 0 auto;
+            font-size: 50px;
+            color: #000;
+            background-color: yellowgreen;
+            line-height: 75px;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var calendar = document.getElementById('calendar');
+            var p = calendar.getElementsByTagName('p')[0];
+            var span = calendar.getElementsByTagName('span')[0];
+
+            var date = new Date();
+            var arr = ['星期天', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+            p.innerHTML = date.getFullYear()+'年'+(date.getMonth()+1)+'月'+date.getDate()+'日 '+arr[date.getDay()];
+
+            startTime();
+
+
+        };
+
+        function startTime() {
+            var today = new Date();
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+
+            document.getElementById('calendar').getElementsByTagName('span')[0].innerHTML = h+':'+m+':'+s;
+
+            setTimeout('startTime()', 500);
+        }
+
+
+        function checkTime(time) {
+            if (time < 10) {
+                time = '0' + time;
+            }
+            return time;
+        }
+
+    </script>
+</head>
+<body>
+<div class="calendar" id="calendar">
+    <p></p>
+    <span></span>
+</div>
+</body>
+</html>

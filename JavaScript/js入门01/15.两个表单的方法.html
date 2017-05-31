@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>两个表单的小方法</title>
+    <script>
+        window.onload = function () {
+            var txt = document.getElementById('txt');
+            var sele = document.getElementById('select');
+            txt.focus(); // 页面加载完后自动获得焦点
+            sele.onmouseover = function () {
+                this.select(); // 自动选择
+            }
+        }
+    </script>
+</head>
+<body>
+<label for="txt">页面加载完后直接获得焦点:</label><input type="text" id="txt">
+<label for="select">鼠标经过选择表单:</label><input type="text" id="select">
+</body>
+</html>

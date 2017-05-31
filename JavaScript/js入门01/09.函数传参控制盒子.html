@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数传参控制盒子</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin: 20px;
+            text-align: center;
+            line-height: 100px;
+            display: none;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+
+        }
+
+        function divShow(obj) {
+            var target = document.getElementsByClassName(obj)[0];
+            target.style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+<button onclick="divShow('demo1');">第一个按钮</button>
+<button onclick="divShow('demo2');">第二个按钮</button>
+<button onclick="divShow('demo3');">第三个按钮</button>
+<button onclick="divShow('demo4');">第四个按钮</button>
+<div class="demo1">1</div>
+<div class="demo2">2</div>
+<div class="demo3">3</div>
+<div class="demo4">4</div>
+</body>
+</html>
+

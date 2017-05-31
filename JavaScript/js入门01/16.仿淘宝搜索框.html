@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>淘宝搜索框</title>
+    <style>
+        .search {
+            width: 300px;
+            height: 30px;
+            margin: 100px auto;
+            position: relative;
+        }
+        .search input[type=text] {
+            width: 200px;
+            height: 25px;
+            padding-left: 8px;
+            font-size: 14px;
+        }
+        .search label {
+            font-size: 12px;
+            color: #CCCCCC;
+            position: absolute;
+            top: 8px;
+            left: 10px;
+            cursor: text;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            function $(id) {
+                return document.getElementById(id);
+            }
+
+            var txt = $('txt');
+            var msg = $('message');
+            txt.oninput = txt.onpropertychange = function () {
+                if (this.value == '') {
+                    msg.style.display = 'block';
+                } else {
+                    msg.style.display = 'none';
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="search">
+    <input type="text" id="txt">
+    <label for="txt" id="message">皮皮虾我们走</label>
+</div>
+</body>
+</html>

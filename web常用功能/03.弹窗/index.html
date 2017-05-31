@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>弹窗效果</title>
+    <style>
+        #login {
+            width: 300px;
+            height: 200px;
+            border: 1px solid red;
+            position: absolute;
+        }
+        #close {
+            position: absolute;
+            right: 4px;
+            top: 4px;
+            background-color: #FFF;
+        }
+    </style>
+</head>
+<body>
+    <input type="button" value="点击" id="input1">
+    <!--<div id="login">-->
+        <!--<p>用户名:<input type="text"></p>-->
+        <!--<p>密码:<input type="password"></p>-->
+        <!--<div id="close">X</div>-->
+    <!--</div>-->
+
+<script src="../jquery-3.1.0.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#input1').click(function () {
+            // 动态添加窗口
+            var oLogin = $('<div id="login"><p>用户名:<input type="text"></p><p>密码:<input type="password"></p><div id="close">X</div></div>');
+            $('body').append(oLogin);
+            alert(($(window).height() - oLogin.outerHeight()) / 2);
+            // letf top 等属性是基于 postion:absolute 的
+            oLogin.css('left', ($(window).width() - oLogin.outerWidth()) / 2);
+            oLogin.css('top', ($(window).height() - oLogin.outerHeight()) / 2);
+
+            // 保持窗口位置不变
+            $(window).on('resize scroll', function () {
+                oLogin.css('left', ($(window).width() - oLogin.outerWidth()) / 2 + $(window).scrollLeft());
+                oLogin.css('top', ($(window).height() - oLogin.outerHeight()) / 2 + $(window).scrollTop());
+            });
+
+            // 关闭按钮
+            $('#close').click(function () {
+                $('#login').remove();
+            });
+        });
+    });
+</script>
+</body>
+</html>

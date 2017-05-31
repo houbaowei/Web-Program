@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>input内的值是字符型的,不可以直接进行算数运算</title>
+    <script>
+        window.onload = function () {
+            var num1 = document.getElementById('num1');
+            var num2 = document.getElementById('num2');
+            var btn = document.getElementsByTagName('button')[0];
+            btn.onclick = function () {
+                alert(Number(num1.value)+Number(num2.value));
+            }
+        }
+    </script>
+</head>
+<body>
+<input type="text" id="num1">
++
+<input type="text" id="num2">
+<button>结果</button>
+</body>
+</html>

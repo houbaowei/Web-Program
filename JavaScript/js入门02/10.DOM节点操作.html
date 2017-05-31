@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM节点操作</title>
+    <script>
+        window.onload = function () {
+            /****** 添加节点 *******/
+            var btn = document.getElementById('addTag');
+            var lis = document.getElementById('demo');
+            var newLi = document.createElement('li');
+//            var para = document.createTextNode('段落段落');
+//            newLi.appendChild(para);
+            newLi.innerHTML = '段落段落';
+
+            btn.onclick = function () {
+//                document.getElementById('demo').appendChild(newLi);
+                lis.insertBefore(newLi, lis.children[1]);
+            };
+
+
+
+            /****** 删除节点 *******/
+            var removeBtn = document.getElementById('removeTag');
+            var remo = document.getElementById('remo');
+            removeBtn.onclick = function () {
+//                remo.children[1].remove();
+                remo.removeChild(remo.children[2]);
+            }
+
+
+            /****** 替换节点 *******/
+            var replaceBtn = document.getElementById('replaceTag');
+            var replace = document.getElementById('repla');
+            replaceBtn.onclick = function () {
+                replace.replaceChild(newLi, replace.children[2]);
+            }
+        }
+    </script>
+</head>
+<body>
+<button id="addTag">添加节点</button>
+<ul id="demo">
+    <li>11111</li>
+    <li>22222</li>
+</ul>
+
+
+<button id="removeTag">删除节点</button>
+<ul id="remo">
+    <li>aaaa</li>
+    <li>ssss</li>
+    <li>dddd</li>
+    <li>wwww</li>
+</ul>
+
+
+<button id="replaceTag">替换节点</button>
+<ul id="repla">
+    <li>爱爱爱</li>
+    <li>试试水</li>
+    <li>打豆豆</li>
+    <li>我问问</li>
+</ul>
+</body>
+</html>

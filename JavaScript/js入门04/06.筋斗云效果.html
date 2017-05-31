@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>筋斗云效果</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul,ol {
+            list-style: none;
+        }
+        body {
+            background-color: #333;
+        }
+        .nav {
+            width: 800px;
+            height: 42px;
+            background: #fff url("images/rss.png") right center no-repeat;
+            margin: 100px auto;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            position: relative;
+        }
+        .nav ul {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .nav ul li {
+            float: left;
+            width: 83px;
+            height: 42px;
+            line-height: 42px;
+            text-align: center;
+            color: #000;
+            cursor: pointer;
+        }
+        .cloud {
+            width: 83px;
+            height: 42px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: url("images/cloud.gif") no-repeat;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var nav = document.getElementById("nav");
+            var cloud = document.getElementById("cloud");
+            var lis = nav.children[1].children;
+
+            var leader = 0, target = 0;
+            var current = 0;
+            for (var i = 0; i < lis.length; i++) {
+                lis[i].onmouseover = function () {
+                    target = this.offsetLeft;
+                }
+
+                lis[i].onmouseout = function () {
+                    target = current;
+                }
+
+                lis[i].onclick = function () {
+                    current = this.offsetLeft;
+                }
+            }
+
+            setInterval(function () {
+                leader = leader + (target - leader)/10;
+                cloud.style.left = leader + "px";
+            }, 10);
+        }
+    </script>
+</head>
+<body>
+<div class="nav" id="nav">
+    <span class="cloud" id="cloud"></span>
+    <ul>
+        <li>导航栏目1</li>
+        <li>导航栏目2</li>
+        <li>导航栏目3</li>
+        <li>导航栏目4</li>
+        <li>导航栏目5</li>
+        <li>导航栏目6</li>
+        <li>导航栏目7</li>
+        <li>导航栏目8</li>
+    </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>浮动练习</title>
+		<style type="text/css">
+			body {
+				text-align: center;
+			}
+			#header {
+				width: 980px;
+				height: 100px;
+			}
+			.logo {
+				width: 250px;
+				height: 100px;
+				background-color: pink;
+				float: left;
+			}
+			.language {
+				width: 150px;
+				height: 50px;
+				background-color: skyblue;
+				float: right;
+			}
+			.navigation {
+				width: 650px;
+				height: 50px;
+				background-color: purple;
+				float: right;
+			}
+			
+			#content {
+				width: 980px;
+				height: 400px;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			.c1 {
+				width: 320px;
+				height: 400px;
+				background-color: yellow;
+				float: left;
+			}
+			.c2 {
+				width: 650px;
+				height: 350px;
+				float: right;
+				margin-bottom: 10px;
+			}
+			.c2 .c21 {
+				width: 400px;
+				height: 350px;
+				float: left;
+			}
+			.c2 .c211 {
+				width: 400px;
+				height: 200px;
+				background-color: red;
+				margin-bottom: 10px;
+			}
+			.c2 .c212 {
+				width: 400px;
+				height: 140px;
+				background-color: cyan;
+			}
+			.c2 .c22 {
+				width: 240px;
+				height: 350px;
+				background-color: greenyellow;
+				float: right;
+			}
+			.c3 {
+				width: 650px;
+				height: 40px;
+				background-color: burlywood;
+				float: right;
+				
+			}
+			#footer {
+				width: 980px;
+				height: 50px;
+			}
+			.foot {
+				width: 980px;
+				height: 40px;
+				background-color: orange;
+				margin-top: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<div class="logo">
+				250*100
+			</div>
+			<div class="language">
+				150*50
+			</div>
+			<div class="navigation">
+				650*50
+			</div>
+		</div>
+		<div id="content">
+			<div class="c1">320*400</div>
+			<div class="c2">
+				<div class="c21">
+					<div class="c211">
+						400*200
+					</div>
+					<div class="c212">
+						400*140
+					</div>
+				</div>
+				<div class="c22">
+					240*350
+				</div>
+			</div>
+			<div class="c3">
+				650*40
+			</div>
+		</div>
+		<div id="footer">
+			<div class="foot">
+				980*40
+			</div>
+		</div>
+	</body>
+</html>

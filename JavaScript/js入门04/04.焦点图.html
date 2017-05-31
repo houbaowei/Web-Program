@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>焦点图</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul,ol {
+            list-style: none;
+        }
+        img {
+            vertical-align: middle; /*去除图片底部3像素空隙*/
+        }
+        .slider {
+            width: 490px;
+            height: 170px;
+            border: 1px solid #CCCCCC;
+            margin: 100px auto;
+            padding: 5px;
+            position: relative;
+        }
+        .inner {
+            width: 100%;
+            height: 100%;
+            background-color: skyblue;
+            position: relative;
+            overflow: hidden;
+        }
+        .inner ul {
+            width: 1000%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .inner ul li {
+            float: left;
+        }
+        .order {
+            position: absolute;
+            left: 50%;
+            margin-left: -80px;
+            bottom: 10px;
+        }
+        .order li {
+            float: left;
+            width: 18px;
+            height: 18px;
+            background-color: #fff;
+            margin-right: 10px;
+            text-align: center;
+            line-height: 18px;
+            cursor: pointer;
+        }
+        .order .current {
+            background-color: orange;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var slider = document.getElementById("slider");
+            var ul = slider.children[0].children[0];
+            var ol = slider.children[1];
+            var olLis = ol.children;
+
+            var leader = 0, target = 0; // target: 目标位置
+            for (var i = 0; i < olLis.length; i++) {
+                olLis[i].index = i;
+                olLis[i].onmouseover = function () {
+                    // 去除全部标签的className
+                    for (var j = 0; j < olLis.length; j++) {
+                        olLis[j].className = "";
+                    }
+                    // 将当前的className改为current
+                    this.className = "current";
+                    target = -this.index * 490; // 目标位置: 用当前的索引号乘以一个盒子的宽度
+                }
+            }
+
+            // 渐缓动画效果
+            setInterval(function () {
+                leader = leader + (target - leader) / 10;   // 来个装逼的缓动动画
+                ul.style.left = leader + "px";
+            }, 30);
+        }
+    </script>
+</head>
+<body>
+<div class="slider" id="slider">
+    <div class="inner">
+        <ul>
+            <li><img src="images/jiaodian01.jpg" alt=""></li>
+            <li><img src="images/jiaodian02.jpg" alt=""></li>
+            <li><img src="images/jiaodian03.jpg" alt=""></li>
+            <li><img src="images/jiaodian04.jpg" alt=""></li>
+            <li><img src="images/jiaodian05.jpg" alt=""></li>
+        </ul>
+    </div>
+    <ol class="order">
+        <li class="current">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ol>
+</div>
+</body>
+</html>

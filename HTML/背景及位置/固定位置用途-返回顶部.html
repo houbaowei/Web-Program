@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>返回顶部</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style>
+        .backTop {
+            position: fixed;
+            bottom: 100px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background-color: gray;
+            text-align: center;
+            line-height: 30px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+<a name="top"></a>
+<img src="images/2.jpg" alt="">
+<img src="images/2.jpg" alt="">
+<img src="images/2.jpg" alt="">
+<img src="images/2.jpg" alt="" id="page">
+<!-- 方法一: 通过锚点 -->
+<!--<a href="#top" class="backTop" >返回<br/>顶部</a>-->
+
+<!-- 方法二: js -->
+<a href="" class="backTop" onclick="backTop()">返回<br/>顶部</a>
+
+
+
+
+<script>
+    // 缺点: 滚动效果不够平滑
+    function backTop() {
+        window.scrollBy(0, -100);
+        var scrolldelay = setTimeout('backTop()', 200);
+        var sTop = document.documentElement.scrollTop + document.body.scrollTop;
+        if (sTop == 0) {
+            clearTimeout(scrolldelay);
+        }
+    }
+
+</script>
+</body>
+</html>

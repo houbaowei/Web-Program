@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>微博发布</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul, ol {
+            list-style: none;
+        }
+        textarea {
+            resize: none;
+        }
+        .box {
+            margin: 100px auto;
+            width: 600px;
+            height: auto;
+            border: 1px solid #333;
+            padding: 20px 0;
+        }
+        #text-area {
+            width: 450px;
+        }
+        .box li {
+            width: 450px;
+            line-height: 30px;
+            border-bottom: 1px dashed #cccccc;
+            margin-left: 80px;
+        }
+        .box li a {
+            float: right;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var btn = document.getElementsByTagName('button')[0];
+            var txt = document.getElementsByTagName('textarea')[0];
+            var ul = document.createElement('ul');
+            ul.setAttribute('id', 'content');
+            btn.parentNode.appendChild(ul);
+
+            btn.onclick = function () {
+                if (txt.value == '') {
+                    alert('请输入内容再发布');
+                } else {
+                    var newLi = document.createElement('li');
+                    newLi.innerHTML = txt.value + "<a href='javascript:'>删除</a>";
+                    var lis = ul.children;
+                    if (lis.length == 0) {
+                        ul.appendChild(newLi);
+                    } else {
+                        ul.insertBefore(newLi, lis[0]);
+                    }
+                    txt.value = '';
+                }
+
+                var as = document.getElementById('content').getElementsByTagName('a');
+                for (var i = 0; i < as.length; i++) {
+                    as[i].onclick = function () {
+                        if (confirm('是否删除当前内容')) {
+                            ul.removeChild(this.parentNode);
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="box">
+    微博发布: <textarea name="" id="text-area" cols="30" rows="10"></textarea> <button>发布</button>
+</div>
+</body>
+</html>

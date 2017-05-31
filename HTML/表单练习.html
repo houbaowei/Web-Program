@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>表单练习</title>
+	</head>
+
+	<body>
+		<form action="http://www.520it.com">
+			<fieldset id="">
+				<legend>注册界面</legend>
+				<p>
+					<label for="username">用户名:</label>
+					<input type="text" id="username" name="username" />
+				</p>
+
+				<p>
+					<label for="pwd">密码:</label>
+					<input type="password" name="pwd" id="pwd" />
+				</p>
+
+				<p>
+					<label for="gender">性别</label>
+					<input type="radio" name="gender" id="gender" value="male" />男
+					<input type="radio" name="gender" id="gender" value="female" />女
+					<input type="radio" name="gender" id="gender" value="secret" checked="checked" />保密
+				</p>
+
+				<p>
+					<label for="favorite">爱好</label>
+					<input type="checkbox" name="favorite" id="favorite" value="football" />足球
+					<input type="checkbox" name="favorite" id="favorite" value="basketball" />篮球
+					<input type="checkbox" name="favorite" id="favorite" value="chuiniu" checked="checked" />吹牛逼
+				</p>
+
+				<p>
+					<label for="desc">个人简介:</label>
+					<textarea name="desc" rows="10" cols="30" id="desc"></textarea>
+				</p>
+
+				<p>
+					<label for="birthday">生日</label>
+					<input type="date" name="birthday" id="birthday" />
+				</p>
+
+				<p>
+					<label for="email">邮箱</label>
+					<input type="email" name="email" id="email" />
+				</p>
+
+				<p>
+					<label for="phone">电话</label>
+					<input type="number" name="phone" id="phone" />
+				</p>
+
+				<input type="submit" value="提交" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="reset" value="重置" />
+
+			</fieldset>
+
+		</form>
+	</body>
+
+</html>

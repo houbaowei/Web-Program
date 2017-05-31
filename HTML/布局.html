@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>布局练习</title>
+  <style media="screen">
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 970px;
+      height: auto;
+      background: #dddddd;
+      margin: 0 auto;
+    }
+    .header {
+      width: 970px;
+      height: 103px;
+    }
+    .header .logo {
+      width: 277px;
+      height: 103px;
+      background: red;
+      float: left;
+    }
+    .header .language {
+      width: 137px;
+      height: 49px;
+      background: green;
+      float: right;
+    }
+    .header .nav {
+      width: 679px;
+      height: 46px;
+      background: green;
+      float: right;
+      margin-top: 8px;
+    }
+    .content {
+      width: 970px;
+      height: 435px;
+      margin: 10px 0;
+    }
+    .content .content-left {
+      width: 310px;
+      height: 435px;
+      background: orange;
+      float: left;
+    }
+    .content-right {
+      width: 650px;
+      height: 435px;
+      margin-left: 10px;
+      float: right;
+    }
+    .content-right .main-top {
+      width: 650px;
+      height: 400px;
+      margin-bottom: 10px;
+    }
+    .content-right .main-top .news {
+      width: 450px;
+      height: 400px;
+      float: left;
+    }
+    .content-right .main-top .news .new1 {
+      width: 450px;
+      height: 240px;
+      background: blue;
+    }
+    .content-right .main-top .news .new2 {
+      width: 450px;
+      height: 110px;
+      background: blue;
+      margin: 10px 0;
+    }
+    .content-right .main-top .news .new3 {
+      width: 450px;
+      height: 30px;
+      background: blue;
+    }
+    .content-right .main-top .ad {
+      width: 190px;
+      height: 400px;
+      background: pink;
+      float: right;
+    }
+    .content-right .main-bottom {
+      width: 650px;
+      height: 25px;
+      background: green;
+      ma
+    }
+
+    .footer {
+      width: 970px;
+      height: 35px;
+      background: blue;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">logo</div>
+      <div class="language">语言选择</div>
+      <div class="nav">导航栏</div>
+    </div>
+    <div class="content">
+      <div class="content-left">图片区</div>
+      <div class="content-right">
+        <div class="main-top">
+          <div class="news">
+            <div class="new1">新闻1</div>
+            <div class="new2">新闻2</div>
+            <div class="new3">新闻3</div>
+          </div>
+          <div class="ad">广告</div>
+        </div>
+        <div class="main-bottom">
+
+        </div>
+      </div>
+    </div>
+    <div class="footer"></div>
+  </div>
+</body>
+</html>

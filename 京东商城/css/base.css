@@ -1,0 +1,402 @@
+@charset "UTF-8";
+
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+select, input { vertical-align:middle;}
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } /*防止拖动*/
+img {border:0;	vertical-align:middle; }  /*  去掉图片底部默认的3像素空白缝隙*/
+table { border-collapse:collapse; }
+body {
+    font:12px/150% Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#fff;
+}
+
+
+/* 清除浮动 */
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+
+a {color:#666; text-decoration:none; }
+a:hover{color:#C81623;}
+h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-size:100%;}
+s,i,em{font-style:normal;text-decoration:none;}
+.col-red{color: #C81623!important;}
+
+
+/*公共类*/
+.w {  /*版心 提取 */
+    width: 1210px;
+    margin:0 auto;
+}
+.fl {
+    float:left
+}
+.fr {
+    float:right
+}
+.al {
+    text-align:left
+}
+.ac {
+    text-align:center
+}
+.ar {
+    text-align:right
+}
+.hide {
+    display:none
+}
+
+
+
+
+
+/* 头部分start */
+
+/* 顶部导航start*/
+.shortcut {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f1f1f1;
+}
+.dt,
+.shortcut .fore {
+    padding: 0 20px 0 10px;
+    position: relative;
+}
+.dt i,
+.fore i {
+    font: 400 15px/15px "宋体";
+    position: absolute;
+    top: 13px;
+    right: 3px;
+    height: 7px;
+    overflow: hidden;
+    width: 15px;
+}
+.dt s,
+.fore s {
+    position: absolute;
+    top: -8px;
+    left: 0;
+}
+.fr li {
+    float: left;
+    padding: 0 10px;
+}
+.fr .line {
+    width: 1px;
+    height: 12px;
+    background-color: #dddddd;
+    margin-top: 9px;
+    padding: 0;
+}
+.shortcut .tel-jd{
+    padding:0 20px 0 25px;
+}
+.tel{
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    background: url(../images/sprite.png) no-repeat;
+    background-position: 0 0;
+    left: 5px;
+    top:5px;
+}
+/*顶部导航end*/
+
+/*topbanner start*/
+.tp {
+    position: relative;
+}
+.topbanner {
+    background-color: #8A25C6;
+}
+.close-banner {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 19px;
+    height: 19px;
+    background: url("../images/close.png");
+}
+.close-banner:hover {
+    background-position: bottom;
+}
+/*topbanner end*/
+
+/* logo */
+.logo {
+    width: 360px;
+    height: 75px;
+    float: left;
+    padding-top: 25px;
+    background: url("../images/logo.png") no-repeat 0 25px;
+    position: relative;
+}
+.jd-a {
+    display: inline-block;
+    width: 270px;
+    height: 60px;
+    text-indent: -2000em; /* 文字缩进 */
+}
+.db11 {
+    position: absolute;
+    width: 180px;
+    height: 80px;
+    top: 10px;
+    left: 168px;
+}
+
+/* 搜索框 */
+.search {
+    width: 538px;
+    height: 35px;
+    background-color: purple;
+    float: left;
+    margin-top: 25px;
+}
+.search input {
+    width: 450px;
+    height: 32px;
+    border: 2px solid #B61D1D;
+    padding-left: 4px; /* 文字距离边框的距离 */
+    color: #666;
+    font: 14px/32px "microsoft yahei";
+    float: left;
+}
+.search button {
+    width: 80px;
+    height: 36px;
+    background-color: #B61D1D;
+    color: #ffffff;
+    font: 16px/36px "microsoft yahei";
+    cursor: pointer; /* 鼠标边小手 */
+}
+
+/* 购物车 */
+.car {
+    width: 96px;
+    padding-left: 43px;
+    margin: 25px 65px 0 0;
+    float: right;
+    line-height: 34px;
+    border: 1px solid #DFDFDF;
+    position: relative;
+}
+
+.car .icon1 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 16px;
+    height: 13px;
+    background: url("../images/sprite.png") no-repeat -1px -59px;
+}
+
+.car .icon2 {
+    font: 400 13px/13px "simsun";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.car .icon3 {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    background-color: #C81623;
+    font: 400 12px/14px "sans-serif";
+    color: #ffffff;
+    text-align: center;
+    top: -4px;
+    border-radius: 7px 7px 7px 0;
+}
+
+.hotwords {
+    padding: 7px 0;
+    float: left;
+}
+.hotwords a {
+    margin-right: 6px;
+}
+
+/* navigation */
+.jd-nav {
+    width: 100%;
+    height: 44px;
+    border-bottom: 2px solid #B1191A;
+}
+.dropdown {
+    width: 210px;
+    height: 44px;
+    float: left;
+    position: relative;
+    z-index: 10;
+    overflow: visible; /* 显示超出的部分 */
+}
+.dropdown .dt {
+    height: 44px;
+    background-color: #B1191A;
+}
+.dropdown .dt a {
+    display: block;
+    height: 44px;
+    width: 100%;
+    text-align: center;
+    font: 400 15px/44px "microsoft yahei";
+    color: #ffffff;
+}
+.dropdown .dd {
+    margin-top: 2px;
+    height: 465px;
+    background-color: #C81623;
+}
+
+.dropdown .items {
+    height: 31px;
+    line-height: 31px;
+    border-left: 1px solid #B61D1D;
+    padding-left: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "微软雅黑";
+}
+.dropdown .items h3 {
+    float: left;
+}
+.dropdown .items span {
+    float: right;
+    margin-right: 15px;
+    font-family: "宋体";
+    font-weight: 600;
+}
+
+.navitems {
+    float: left;
+    height: 44px;
+}
+.navitems li {
+    float: left;
+}
+.navitems li.new { /* li.new 不加空格表示class为new的li */
+    background: url("../images/new.jpg") no-repeat right top;
+    background-color: skyblue;
+}
+.navitems li a {
+    display: block;
+    color: #333;
+    font: 400 15px/44px "微软雅黑";
+    padding: 0 20px;
+}
+.navitems li a:hover {
+    color: #B1191A;
+}
+.bike {
+    width: 140px;
+    height: 44px;
+    float: right;
+    background: url("../images/bike.jpg") no-repeat;
+}
+.bike a {
+    display: block;
+    height: 44px;
+}
+/* 头部分end */
+
+
+
+/* 底部分start */
+.slogon {
+    height:54px;
+    padding: 20px 0;
+    background-color: #f5f5f5;
+    position: relative;
+    margin-bottom: 15px;
+}
+.item {
+    width: 302px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+}
+.slogon1 {
+    margin-left: -608px;
+}
+.slogon2 {
+    margin-left: -304px;
+}
+.slogon3 {
+    margin-left: 2px;
+}
+.slogon4 {
+    margin-left: 304px;
+}
+
+
+.shopping dl {
+    width: 198px;
+    float: left;
+}
+.shopping dt,
+.coverage .dt {
+    font: 400 16px/28px "微软雅黑";
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0;
+}
+.shopping dd {
+    height: 20px;
+}
+
+.coverage {
+    width: 210px;
+    height: 165px;
+    float: right;
+    background:url("../images/china.png") no-repeat left bottom;
+}
+
+.coverage .dd {
+    margin-top: 10px;
+}
+.coverage p {
+    line-height: 18px;
+}
+.looklook {
+    text-align: right;
+    margin-top: 5px;
+}
+
+.againw {
+    border-top: 1px solid #E5E5E5;
+    margin-top: 30px;
+    padding: 23px 0 30px 0;
+    text-align: center;
+}
+.links {
+    height: 25px;
+}
+.links a {
+    padding: 0 6px;
+}
+.copyright {
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+/* 底部分end */

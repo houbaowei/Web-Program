@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>时钟显示</title>
+    <script>
+        window.onload = function () {
+            startTime();
+        };
+
+        function startTime() {
+            var today = new Date();
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+
+            document.getElementById('time').innerHTML = h+':'+m+':'+s;
+//            此句代码形成递归调用,保证时间可以刷新
+            setTimeout('startTime()', 500);
+        }
+        //        检查时间的格式,10秒以下的补0
+        function checkTime(i) {
+            if (i < 10) {
+                i = '0' + i;
+            }
+            return i;
+        }
+    </script>
+</head>
+<body>
+    <div id='time'></div>
+</body>
+</html>

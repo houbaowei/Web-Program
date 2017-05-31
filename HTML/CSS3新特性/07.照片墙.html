@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>照片墙</title>
+		<style type="text/css">
+			
+			ul {
+				height: 400px;
+				list-style: none;
+				border: 1px solid #000;
+				background-color: skyblue;
+				margin-top: 100px;
+				text-align: center;
+			}
+			ul li {
+				width: 150px;
+				height: 200px;
+				display: inline-block;
+				margin-top: 100px;
+				box-shadow: 0 0 10px;
+				position: relative; /*只有定位流 z-index 才能奏效*/
+				transition: all 1s; /*设置过度效果*/
+			}
+			ul li img {
+				width: 150px;
+				height: 200px;
+				border: 5px solid #FFFFFF;
+				box-sizing: border-box;
+			}
+			ul li:nth-child(1) {
+				transform: rotate(30deg);
+			} 
+			ul li:nth-child(2) {
+				transform: rotate(-40deg);
+			}
+			ul li:nth-child(3) {
+				transform: rotate(10deg);
+			}
+			ul li:nth-child(4) {
+				transform: rotate(45deg);
+			}
+			ul li:hover {
+				/*transform: rotate(0deg);*/
+				/*transform: none;*/
+				transform: scale(1.8, 1.8); /*缩放操作会覆盖前面的旋转操作*/
+				z-index: 998;
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li><img src="images/1.jpg"/></li>
+			<li><img src="images/2.jpg"/></li>
+			<li><img src="images/3.jpg"/></li>
+			<li><img src="images/4.jpg"/></li>
+		</ul>
+	</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>排他思想的原理</title>
+    <style>
+        .demo {
+            background-color: pink;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var btns = document.getElementsByTagName('button');
+            for (var i = 0; i < btns.length; i++) {
+                /*
+                * 为什么要为btns[i]自定义index属性?
+                * 因为不这样做直接用的话打印出来永远是btns.length,而不是1,2,3...
+                * */
+                btns[i].index = i;
+
+                btns[i].onclick = function () {
+                    alert('当前button的索引'+this.index);
+
+                    for (var j = 0; j < btns.length; j++) {
+                        btns[j].className = '';
+                    }
+                    this.className = 'demo';
+                }
+            }
+
+        }
+    </script>
+</head>
+<body>
+<button>思想原理</button>
+<button>思想原理</button>
+<button>思想原理</button>
+<button>思想原理</button>
+<button>思想原理</button>
+<button>思想原理</button>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>网易邮箱</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<style type="text/css">
+			.w {
+				width: 980px;
+				margin: 0 auto;
+			}
+			
+			.header {
+				height: 80px;
+				background-color: yellow;
+			}
+			
+			.content {
+				height: 600px;
+				background-color: red;
+			}
+			
+			.content .top {
+				height: 38px;
+				background: url(images/wy-nav-bgc.png) repeat-x;
+				border-top-left-radius: 6px;
+				border-top-right-radius: 6px;
+				line-height: 38px;
+				padding-left: 20px;
+				font-family: "microsoft yahei" "simsun" sans-serif;
+				color: white;
+			}
+			
+			.footer {
+				height: 48px;
+				background-color: blue;
+			}
+			
+			.footer img {
+				width: 200px;
+				height: 300px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="header w"></div>
+		<div class="content w">
+			<div class="top">
+				<h1>欢迎注册无限容量的网易邮箱！邮件地址可以登录使用其他网易旗下产品。</h1>
+			</div>
+			<div class="bottom">
+				<form action="" method="post">
+					<label for="emailname"><span>*</span>邮件地址</label>
+					<input type="text" id="emailname" placeholder="建议使用手机号码注册" /> 					@
+					<select name="">
+						<option value="163.com">163.com</option>
+						<option value="126.com">126.com</option>
+						<option value="yeah.net">yeah.net</option>
+					</select>
+				</form>
+			</div>
+		</div>
+		<div class="footer w">
+			<img src="images/1.jpg"/>
+		</div>
+	</body>
+
+</html>

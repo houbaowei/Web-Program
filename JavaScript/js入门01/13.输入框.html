@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>点击隐藏文字</title>
+    <style>
+        input, button {
+            border: 0 none; /*去除边框*/
+            outline-style: none;    /*去除外部蓝色边框*/
+            padding: 0;
+        }
+        .search {
+            width: 258px;
+            height: 40px;
+            margin: 100px auto;
+            background-color: skyblue;
+        }
+        .search input[type=text] {
+            width: 208px;
+            height: 40px;
+            background: url(../images/left.jpg) no-repeat;
+            padding-left: 8px;
+            color: #CCCCCC;
+            float: left; /*解决input自动下移的bug*/
+        }
+        .search input[type=button] {
+            height: 40px;
+            width: 42px;
+            background: url(../images/right.jpg) no-repeat;
+            cursor: pointer;
+            float: left; /*解决input自动下移的bug*/
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var txt = document.getElementById('txt');
+
+            txt.onfocus = function () {
+                if (txt.value == '请输入...') {
+                    txt.value = '';
+                    txt.style.color = '#333';
+                }
+            }
+            txt.onblur = function () {
+                if (txt.value == '') {
+                    txt.value = '请输入...';
+                    txt.style.color = '#ccc';
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="search">
+    <input type="text" value="请输入..." id="txt"><input type="button" value="" id="btn">
+</div>
+</body>
+</html>

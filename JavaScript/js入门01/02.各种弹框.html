@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js-各种弹框</title>
+</head>
+<body>
+<script>
+    //    alert('我是弹框');
+    //    prompt('请输入一些内容吧', '我是默认内容');
+    function show_confirm() {
+        var r = confirm('Yes or No ?');
+        if (r == true) {
+            alert("YES");
+        } else {
+            alert('NO');
+        }
+    }
+    window.onload(show_confirm());
+</script>
+</body>
+</html>

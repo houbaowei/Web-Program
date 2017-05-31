@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5秒以后回到主页</title>
+    <script>
+        window.onload = function () {
+            var demo = document.getElementById("demo");
+            var count = 5;
+            var speed = 1000;
+
+            setTimeout(goIndexPage, speed);
+
+            function goIndexPage() {
+                count--;
+                demo.innerHTML = "<a href='http://www.baidu.com'>"+count+"秒以后跳转到主页</a>"
+
+                if (count <= 0) {
+                    window.location.href = "http://www.baidu.com";
+                } else {
+                    // arguments.callee: 返回正在执行的函数本身
+                    // 函数递归调用常用 arguments.callee
+//                    setTimeout(goIndexPage, speed);
+                    setTimeout(arguments.callee, speed);
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="demo"></div>
+</body>
+</html>

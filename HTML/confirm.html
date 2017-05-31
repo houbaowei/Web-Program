@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script type="text/javascript">
+    function display_confirm() {
+      var res = confirm("Press a button");
+      if (res === true) {
+        alert("You pressed OK!");
+      } else {
+        alert("You presed Cancel!");
+      }
+    }
+  </script>
+</head>
+<body>
+  <input type="button" name="name" value="点击展示选择框" onclick="display_confirm()">
+
+</body>
+</html>

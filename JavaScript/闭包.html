@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>闭包</title>
+</head>
+<body>
+
+<input type="button" name="name" value="">确定
+
+<script>
+    document.getElementById("button").onclick=function () {
+        alert((function (x) {
+            return x*x;
+        })(3));
+    }
+
+
+    function create_counter(initial) {
+        var  x = initial || 0;
+        return {
+            inc : function () {
+                x += 1;
+                return x;
+            }
+        }
+    }
+    var c1 = create_counter();
+    c1.inc(); // 1
+    c1.inc(); // 2
+    var c2 = create_counter(10);
+    c2.inc(); // 11
+    c2.inc(); // 12
+
+
+
+
+    function make_pow(n) {
+        return function (x) {
+            return Math.pow(x, n);
+        }
+    }
+
+    var pow2 = make_pow(2); // 创建平方函数
+    pow2(5); // 25  计算5的平方
+
+    var pow3 = make_pow(3);
+    pow3(2); // 8   计算2的3次方
+
+</script>
+</body>
+</html>

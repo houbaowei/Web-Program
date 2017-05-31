@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>云层效果</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul, li {
+            list-style: none;
+        }
+
+        ul {
+            height: 400px;
+            background-color: skyblue;
+            margin-top: 100px;
+            position: relative;
+            overflow: hidden;
+            -webkit-animation: bgChange 5s linear 0s infinite alternate;
+            -o-animation: bgChange 5s linear 0s infinite alternate;
+            animation: bgChange 5s linear 0s infinite alternate;
+        }
+
+        ul li {
+            width: 400%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        ul li:nth-child(1) {
+            background-image: url(images/cloud_one.png);
+            -webkit-animation: cloudMove1 30s linear 0s infinite alternate;
+            -o-animation: cloudMove1 30s linear 0s infinite alternate;
+            animation: cloudMove1 30s linear 0s infinite alternate;
+        }
+
+        ul li:nth-child(2) {
+            background-image: url(images/cloud_two.png);
+            -webkit-animation: cloudMove2 30s linear infinite alternate;
+            -o-animation: cloudMove2 30s linear infinite alternate;
+            animation: cloudMove2 30s linear infinite alternate;
+        }
+
+        ul li:nth-child(3) {
+            background-image: url(images/cloud_three.png);
+            -webkit-animation: cloudMove3 30s linear infinite alternate;
+            -o-animation: cloudMove3 30s linear infinite alternate;
+            animation: cloudMove3 30s linear infinite alternate;
+        }
+
+        @keyframes bgChange {
+            from {
+                background-color: skyblue;
+            }
+            to {
+                background-color: black;
+            }
+        }
+
+        @keyframes cloudMove1 {
+             from {
+                 margin-left: 0;
+             }
+             to {
+                 margin-left: -100%;
+             }
+         }
+        @keyframes cloudMove2 {
+            from {
+                margin-left: 0;
+            }
+            to {
+                margin-left: -200%;
+            }
+        }
+        @keyframes cloudMove3 {
+            from {
+                margin-left: 0;
+            }
+            to {
+                margin-left: -300%;
+            }
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+</body>
+</html>

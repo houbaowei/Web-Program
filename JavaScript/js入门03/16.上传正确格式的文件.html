@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上传文件格式判断</title>
+</head>
+<body>
+<input type="file" id="file"><span></span>
+<script>
+    var file = document.getElementById("file");
+    file.onchange = function () {
+        var path = this.value;  // 得到文件路径
+        var suxxif = path.substr(path.lastIndexOf(".")).toUpperCase();
+
+        suxxif === ".JPG" || suxxif === ".PNG" ? this.nextSibling.innerHTML = "格式正确" : this.nextSibling.innerHTML = "格式错误";
+    }
+</script>
+</body>
+</html>

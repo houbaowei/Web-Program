@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拖拽</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+
+    <script src="jquery-3.1.0.min.js"></script>
+    <script>
+        // 实现拖拽效果
+        $(document).ready(function () {
+            var disX = 0;
+            var disY = 0;
+            $('div').mousedown(function (e) {
+                disX = e.pageX - $(this).offset().left;
+                disY = e.pageY - $(this).offset().top;
+
+                $(document).mousemove(function (e) {
+                    // 设置css样式的时候不要使用$(this)
+                    $('div').css('left', e.pageX - disX);
+                    $('div').css('top', e.pageY - disY);
+                });
+
+                $(document).mouseup(function () {
+                    $(document).off();
+                });
+
+                // 阻止冒泡等其他事件
+                return false;
+            });
+        });
+    </script>
+</body>
+</html>

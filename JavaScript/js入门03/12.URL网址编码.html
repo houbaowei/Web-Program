@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL网址编码</title>
+</head>
+<body>
+<script>
+    var url = "http://www.baidu.com?name=cunbalaila";
+    console.log(encodeURIComponent(url));   // 编码
+
+    var afterUrl = encodeURIComponent(url);
+    console.log(decodeURIComponent(afterUrl));  // 解码
+</script>
+</body>
+</html>

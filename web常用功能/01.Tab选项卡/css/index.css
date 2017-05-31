@@ -1,0 +1,94 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    background-color: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+}
+
+#tab {
+    width: 498px;
+    height: 130px;
+    background-color: white;
+    border: 1px solid #d4d4d4;
+    margin: 200px auto;
+
+    /*处理超出部分*/
+    overflow: hidden;
+}
+
+#tab-header {
+    height: 38px;
+    background-color: #f4f4f4;
+    font-size: 16px;
+    font-weight: bold;
+
+    position: relative;
+}
+
+#tab-header ul {
+    width: 500px;
+
+    /*left/right的使用需要先设置postion*/
+    position: absolute;
+    left: -1px;
+}
+
+#tab-header ul li {
+    float: left;
+    width: 98px;
+    height: 100%;
+    text-align: center;
+    line-height: 38px;
+    /*占位*/
+    padding:0 1px;
+
+    border-bottom: 1px solid #d4d4d4;
+}
+
+#tab-header ul li:hover {
+    color: orangered;
+    text-shadow: 1px 3px #d4d4d4;
+}
+
+#tab-header ul li.selected {
+    background-color: #FFFFFF;
+    border-bottom: none;
+    border-left:1px solid #d4d4d4;
+    border-right:1px solid #d4d4d4;
+
+    /*清除占位*/
+    padding: 0;
+}
+
+
+#tab-content .dom {
+    margin-bottom: 10px;
+    display: none;
+}
+
+#tab-content .dom li {
+    width: 220px;
+    /*background-color: red;*/
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+
+#tab-content .dom li a:hover {
+    text-decoration: underline;
+    color: orange;
+}

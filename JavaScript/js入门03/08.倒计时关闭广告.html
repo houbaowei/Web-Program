@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5秒之后关闭广告</title>
+    <style>
+        #left, #right {
+            position: fixed;
+            width: 150px;
+            height: 440px;
+            top: 50%;
+            margin-top: -220px;
+        }
+        #left {
+            left: 0;
+            background: url("./images/left.gif") no-repeat;
+        }
+        #left p {
+            position: absolute;
+            top: 0;
+            right: 4px;
+            font-size: 14px;
+        }
+
+        #right {
+            right: 0;
+            background: url("./images/right.gif") no-repeat;
+        }
+        #right p {
+            position: absolute;
+            top: 0;
+            left: 4px;
+            font-size: 14px;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            function $(id) {
+                return document.getElementById(id);
+            }
+
+            function hide(id) {
+                $(id).style.display = "none";
+            }
+            function show(id) {
+                $(id).style.display = "block";
+            }
+            function closeAD() {
+                hide("left");
+                hide("right");
+            }
+            setTimeout(closeAD, 5000);
+
+
+            var count = 5;
+            var timer = setInterval(clock,1000);
+
+            function clock() {
+                count--;
+                $("leftTxt").innerHTML = count+"秒后关闭";
+                $("rightTxt").innerHTML = count+"秒后关闭";
+                if (count == 0) {
+                    clearInterval(timer);
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="left">
+    <p id="leftTxt">5秒后关闭</p>
+</div>
+<div id="right">
+    <p id="rightTxt">5秒后关闭</p>
+</div>
+
+
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+<p>天王盖地虎, 小鸡炖蘑菇</p>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <title>项目导航演示</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.min.css">
+    <style>
+        #fp-nav ul li a.active span,
+        .fp-slidesNav ul li a.active span {
+            background: #fff; /*这里设置的是活动导航的颜色*/
+        }
+        #fp-nav ul li a span,
+        .fp-slidesNav ul li a span {
+            border: 1px solid #fff;/*这里设置的是非活动导航的颜色*/
+            background-color: #fff;
+        }
+        .section{
+            text-align: center;
+            font: 50px sans-serif;
+            color: #ffffff;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/vendors/jquery.easings.min.js"></script>
+</head>
+<body>
+
+<div id="fullpage">
+    <!--class必须写为section-->
+    <div class="section">
+        <h3>第一屏</h3>
+        <p>fullpage.js - 项目导航演示</p>
+    </div>
+    <div class="section"><h3>第二屏</h3></div>
+    <div class="section"><h3>第三屏</h3></div>
+    <div class="section"><h3>第四屏</h3></div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        $('#fullpage').fullpage({
+            sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
+//            显示导航
+            navigation: true,
+            navigationPosition: 'right',
+//            此属性设置不管用,无效,需要在css中重写
+            navigationColor: '#333',
+        });
+    });
+</script>
+</body>
+</html>

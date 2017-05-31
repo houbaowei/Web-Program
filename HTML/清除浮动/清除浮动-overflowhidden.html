@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style media="screen">
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .father {
+      border: 1px solid red;
+      background-color: yellow;
+      /*
+      浮动清除：
+        父级div定义 overflow;hidden; 属性
+      */
+      overflow: hidden;
+    }
+    .son1 {
+      border: 1px solid black;
+      width: 100px;
+      height: 100px;
+      float: left;
+    }
+    .son2 {
+      border: 1px solid black;
+      width: 100px;
+      height: 100px;
+      float: right;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="father">
+    <div class="son1">
+      <ul>
+        <li>111</li>
+        <li>222</li>
+        <li>333</li>
+      </ul>
+    </div>
+    <div class="son2">
+      <ul>
+        <li>AAA</li>
+        <li>BBB</li>
+        <li>CCC</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

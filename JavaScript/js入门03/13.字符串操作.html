@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>字符串操作</title>
+    <script>
+        window.onload = function () {
+            var div1 = document.getElementById("div1").innerHTML;
+            var div2 = document.getElementById("div2").innerHTML;
+
+            function onBtnClick(id, txt) {
+                document.getElementById(id).onclick = function () {
+                    this.nextSibling.innerHTML = txt;
+                }
+            }
+
+            onBtnClick("btn1", div1.concat(div2));  // 连接字符串
+
+            // slice(start, stop)
+            onBtnClick("btn2", div1.slice(3));  // 截取字符串: 凑个第三个截取到最后
+            onBtnClick("btn3", div1.slice(3, 6));   // 从第三个开始截取,取到第六个以前,不包含第六个
+            onBtnClick("btn4", div1.slice(-3));    // 从最后开始取,截取3个字符串
+
+            // substr(start, length)
+            onBtnClick("btn5", div1.substr(3));
+            onBtnClick("btn6", div1.substr(3, 6));
+            onBtnClick("btn7", div1.substr(div1.length-1, 1));  // 截取最后一个字符
+
+            // substring(start, stop)
+            onBtnClick("btn8", div1.slice(6, 3));   // 不会截取
+            onBtnClick("btn9", div1.substring(6, 3));   // 会倒序截取
+        }
+    </script>
+</head>
+<body>
+<div id="div1">my name is andy!</div>
+<div id="div2">what's your name?</div>
+
+<button id="btn1">concat</button><span></span> <br/>
+<button id="btn2">slice(3)</button><span></span> <br/>
+<button id="btn3">slice(3,6)</button><span></span> <br/>
+<button id="btn4">slice(-1)</button><span></span> <br/>
+
+<button id="btn5">substr(3)</button><span></span> <br/>
+<button id="btn6">substr(3，6)</button><span></span> <br/>
+<button id="btn7">substr(-1) 兼容(ie6,7,8不正确)</button><span></span> <br/>
+
+区别
+<button id="btn8">slice(6,3)</button><span></span> <br/>
+<button id="btn9">substring(6,3)</button><span></span> <br/>
+</body>
+</html>

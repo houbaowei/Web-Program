@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CSS3-过渡模块</title>
+		<style type="text/css">
+			.tran {
+				width: 100px;
+				height: 30px;
+				background-color: red;
+				/*需要过渡效果的属性*/
+				/*transition-property: width, height, background-color;*/
+				/*过渡时长*/
+				/*transition-duration: 3s;*/
+				transition: all 3s; 
+			}
+			.tran:hover {
+				width: 200px;
+				height: 80px;
+				background-color: green;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="tran"></div>
+	</body>
+</html>

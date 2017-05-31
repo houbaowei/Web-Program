@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>保留小数位数</title>
+</head>
+<body>
+<script>
+    var PI = 3.14159265354;
+
+    // 方法一: 先转换为字符串再截取
+    var str = PI + "";
+    var index = str.indexOf(".");
+    console.log(index);
+    console.log(str.substr(0, index+3));
+
+    console.log(str.substr(0, str.indexOf(".")+3));
+
+    // 方法二:
+    console.log(parseInt(PI*100)/100);
+
+    // 方法三:
+    // toFixed() 方法可把 Number 四舍五入为指定小数位数的数字。
+    console.log(PI.toFixed(2));
+</script>
+</body>
+</html>

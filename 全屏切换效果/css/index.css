@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+全屏要素:
+    - 全屏的元素及其父元素都要设置 height: 100%
+    - 将html、body标签都要设置 height: 100%
+    (注: height: 100% 是根据父元素高度的变化而变化)
+*/
+html, body {
+    height: 100%;
+    /*隐藏垂直滚动条*/
+    /*overflow: hidden;*/
+}
+#container, .sections, .section {
+    height: 100%;
+}
+#container {
+    width: 400%;
+}
+/*设置左浮切换为横屏滚动*/
+.left {
+    float: left;
+    /*宽度取决于页数*/
+    width: 25%;
+}
+
+
+#section1 {
+    background-image: url("../images/1.jpg");
+}
+#section2 {
+    background-image: url("../images/2.jpg");
+}
+#section3 {
+    background-image: url("../images/3.jpg");
+}
+#section4 {
+    background-image: url("../images/4.jpg");
+}

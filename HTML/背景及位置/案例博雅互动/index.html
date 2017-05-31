@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>博雅互动</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .clear {
+            clear: both;
+        }
+        body {
+            font-size: 14px;
+            font-family: "Microsoft YaHei", sans-serif;
+            height: 8888px;
+        }
+        ul {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+        }
+        .header {
+            height: 58px;
+            background-color: #191D3A;
+        }
+        .inner_c {
+            width: 1000px;
+            margin: 0 auto;
+        }
+        .header .logo {
+            float: left;
+            margin-right: 40px;
+        }
+
+        .nav ul li {
+            float: left;
+            width: 100px;
+            line-height: 58px;
+            text-align: center;
+            border-left: 1px solid #252947;
+        }
+        .nav ul li.last {
+            border-right: 1px solid #252947;
+        }
+        .nav ul li a {
+            display: block;
+            height: 58px;
+            color: #818496;
+        }
+        .nav ul li a.current {
+            background-color: #252947;
+            color: #ffffff;
+        }
+        .nav ul li a:hover {
+            background-color: #252947;
+            color: #ffffff;
+        }
+        .header .join_us {
+            float: left;
+            padding-left: 48px;
+            padding-top: 12px;
+        }
+
+
+
+        .banner {
+            height: 465px;
+            background: url("images/banner.jpg") no-repeat center top;
+        }
+
+        .content {
+            padding-top: 50px;
+        }
+        .content .product {
+            height: 229px;
+            border-bottom: 1px solid #DBE1E7;
+        }
+        .content .product ul li {
+            float: left;
+            width: 218px;
+            margin-right: 43px;
+        }
+        .content .product ul li.last {
+            margin-right: 0;
+            width: 217px;
+        }
+        .content .product ul li img {
+            width: 218px;
+            height: 130px;
+        }
+        .content .product ul li.last img {
+            width: 217px;
+        }
+        .content .product ul li h3 {
+            text-align: center;
+            line-height: 38px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .content .product ul li p.djbf {
+            text-align: center;
+            line-height: 16px;
+        }
+        .content .product ul li p.djbf a {
+            font-size: 12px;
+            color: #38B774;
+            background: url("images/sanjiaoxing.png") no-repeat right 5px;
+            padding-right: 12px;
+        }
+    </style>
+</head>
+<body>
+<!--头部-->
+<div class="header">
+    <div class="inner_c">
+        <h1 class="logo">
+            <img src="images/logo.png" alt="logo">
+        </h1>
+        <div class="nav">
+            <ul>
+                <li><a href="#" class="current">首页</a></li>
+                <li><a href="#">博雅游戏</a></li>
+                <li><a href="#">博雅新闻</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">客服中心</a></li>
+                <li class="last"><a href="#">投资者关系</a></li>
+            </ul>
+        </div>
+        <div class="join_us">
+            <a href="#" class="join">
+                <img src="images/jrwm.png" alt="加入我们">
+            </a>
+        </div>
+    </div>
+    <!--内墙法清除浮动-->
+    <div class="clear"></div>
+</div>
+
+<!--banner-->
+<div class="banner"></div>
+<!--内容区-->
+<div class="content inner_c">
+    <div class="product">
+        <ul>
+            <li>
+                <p><img src="images/pro1.jpg" alt="产品1"></p>
+                <h3>BPT宣传片</h3>
+                <p class="djbf">
+                    <a href="#">点击播放</a>
+                </p>
+            </li>
+            <li>
+                <p><img src="images/pro2.jpg" alt="产品2"></p>
+                <h3>BPT宣传片</h3>
+                <p class="djbf">
+                    <a href="#">点击播放</a>
+                </p>
+            </li>
+            <li>
+                <p><img src="images/pro3.jpg" alt="产品3"></p>
+                <h3>BPT宣传片</h3>
+                <p class="djbf">
+                    <a href="#">点击播放</a>
+                </p>
+            </li>
+            <li class="last">
+                <p><img src="images/pro4.jpg" alt="产品4"></p>
+                <h3>BPT宣传片</h3>
+                <p class="djbf">
+                    <a href="#">点击播放</a>
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--尾部-->
+<div class="footer"></div>
+
+</body>
+</html>

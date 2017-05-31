@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style media="screen">
+
+    .father {
+      border: 1px solid red;
+      /*
+      浮动产生的原因：
+        父元素未设置高度，子元素浮动脱标，无法撑开父元素
+      */
+    }
+    .son1 {
+      border: 1px solid black;
+      width: 100px;
+      height: 100px;
+      float: left;
+    }
+    .son2 {
+      border: 1px solid black;
+      width: 100px;
+      height: 100px;
+      float: right;
+    }
+  </style>
+</head>
+<body>
+  <div class="father">
+    <div class="son1">11111</div>
+    <div class="son2">22222</div>
+  </div>
+</body>
+</html>

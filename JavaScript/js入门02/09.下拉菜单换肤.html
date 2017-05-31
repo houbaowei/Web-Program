@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>下拉菜单换肤</title>
+    <style>
+        body {
+            background: url(../images/1.jpg) no-repeat center top;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var sel = document.getElementById('sel');
+            sel.onchange = function () {
+                switch (this.value) {
+                    case '1':
+                        document.body.style.backgroundImage = 'url(../images/1.jpg)';
+                        break;
+                    case '2':
+                        document.body.style.backgroundImage = 'url(../images/2.jpg)';
+                        break;
+                    case '3':
+                        document.body.style.backgroundImage = 'url(../images/3.jpg)';
+                        break;
+                    case '4':
+                        document.body.style.backgroundImage = 'url(../images/4.jpg)';
+                        break;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<select name="" id="sel">
+    <option value="1">春意绵绵</option>
+    <option value="2">夏日炎炎</option>
+    <option value="3">秋声瑟瑟</option>
+    <option value="4">冬雪皑皑</option>
+</select>
+</body>
+</html>

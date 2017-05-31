@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <title>背景图片</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.min.css">
+    <style>
+        .section1 {
+            background: url("images/1.jpg") 50%;
+        }
+        .section2 {
+            background: url("images/2.jpg") 50%;
+        }
+        .section3 {
+            background: url("images/3.jpg") 50%;
+        }
+        .section4 {
+            background: url("images/4.jpg") 50%;
+        }
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/vendors/jquery.easings.min.js"></script>
+</head>
+<body>
+<div id="fullpage">
+    <div class="section section1"></div>
+    <div class="section section2"></div>
+    <div class="section section3"></div>
+    <div class="section section4"></div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#fullpage').fullpage();
+    });
+</script>
+</body>
+</html>
