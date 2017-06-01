@@ -44,7 +44,6 @@
             var content = box.children[0];
             var scroll = box.children[1];
             var bar = scroll.children[0];
-
             // 计算滚动条的高度
             // 容器高度/内容高度 = 滚动条高度/容器高度
             var barHeight = box.offsetHeight / content.offsetHeight * box.offsetHeight;
@@ -62,8 +61,8 @@
                     var barTop = event.clientY - t; //
 
                     //内容盒子要移动距离
-                    // （内容盒子高度 -  大盒子高度） /  (大盒子高度 - 红色盒子的高度)   * 红色盒子移动的数值
-                    var contentTop = content.offsetHeight;
+                    // （内容高度 -  大盒子高度） /  (大盒子高度 - 红色盒子的高度)   * 红色盒子移动的数值
+                    var contentTop =(content.offsetHeight - box.offsetHeight) / (box.offsetHeight - bar.offsetHeight) * barTop;
                     if (barTop < 0) {
                         barTop = 0;
                     } else if (barTop > box.offsetHeight - barHeight) {
