@@ -50,37 +50,42 @@
             // 计算滚动条的高度
             bar.style.height = barHeight + 'px';
 
-            bar.onmousedown = function (event) {
-                var event = event || window.event;
-                var t = event.clientY - this.offsetTop;
+            startScroll(bar, content);
 
-                var that = this;
-                document.onmousemove = function (event) {
+            function startScroll(obj, target) {
+                obj.onmousedown = function (event) {
                     var event = event || window.event;
+                    var t = event.clientY - this.offsetTop;
 
-                    var barTop = event.clientY - t; //
+                    var that = this;
+                    document.onmousemove = function (event) {
+                        var event = event || window.event;
 
-                    //内容盒子要移动距离
-                    // （内容高度 -  大盒子高度） /  (大盒子高度 - 红色盒子的高度)   * 红色盒子移动的数值
-                    var contentTop =(content.offsetHeight - box.offsetHeight) / (box.offsetHeight - bar.offsetHeight) * barTop;
-                    if (barTop < 0) {
-                        barTop = 0;
-                    } else if (barTop > box.offsetHeight - barHeight) {
-                        barTop = box.offsetHeight - barHeight;
-                    } else {
-                        content.style.top = -contentTop + 'px';
+                        var barTop = event.clientY - t; //
+
+                        //内容盒子要移动距离
+                        // （内容高度 -  大盒子高度） /  (大盒子高度 - 红色盒子的高度)   * 红色盒子移动的数值
+                        var contentTop =(target.offsetHeight - target.parentNode.offsetHeight) / (target.parentNode.offsetHeight - that.offsetHeight) * barTop;
+                        if (barTop < 0) {
+                            barTop = 0;
+                        } else if (barTop > box.offsetHeight - barHeight) {
+                            barTop = box.offsetHeight - barHeight;
+                        } else {
+                            target.style.top = -contentTop + 'px';
+                        }
+                        // 设置滚动条的位置
+                        that.style.top = barTop + 'px';
+
+                        window.getSelection ? window.getSelection().removeAllRanges() : document.selection.empty();
                     }
-                    // 设置滚动条的位置
-                    that.style.top = barTop + 'px';
+                }
 
-                    window.getSelection ? window.getSelection().removeAllRanges() : document.selection.empty();
+                document.onmouseup = function () {
+                    document.onmousemove = null;
                 }
             }
-
-            document.onmouseup = function () {
-                document.onmousemove = null;
             }
-        }
+
     </script>
 </head>
 <body>
