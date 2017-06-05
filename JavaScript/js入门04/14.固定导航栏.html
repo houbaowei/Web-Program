@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>固定导航栏</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            vertical-align: middle;
+        }
+        .container {
+            width: 1423px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .main {
+            margin: 0 auto;
+            width: 1000px;
+            margin-top: 10px;
+        }
+
+        .fixed {
+            position: fixed; /*固定定位，相对于浏览器进行定位*/
+            top: 0;
+            left: 50%;
+            margin-left: -711px;
+        }
+    </style>
+    <script src="js/myScroll.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="top" id="top">
+        <img src="images/top.png" alt="#">
+    </div>
+    <div class="nav" id="Q-nav">
+        <img src="images/nav.png" alt="#">
+    </div>
+    <div class="main">
+        <img src="images/main.png" alt="#">
+    </div>
+</div>
+</body>
+</html>
+
+<script>
+    var nav = $('Q-nav');
+    // 得到导航栏距离顶部的距离
+    var navTop = nav.offsetTop;
+    console.log(navTop);
+    window.onscroll = function () {
+        if (scroll().top >= navTop) {
+            nav.className = "nav fixed";
+        } else {
+            nav.className = 'nav';
+        }
+    }
+</script>
