@@ -39,7 +39,7 @@
     <div class="nav" id="Q-nav">
         <img src="images/nav.png" alt="#">
     </div>
-    <div class="main">
+    <div class="main" id="main">
         <img src="images/main.png" alt="#">
     </div>
 </div>
@@ -48,14 +48,19 @@
 
 <script>
     var nav = $('Q-nav');
+    var main = $('main');
     // 得到导航栏距离顶部的距离
     var navTop = nav.offsetTop;
     console.log(navTop);
     window.onscroll = function () {
+        console.log(scroll().top);
+
         if (scroll().top >= navTop) {
             nav.className = "nav fixed";
+            main.style.paddingTop = '83px';
         } else {
             nav.className = 'nav';
+            main.style.paddingTop = '0px';
         }
     }
 </script>
