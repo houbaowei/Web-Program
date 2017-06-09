@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>封装可视区域大小</title>
+</head>
+<body>
+<script>
+    function client() {
+        if (window.innerHTML != null) { // ie9+ 最新浏览器
+            return {
+                width : window.innerWidth,
+                height : window.innerHeight
+            }
+        } else if (document.compatMode == 'CSS1Compat') {   // 标准浏览器
+            return {
+                width : document.documentElement.clientWidth,
+                height : document.documentElement.clientHeight
+            }
+        }
+        return {    // 怪异浏览器
+            width : document.body.clientWidth,
+            height : document.body.clientHeight
+        }
+    }
+
+    document.write(client().width);
+</script>
+</body>
+</html>
