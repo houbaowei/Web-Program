@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>区别函数调用</title>
+</head>
+<body>
+<script>
+    function fun() {
+        return 3;
+    }
+
+    console.log(fun);   // 返回函数体 function fun() {return 3};
+    console.log(fun()); // 调用函数 返回3
+    fun();
+    window.onresize = 3;
+    window.onresize = function func() {
+        return 3;
+    }
+</script>
+</body>
+</html>

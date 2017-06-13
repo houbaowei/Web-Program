@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>改变页面颜色</title>
+</head>
+<body>
+<script>
+    // 页面一加载先调用函数一次
+    resize();
+
+    window.onresize = resize; // 不带括号, 只要屏幕触发, 就会调用 resize 函数
+
+    function resize() {
+        var clientWidth = client().width;
+        if (clientWidth > 960) {
+            document.body.style.backgroundColor = 'red';
+        } else if (clientWidth > 640) {
+            document.body.style.backgroundColor = 'green';
+        } else {
+            document.body.style.backgroundColor = 'blue';
+        }
+    }
+
+
+
+    function client() {
+        if (window.innerWidth) {    // ie9+最新浏览器
+            return {
+                width : window.innerWidth,
+                height : window.innerHeight
+            }
+        } else if (document.compatMode === 'CSS1Compat') {  // 标准浏览器
+            return {
+                width : document.documentElement.clientWidth,
+                height : document.documentElement.clientHeight
+            }
+        }
+        // 怪异浏览器
+        return {
+            width : document.body.clientWidth,
+            height : document.body.clientHeight
+        }
+    }
+
+    function Animal(name) {
+        this.name = name;
+        this.showName = function () {
+            alert(this.name);
+        }
+    }
+    function Cat(name) {
+        Animal.call(this, name);
+    }
+    var cat = new Cat('Black Cat');
+    cat.showName();
+</script>
+</body>
+</html>
