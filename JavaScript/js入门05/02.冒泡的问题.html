@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>冒泡的问题</title>
+</head>
+<body>
+<button id="btn">点击</button>
+<script>
+    var btn = document.getElementById('btn');
+    document.onclick = function () {
+        alert('点击了空白处');
+    };
+    // button属于document的一部分, 点击按钮还会触发上面的document方法
+    btn.onclick = function (event) {
+        alert('点击了按钮');
+
+        // 取消冒泡
+        var event = event || window.event;
+        if (event && event.stopPropagation()) {
+            event.stopPropagation();    // w3c标准
+        } else {
+            event.cancelBubble = true;  // IE6,7,8
+        }
+    }
+</script>
+</body>
+</html>

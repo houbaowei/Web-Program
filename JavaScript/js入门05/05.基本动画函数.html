@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基本动画函数</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<button id="btn200">200</button>
+<button id="btn400">400</button>
+<div id="run"></div>
+</body>
+</html>
+<script>
+    function $(id) {
+        return document.getElementById(id);
+    }
+    $('btn200').onclick = function () {
+        animate($('run'), 200);
+    }
+    $('btn400').onclick = function () {
+        animate($('run'), 400);
+    }
+    function animate(obj, target) {
+        obj.timer = setInterval(function () {
+            if (obj.offsetLeft > target) {
+                clearInterval(timer);
+            } else {
+                obj.style.left = obj.offsetLeft + 10 + 'px';
+            }
+        }, 30);
+    }
+</script>
