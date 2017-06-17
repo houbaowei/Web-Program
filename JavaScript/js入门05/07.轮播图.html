@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简单焦点图</title>
+    <style>
+        *{ padding:0; margin:0; list-style:none; border:0;}
+        .all{
+            width:500px;
+            height:200px;
+            padding:7px;
+            border:1px solid #ccc;
+            margin:100px auto;
+            position:relative;
+        }
+        .screen{
+            width:500px;
+            height:200px;
+            overflow:hidden;
+            position:relative;
+        }
+
+        .screen li{ width:500px; height:200px; overflow:hidden; float:left;}
+        .screen ul{ position:absolute; left:0; top:0px; width:3000px;}
+        .all ol{ position:absolute; right:10px; bottom:10px; line-height:20px; text-align:center;}
+        .all ol li{ float:left; width:20px; height:20px; background:#fff; border:1px solid #ccc; margin-left:10px; cursor:pointer;}
+        .all ol li.current{ background:yellow;}
+    </style>
+    <script>
+        // 封装动画函数
+        function animate(obj, target, sudu) {
+            clearInterval(obj.timer);
+            var speed = obj.offsetLeft < target ? Math.abs(sudu) : -Math.abs(sudu);
+            obj.timer = setInterval(function () {
+                obj.style.left = obj.offsetLeft + speed + 'px';
+                var result = target - obj.offsetLeft;
+                if (Math.abs(result) <= Math.abs(sudu)) {
+                    clearInterval(obj.timer);
+                    obj.style.left = target + 'px';
+                }
+            }, 1)
+        }
+        window.onload = function () {
+            var box = document.getElementById('all');
+            var ul = document.getElementById('ul');
+            var ulLis = ul.children;
+
+            // 1. 创建页数控制器
+            var ol = document.createElement('ol');
+            box.appendChild(ol);
+            for (var i = 0; i < ulLis.length; i++) {
+                var li = document.createElement('li');
+                li.innerHTML = i;
+                ol.appendChild(li);
+            }
+            ol.children[0].className = 'current';
+
+            // 2. 克隆第一个li并添加在ul最后
+            ul.appendChild(ul.children[0].cloneNode(true));
+
+            // 3. 开始动画部分
+            var olLis = ol.children;
+            for (var i = 0; i < olLis.length; i++) {
+                olLis[i].index = i;
+                olLis[i].onmouseover = function () {
+                    // 先清空所有的className
+                    for (var j = 0; j < olLis.length; j++) {
+                        olLis[j].className = '';
+                    }
+                    this.className = 'current';
+                    animate(ul, -this.index * 500, 30);
+                }
+            }
+
+            // 4. 添加定时器
+            var timer = null;
+            var key = 0; // 控制播放张数
+            var square = 0; // 控制页数控制器
+            timer = setInterval(autoplay, 2000);
+
+            function autoplay() {
+                key++;
+                if (key > ulLis.length - 1) {
+                    ul.style.left = 0; // 最后一张迅速回到第一张,肉眼看不到
+                    key = 1;
+                }
+                // 执行动画
+                animate(ul, -key * 500, 5);
+
+                square++;
+                if (square > olLis.length - 1) {
+                    square = 0;
+                }
+                for (var i = 0; i < olLis.length; i++) {
+                    olLis[i].className = '';
+                }
+                olLis[square].className = 'current';
+            }
+
+            // 5. 鼠标经过停止定时器
+            box.onmouseover = function () {
+                clearInterval(timer);
+            }
+            box.onmouseout = function () {
+                timer = setInterval(autoplay, 2000);
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="all" id='all'>
+    <div class="screen">
+        <ul id="ul">
+            <li><img src="images/taobao/1.jpg" width="500" height="200" /></li>
+            <li><img src="images/taobao/2.jpg" width="500" height="200" /></li>
+            <li><img src="images/taobao/3.jpg" width="500" height="200" /></li>
+            <li><img src="images/taobao/4.jpg" width="500" height="200" /></li>
+            <li><img src="images/taobao/5.jpg" width="500" height="200" /></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
