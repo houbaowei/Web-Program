@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>仿360开机效果</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            vertical-align: middle;
+        }
+        .box {
+            width: 322px;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+        #close {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 30px;
+            height: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="box" id="box">
+    <span id="close"></span>
+    <div class="hd" id="t"><img src="images/t.jpg" alt=""></div>
+    <div class="bd" id="b"><img src="images/b.jpg" alt=""></div>
+</div>
+<script>
+    var b = document.getElementById('b');
+    var close = document.getElementById('close');
+    close.onclick = function () {
+        animate(b, {height : 0}, function () {
+            animate(b.parentNode, {width : 0});
+        })
+    }
+
+    // 多属性运动框架
+    function animate(obj, json, fn) {
+        clearInterval(obj.timer);
+        obj.timer = setInterval(function () {
+            var flag = true;
+            for (var attr in json) {
+                var current = parseInt(getStyle(obj, attr));
+                var step = (json[attr] - current) / 10;
+                step = step > 0 ? Math.ceil(step) : Math.floor(step);
+                obj.style[attr] = current + step + 'px';
+                if (current !== json[attr]) {
+                    flag = false;
+                }
+            }
+            if (flag) {
+                clearInterval(obj.timer);
+                // 回调函数
+                if (fn) {
+                    fn();
+                }
+            }
+        }, 20);
+    }
+
+    // 获取对象的CSS属性
+    function getStyle(obj, attr) {
+        if (obj.currentStyle) {
+            return obj.currentStyle[attr];
+        } else {
+            return window.getComputedStyle(obj, null)[attr];
+        }
+    }
+</script>
+</body>
+</html>

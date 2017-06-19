@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取CSS样式的正确姿势</title>
+    <style>
+        #demo {
+            width: 100px;
+            height: 200px;
+            background-color: pink;
+            left: 10px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<div id="demo"></div>
+
+<script>
+    var demo = document.getElementById('demo');
+
+    // 只能得到行内样式的css
+    console.log(demo.style.left);
+
+
+    // 获取CSS样式的正确姿势应该是:
+    function getStyle(obj, attr) {
+        if (obj.currentStyle) {
+            return obj.currentStyle[attr]; // ie
+        } else {
+            return window.getComputedStyle(obj, null)[attr]; // w3c
+        }
+    }
+    
+    
+    console.log(getStyle(demo, 'left'));
+</script>
+</body>
+</html>

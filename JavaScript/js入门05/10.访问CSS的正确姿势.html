@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>访问CSS的正确方式</title>
+    <style>
+        #box {
+            width: 50px;
+            height: 100px;
+            background-color: pink;
+            position: absolute;
+            top: 20px;
+        }
+    </style>
+</head>
+<body>
+<div id="box" style="left: 300px; width: 100px; height: 200px;"></div>
+
+<script>
+    var box = document.getElementById('box');
+    console.log(box.style.left);
+
+    // 这种方法可以更改css属性
+    console.log(box.style['left']);
+
+    function fn(attr) {
+        console.log(box.style[attr]);
+    }
+    fn('height');
+    fn('left');
+</script>
+</body>
+</html>

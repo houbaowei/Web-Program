@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>缓动动画原理</title>
+    <style>
+        #box {
+            width: 100px;
+            height: 100px;
+            background-color: skyblue;
+            position: absolute;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+<button id="btn">开始</button>
+<div id="box"></div>
+</body>
+</html>
+<script>
+    var btn = document.getElementById('btn');
+    var box = document.getElementById('box');
+    var target = 401;
+    var timer = null;
+    btn.onclick = function () {
+        timer = setInterval(function () {
+            var step = (target - box.offsetLeft) / 10;
+            console.log(step);
+            // 解决最后因为除不尽导致跑不到指定位置的bug
+            step = step > 0 ? Math.ceil(step) : Math.floor(step);
+            box.style.left = box.offsetLeft + step + 'px';
+            if (box.offsetLeft === target) {
+                clearInterval(timer);
+                alert('我,到家了!');
+            }
+        }, 30);
+    }
+</script>
