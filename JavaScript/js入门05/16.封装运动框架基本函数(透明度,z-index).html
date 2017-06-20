@@ -54,7 +54,7 @@
                     if ('opacity' in obj.style) {
                         obj.style.opacity = (current + step) / 100;
                     } else {
-                        // ie 6 7 8
+                        // ie6/7/8
                         obj.style.filter = "alpha(opacity = " + (current + step) * 10 + ")";
                     }
                 } else if (attr === 'zIndex') {
