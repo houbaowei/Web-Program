@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>animate函数</title>
+    <style>
+        .demo {
+            width: 200px;
+            height: 100px;
+            background-color: gold;
+            position : absolute;
+        }
+    </style>
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('button').first().click(function () {
+                $('.demo').animate({
+                    width : '400px',
+                    height : '300px',
+                    opacity : '0.5',
+                    left : '450px',
+                    top : '100px'
+                }, 1000, function () {
+                    alert('动画执行完毕啦!');
+                })
+            })
+        })
+    </script>
+</head>
+<body>
+<button>animate动画效果</button>
+<div class="demo"></div>
+</body>
+</html>
