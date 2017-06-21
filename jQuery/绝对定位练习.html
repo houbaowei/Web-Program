@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绝对定位</title>
+    <style>
+        .main {
+            width: 200px;
+            height: 200px;
+            background-color: gold;
+            position: relative;
+        }
+        .tag {
+            width: 200px;
+            height: 30px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+        .tagbg {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: skyblue;
+        }
+        .tagicon {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            left: 0;
+            top: 0;
+            background-color: pink;
+        }
+        .tag p {
+            width: 170px;
+            height: 30px;
+            margin: 0;
+            font-size: 12px;
+            text-align: center;
+            line-height: 30px;
+            position: absolute;
+            left: 30px;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="tag">
+        <div class="tagbg"></div>
+        <div class="tagicon"></div>
+        <p>百度一下,你就知道</p>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动</title>
+    <style>
+        .main {
+            border: 1px solid red;
+        }
+        .first {
+            width: 200px;
+            height: 300px;
+            background-color: gold;
+            float: left;
+        }
+        .last {
+            width: 200px;
+            height: 250px;
+            background-color: skyblue;
+            float: right;
+        }
+
+        /* 清除浮动 */
+        .clearfix::after {
+            content: '';
+            display: block;
+            height: 0;
+            visibility: hidden;
+            /*重点*/
+            clear: both;
+        }
+        .clearfix {
+            /* 兼容IE, 触发IE hasLayout */
+            *zoom: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="main clearfix">
+    <div class="first"></div>
+    <div class="last"></div>
+</div>
+</body>
+</html>

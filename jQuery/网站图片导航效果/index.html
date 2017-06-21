@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网站导航效果</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul, ol {
+            list-style: none;
+        }
+        img {
+            vertical-align: middle;
+            display: block;
+            border: 0;
+        }
+        a {
+            text-decoration: none;
+        }
+
+        .wrapper {
+            width: 752px;
+            border: 1px solid #CCCCCC;
+            margin: 100px auto;
+            padding: 10px 0 0 10px;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        .wrapper li {
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 178px;
+            height: 125px;
+            overflow: hidden;
+            position: relative;
+        }
+        .wrapper .tag {
+            width: 178px;
+            height: 25px;
+            position: absolute;
+            left: 0;
+            bottom: -25px;
+        }
+        .wrapper .tagBg {
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+        }
+        .tag .tagIcon {
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: url("images/bg.png") no-repeat 5px 0;
+        }
+        .tag p {
+            width: 152px;
+            height: 25px;
+            position: absolute;
+            top: 0;
+            left: 25px;
+            font-size: 12px;
+            text-align: center;
+            line-height: 25px;
+            color: #FFFFFF;
+            /* 文字溢出显示省略号 */
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    </style>
+    <script src="../js/jquery-3.2.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // 动态创建元素
+            var imgArr = ['01', '02', '03', '04', '05', '06', '07', '08'];
+            var html = '';
+            for (var i = 0; i < imgArr.length; i++) {
+                html += "<li><a href='###'><img src='images/"+imgArr[i] + ".jpg'" + "alt='#'/></a><div class='tag'><div class='tagIcon'></div><p>百度一下，你就知道,hahahahhahaha</p></div></li>";
+            }
+            $('.wrapper ul').append(html);
+
+            // 创建半透明背景
+            var tagBg = $("<div class='tagBg'></div>");
+            $('.tag').prepend(tagBg);
+            $('.wrapper .tagBg').fadeTo(0, 0.5); // 设置背景半透明
+
+            // 设置图标
+            $('.tagIcon').each(function (index, ele) {
+                $(ele).css('background-position', "5px -" + (25 * index) + "px");
+            })
+
+            //
+            $('.wrapper li').hover(function () {
+                $('.tag').eq($(this).index()).stop().animate({bottom : '0'}, 300);
+            }, function () {
+                $('.tag').eq($(this).index()).stop().animate({bottom : '-25px'}, 300)
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="wrapper">
+    <ul>
+
+    </ul>
+</div>
+</body>
+</html>
