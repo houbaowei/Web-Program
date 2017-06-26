@@ -3,9 +3,18 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>锚点的使用</title>
+        <style>
+            #gotop {
+                position: fixed;
+                right: 30px;
+                bottom: 20px;
+            }
+        </style>
 		<base target="_blank" />
 	</head>
 	<body>
+        <a href="" id="top"></a>
+
 		<a href="#chapter1">章节一</a>
 		<a href="#chapter2">章节二</a>
 		<a href="#chapter3">章节三</a>
@@ -105,5 +114,6 @@
 		<br />
 		<br />
 		<h3><a href="#" name="chapter3" id="chapter3">章节三</a></h3>
+        <a href="#top" target="_self" id="gotop">返回顶部</a>
 	</body>
 </html>
