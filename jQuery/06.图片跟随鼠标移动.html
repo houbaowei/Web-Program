@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片跟随鼠标移动</title>
+    <style>
+        img {
+            position: absolute;
+        }
+    </style>
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script>
+        $(function () {
+            $(document).mousemove(function (event) {
+                $("img").css({
+                    left : event.pageX,
+                    top : event.pageY
+                });
+                event.preventDefault(); // 禁止默认事件
+                event.stopPropagation(); // 阻止冒泡
+            });
+        })
+    </script>
+</head>
+<body>
+<img src="images/libg.jpg" alt="#">
+</body>
+</html>

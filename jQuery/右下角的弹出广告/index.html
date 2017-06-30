@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>右下角的弹出广告</title>
+    <style>
+        .demo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            width: 230px;
+            height: 120px;
+            background-image: url(images/123.jpg);
+            display: none;
+        }
+        .demo span {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 40px;
+            height: 18px;
+            background-image: url(images/h.jpg);
+        }
+    </style>
+    <script src="../js/jquery-3.2.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".demo").fadeIn(1000).children("span").click(function () {
+                $(this).parent().slideToggle();
+            });
+        })
+    </script>
+</head>
+<body>
+<div class="demo">
+    <span></span>
+</div>
+</body>
+</html>

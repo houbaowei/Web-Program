@@ -2,10 +2,205 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73e5d306-ffdb-40e5-987f-cf1f8b47f079" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/05.事件对象.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/images/bk-top1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/images/bk-top2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/images/bk-top3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/两侧广告跟随/images/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/两侧广告跟随/images/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/京东轮播图/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/京东轮播图/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/京东轮播图/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/京东轮播图/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/京东轮播图/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/京东轮播图/images/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/仿京东侧边栏/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/仿京东侧边栏/images/bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/仿京东侧边栏/images/dian.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/仿京东侧边栏/images/fu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/仿京东侧边栏/images/jia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/仿京东侧边栏/images/mei.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/仿京东侧边栏/images/top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/右下角的弹出广告/images/123.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/右下角的弹出广告/images/h.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/固定导航栏/images/main.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/固定导航栏/images/nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/固定导航栏/images/top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/层级轮播图/images/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/层级轮播图/images/02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/层级轮播图/images/03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/层级轮播图/images/04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/层级轮播图/images/05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/b3_100901.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/bg1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/bg21.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/bgs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/100.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/101.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/102.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/103.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/104.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/105.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/106.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/107.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/108.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/109.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/110.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/111.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/112.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/113.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/114.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/115.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/13.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/15.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/17.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/18.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/20.gif.baiduyun.downloading" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/20.gif.baiduyun.downloading.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/22.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/23.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/25.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/26.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/27.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/28.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/31.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/33.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/34.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/35.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/36.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/37.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/38.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/39.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/40.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/41.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/42.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/43.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/44.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/45.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/46.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/47.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/48.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/49.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/51.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/52.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/53.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/54.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/55.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/56.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/57.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/58.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/59.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/60.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/61.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/62.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/63.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/65.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/66.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/67.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/68.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/69.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/70.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/71.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/72.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/73.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/74.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/75.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/76.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/77.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/78.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/79.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/80.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/81.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/82.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/83.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/84.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/85.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/86.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/87.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/88.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/89.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/90.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/91.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/92.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/93.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/94.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/95.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/96.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/97.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/98.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/99.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/wrapBg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/手风琴效果/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/手风琴效果/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/手风琴效果/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/手风琴效果/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/手风琴效果/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/QQ截图20121215110234.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/abg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/lili.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/冬裙.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/呢大衣.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/围巾.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/女包.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/女裤.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/女靴.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/棉服.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/毛衣.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/牛仔裤.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/男包.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/男棉服.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/男毛衣.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/男靴.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/登山鞋.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/皮带.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/皮衣.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/羽绒服.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/雪地靴.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/06.图片跟随鼠标移动.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/07.五角星案例.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/08.动态创建表格.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/09.回到顶部案例.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/10.城市多选案例.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/11.append()和appendTo()注意点.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/12.省市选择器.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/两侧广告跟随/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/京东轮播图/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/仿京东侧边栏/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/右下角的弹出广告/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/固定导航栏/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/层级轮播图/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/css/init.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/js/jquery-3.2.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/手风琴效果/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery/html.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/锚点.html" afterPath="$PROJECT_DIR$/HTML/锚点.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQuery/html.html" afterPath="$PROJECT_DIR$/jQuery/html.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/form.html" afterPath="$PROJECT_DIR$/HTML/form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript/闭包.html" afterPath="$PROJECT_DIR$/JavaScript/闭包.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,41 +218,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jQuery/Tab栏切换效果/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jQuery/微博发布功能案例/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1554">
-              <caret line="74" column="38" lean-forward="false" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+            <state relative-caret-position="185">
+              <caret line="117" column="38" lean-forward="true" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="html.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jQuery/html.html">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jQuery/微博发布功能案例/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="281">
+              <caret line="33" column="64" lean-forward="false" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
+              <folding>
+                <element signature="e#0#44#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05.事件对象.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jQuery/05.事件对象.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-              <folding />
-            </state>
+      <file leaf-file-name="bg1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jQuery/微博发布功能案例/images/bg1.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="锚点.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTML/锚点.html">
+      <file leaf-file-name="init.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jQuery/微博发布功能案例/css/init.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+            <state relative-caret-position="167">
+              <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -69,12 +263,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>styleCss</find>
+      <find>text-align</find>
+      <find>sendBtn</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -83,7 +281,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Vue.js入门/01.Vue起步.html" />
         <option value="$PROJECT_DIR$/JavaScript/js入门04/12.垂直滚动条.html" />
         <option value="$PROJECT_DIR$/JavaScript/js入门04/14.固定导航栏.html" />
         <option value="$PROJECT_DIR$/JavaScript/js入门04/15.两侧广告跟随移动.html" />
@@ -110,9 +307,31 @@
         <option value="$PROJECT_DIR$/jQuery/绝对定位练习.html" />
         <option value="$PROJECT_DIR$/jQuery/清除浮动练习.html" />
         <option value="$PROJECT_DIR$/jQuery/Tab栏切换效果/index.html" />
-        <option value="$PROJECT_DIR$/jQuery/html.html" />
         <option value="$PROJECT_DIR$/jQuery/05.事件对象.html" />
         <option value="$PROJECT_DIR$/HTML/锚点.html" />
+        <option value="$PROJECT_DIR$/jQuery/html.html" />
+        <option value="$PROJECT_DIR$/JavaScript/闭包.html" />
+        <option value="$PROJECT_DIR$/jQuery/仿京东侧边栏/index.html" />
+        <option value="$PROJECT_DIR$/jQuery/固定导航栏/index.html" />
+        <option value="$PROJECT_DIR$/jQuery/两侧广告跟随/index.html" />
+        <option value="$PROJECT_DIR$/jQuery/右下角的弹出广告/ndex.html" />
+        <option value="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/index.html" />
+        <option value="$PROJECT_DIR$/jQuery/右下角的弹出广告/index.html" />
+        <option value="$PROJECT_DIR$/jQuery/层级轮播图/index.html" />
+        <option value="$PROJECT_DIR$/jQuery/手风琴效果/index.html" />
+        <option value="$PROJECT_DIR$/jQuery/京东轮播图/index.html" />
+        <option value="$PROJECT_DIR$/jQuery/06.图片跟随鼠标移动.html" />
+        <option value="$PROJECT_DIR$/jQuery/07.五角星案例.html" />
+        <option value="$PROJECT_DIR$/jQuery/08.动态创建表格.html" />
+        <option value="$PROJECT_DIR$/HTML/form.html" />
+        <option value="$PROJECT_DIR$/jQuery/09.回到顶部案例.html" />
+        <option value="$PROJECT_DIR$/jQuery/11.append()和appendTo()注意点.html" />
+        <option value="$PROJECT_DIR$/jQuery/10.城市多选案例.html" />
+        <option value="$PROJECT_DIR$/jQuery/12.省市选择器.html" />
+        <option value="$PROJECT_DIR$/jQuery/微博发布功能案例/init.css" />
+        <option value="$PROJECT_DIR$/jQuery/微博发布功能案例/css/init.css" />
+        <option value="$PROJECT_DIR$/jQuery/微博发布功能案例/js/index.js" />
+        <option value="$PROJECT_DIR$/jQuery/微博发布功能案例/index.html" />
       </list>
     </option>
   </component>
@@ -123,9 +342,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="311" />
+    <option name="x" value="441" />
     <option name="y" value="22" />
-    <option name="width" value="940" />
+    <option name="width" value="838" />
     <option name="height" value="730" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -146,6 +365,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -186,7 +407,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="网站图片导航效果" />
+              <option name="myItemId" value="微博发布功能案例" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -204,7 +425,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="网站图片导航效果" />
+              <option name="myItemId" value="微博发布功能案例" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web-Program" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web-Program" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="微博发布功能案例" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -226,46 +469,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Web-Program" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Web-Program" />
+              <option name="myItemId" value="微博发布功能案例" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HTML" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jQuery/Tab栏切换效果/images" />
-      <recent name="$PROJECT_DIR$/jQuery/网站图片导航效果/images" />
-      <recent name="$PROJECT_DIR$/JavaScript/js入门02/images" />
+      <recent name="$PROJECT_DIR$/jQuery/微博发布功能案例/images" />
+      <recent name="$PROJECT_DIR$/jQuery/微博发布功能案例/js" />
       <recent name="$PROJECT_DIR$/jQuery/images" />
-      <recent name="$PROJECT_DIR$/JavaScript/js入门05" />
+      <recent name="$PROJECT_DIR$/jQuery/京东轮播图/images" />
+      <recent name="$PROJECT_DIR$/jQuery/手风琴效果/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jQuery/微博发布功能案例/css" />
       <recent name="C:\Users\zhunj\Documents\SourceTree\Web-Program\HTML\CSS3新特性\images" />
       <recent name="$PROJECT_DIR$/Vue.js入门/js" />
     </key>
@@ -393,11 +626,17 @@
       <workItem from="1498098348562" duration="592000" />
       <workItem from="1498101707623" duration="1730000" />
       <workItem from="1498202613608" duration="3176000" />
+      <workItem from="1498571173199" duration="731000" />
+      <workItem from="1498612112704" duration="15792000" />
+      <workItem from="1498638962832" duration="628000" />
+      <workItem from="1498698271781" duration="10794000" />
+      <workItem from="1498715763385" duration="3308000" />
+      <workItem from="1498719425134" duration="5462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83604000" />
+    <option name="totallyTimeSpent" value="120319000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -409,18 +648,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="311" y="22" width="940" height="730" extended-state="0" />
+    <frame x="441" y="22" width="838" height="730" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21545158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28258362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24971098" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -429,6 +668,24 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28258362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24971098" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -443,201 +700,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门04/12.垂直滚动条.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="59" column="36" lean-forward="false" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门03/17.jQuer选择器的封装.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门04/10.拖动水平条.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1976">
-          <caret line="76" column="79" lean-forward="false" selection-start-line="76" selection-start-column="79" selection-end-line="76" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门04/images/top.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门04/14.固定导航栏.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/云课堂响应式/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-314">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门04/js/myScroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-79">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门04/19.onresize时改变页面颜色.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="52" column="32" lean-forward="false" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门04/17.封装可视区域大小的函数.html" />
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门04/16.返回顶部小火箭.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门04/13.Scroll家族.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="45" column="29" lean-forward="false" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/云课堂响应式/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2962">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/云课堂响应式/css/article.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="62" column="4" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/云课堂响应式/css/mobile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/云课堂响应式/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门05/02.冒泡的问题.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门04/20.区别函数调用.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门04/18.屏幕滑动效果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="19" column="14" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门05/03.选定文字弹出层.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门05/01.点击空白隐藏内容.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门04/02.匀速动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门05/05.基本动画函数.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门05/04.动画的基本原理.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门04/05.左右焦点图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="69" column="10" lean-forward="false" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门04/04.焦点图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门04/01.无缝滚动.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门03/10.红米手机.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门05/06.匀速动画函数封装.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="50" column="11" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/CSS3新特性/04.手风琴效果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/CSS3新特性/07.照片墙.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -691,7 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="1" column="156" lean-forward="true" selection-start-line="0" selection-start-column="84" selection-end-line="1" selection-end-column="156" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,25 +805,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/Tab栏切换效果/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1554">
-          <caret line="74" column="38" lean-forward="false" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/html.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/images/bg.jpg">
+    <entry file="file://$PROJECT_DIR$/jQuery/网站图片导航效果/images/bg.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/Tab栏切换效果/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="74" column="38" lean-forward="false" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/05.事件对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/锚点.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/闭包.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/js入门04/14.固定导航栏.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="59" column="29" lean-forward="false" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/仿京东侧边栏/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="61" column="47" lean-forward="false" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/右下角的弹出广告/images/123.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/lili.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/男包.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/固定导航栏/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/右下角的弹出广告/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/淘宝精品服饰广告/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="52" column="85" lean-forward="true" selection-start-line="52" selection-start-column="85" selection-end-line="52" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/层级轮播图/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="63" column="39" lean-forward="true" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/手风琴效果/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jQuery/images/libg.jpg">
@@ -770,23 +907,138 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/网站图片导航效果/images/bg.png">
+    <entry file="file://$PROJECT_DIR$/jQuery/images/bg.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/05.事件对象.html">
+    <entry file="file://$PROJECT_DIR$/JavaScript/js入门02/13.微博发布.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        <state relative-caret-position="-925">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/html.html" />
+    <entry file="file://$PROJECT_DIR$/jQuery/08.动态创建表格.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="126" column="30" lean-forward="true" selection-start-line="126" selection-start-column="30" selection-end-line="126" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="54" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/07.五角星案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="48" column="14" lean-forward="false" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/06.图片跟随鼠标移动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/embed.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="47" column="22" lean-forward="false" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/锚点.html">
+    <entry file="file://$PROJECT_DIR$/jQuery/两侧广告跟随/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        <state relative-caret-position="419">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/js入门04/16.返回顶部小火箭.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/09.回到顶部案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/京东轮播图/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="55" column="49" lean-forward="true" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/11.append()和appendTo()注意点.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/10.城市多选案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/12.省市选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/微博发布功能案例/js/jquery-3.2.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/微博发布功能案例/images/bg1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/微博发布功能案例/css/init.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/微博发布功能案例/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="33" column="64" lean-forward="false" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/微博发布功能案例/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="117" column="38" lean-forward="true" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
           <folding />
         </state>
       </provider>

@@ -24,7 +24,7 @@
 <hr>
 <h3>单选框</h3>
 <form class="" action="index.html" method="post">
-	<label for="">性别:</label>
+	<label>性别:</label>
 
 	<input id="male" type="radio" name="gender" value="">
 	<label for="male">男</label>
@@ -34,12 +34,23 @@
 <hr>
 <h3>复选框</h3>
 <form class="" action="index.html" method="post">
-	<label for="">爱好:</label>
+	<label>爱好:</label>
 	<input type="checkbox" name="name" value="" id="favorite1">
 	<label for="favorite1">吃饭</label>
 	<input type="checkbox" name="name" value="" id="favorite2">
 	<label for="favorite2">睡觉</label>
 	<input type="checkbox" name="name" value="" id="favorite3">
 	<label for="favorite3">打豆豆</label>
+</form>
+
+<h3>multiple多选</h3>
+<form action="save.php" method="post">
+    <label>爱好:</label>
+    <select multiple="multiple" style="width: 100px; height: 100px;">
+        <option value="看书">看书</option>
+        <option value="旅游" selected="selected">旅游</option>
+        <option value="运动">运动</option>
+        <option value="购物">购物</option>
+    </select>
 </form>
 </html>

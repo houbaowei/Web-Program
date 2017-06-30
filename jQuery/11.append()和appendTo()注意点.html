@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+//            $("div").append("<p>我是HTML元素</p>");
+
+            /*
+            * 若append内是jQuery对象,会把该jQuery对象移动到匹配的元素中去
+            * */
+//            $("div").append($("p"));
+
+            /*
+            * appendTo()方法会将匹配的元素移动到目标元素中
+            * */
+            $("p").appendTo("div");
+        })
+    </script>
+</head>
+<body>
+<p>I would like to say: </p>
+<div></div><div></div>
+</body>
+</html>

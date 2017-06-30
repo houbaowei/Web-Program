@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>五角星案例</title>
+    <style>
+        * { padding: 0; margin: 0;}
+        ul { list-style: none;}
+
+        .comment {
+            font-size: 40px;
+            color: teal;
+        }
+        .comment li {
+            float: left;
+        }
+    </style>
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script>
+        $(function () {
+            var star_none = "☆";
+            var star_sel = "★";
+
+            // 鼠标经过 将自己和前面的变实心,其他变空心
+            $(".comment li").mouseenter(function () {
+                $(this).text(star_sel).prevAll().text(star_sel).end().nextAll().text(star_none);
+                /*
+                * end() : 取消对 prevAll() 的选择,转而再次选中 当前的 li
+                * */
+            }).click(function () {
+                $(this).addClass("clicked").siblings("li").removeClass("clicked");
+            });
+
+            $(".comment").mouseleave(function () {
+                // 先清空
+                $(".comment li").text(star_none);
+                // 再改变样式
+                $(".clicked").text(star_sel).prevAll().text(star_sel).end().nextAll().text(star_none);
+            })
+        })
+    </script>
+</head>
+<body>
+<ul class="comment">
+    <li>☆</li>
+    <li>☆</li>
+    <li>☆</li>
+    <li>☆</li>
+    <li>☆</li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>两侧广告跟随</title>
+    <style>
+        .left, .right {
+            position: absolute;
+            top: 80px;
+        }
+        .left {
+            left: 0;
+        }
+        .right {
+            right: 0;
+        }
+    </style>
+    <script src="../js/jquery-3.2.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            for (var i = 0; i < 50; i++) {
+                $("body").append("<p>天王盖地虎,小鸡炖蘑菇</p>");
+            }
+
+            $(window).scroll(function () {
+                var scrTop = $(document).scrollTop();
+                $(".left, .right").stop().animate({
+                    "top" : scrTop + 80
+                }, 500);
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="left"><img src="images/1.gif" alt="#"></div>
+<div class="right"><img src="images/2.gif" alt="#"></div>
+</body>
+</html>

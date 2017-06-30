@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动态创建表格</title>
+    <style>
+        * { padding: 0; margin: 0; }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            border: 1px solid #c0c0c0;
+        }
+
+        th,td {
+            border: 1px solid #d0d0d0;
+            color: #404060;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #09c;
+            font: bold 16px "微软雅黑";
+            color: #fff;
+        }
+
+        td {
+            font: 14px "微软雅黑";
+        }
+        tbody tr {
+            background-color: #f0f0f0;
+        }
+        tbody tr:hover {
+            cursor: pointer;
+            background-color: #fafafa;
+        }
+    </style>
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script>
+        var data = [{
+            name: "传智播客",
+            url: "http://www.itcast.cn",
+            type: "IT最强培训机构"
+        },{
+            name: "黑马程序员",
+            url: "http://www.itheima.com",
+            type: "大学生IT培训机构"
+        },{
+            name: "传智前端学院",
+            url: "http://web.itcast.cn",
+            type: "前端的黄埔军校"
+        }];
+        $(function () {
+            var $table1 = $("#tab_html");
+            // 第一种 : 拼接HTML (推荐)
+            var html = "";
+            for (var i = 0; i < data.length; i++) {
+                html += "<tr>";
+                html += "<td>" + data[i].name + "</td>";
+                html += "<td>" + data[i].url + "</td>";
+                html += "<td>" + data[i].type + "</td>";
+                html += "</tr>";
+            }
+            $table1.append(html);
+
+
+            // 第二种: 动态创建DOM
+
+            // 清空所有子节点
+            $("#tab_DOM").empty();
+
+            for (var i = 0; i < data.length; i++) {
+                var $trTemp = $("<tr></tr>");
+                $trTemp.append("<td>" + data[i].name + "</td>");
+                $trTemp.append("<td>" + data[i].url + "</td>");
+                $trTemp.append("<td>" + data[i].type + "</td>");
+
+                $trTemp.appendTo("#tab_DOM");
+            }
+        })
+    </script>
+</head>
+<body>
+<table id="tab_html">
+    <caption>方式一:拼接HTML方式动态创建表格</caption>
+    <tr>
+        <th>标题</th>
+        <th>地址</th>
+        <th>说明</th>
+    </tr>
+</table>
+
+<br>
+
+<table>
+    <caption>方式二:动态创建DOM方式</caption>
+    <thead>
+    <tr>
+        <th>标题</th>
+        <th>地址</th>
+        <th>说明</th>
+    </tr>
+    </thead>
+    <tbody id="tab_DOM">
+
+    </tbody>
+</table>
+
+<br>
+
+<table>
+    <caption>合并单元格</caption>
+    <thead>
+    <tr>
+        <th>标题</th>
+        <th>地址</th>
+        <th>说明</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td colspan="2">1</td>
+        <!--<td>2</td>-->
+        <td rowspan="2">3</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td rowspan="2">5</td>
+        <!--<td>6</td>-->
+    </tr>
+    <tr>
+        <td>7</td>
+        <!--<td>8</td>-->
+        <td>9</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
