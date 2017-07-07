@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>data-*的用法介绍</title>
+</head>
+<body>
+<ul id="list">
+    <li data-id="01" data-age="18">张三一号</li>
+    <li data-id="02" data-age="19">张三二号</li>
+    <li data-id="03" data-age="17">张三三号</li>
+</ul>
+
+<script>
+    var list = document.getElementById('list');
+    for (var i = 0; i < list.children.length; i++) {
+        list.children[i].addEventListener('click', function () {
+            alert(this.dataset['age']);
+        })
+    }
+</script>
+</body>
+</html>

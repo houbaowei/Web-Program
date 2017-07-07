@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSON解析</title>
+    <style>
+        #ems{
+            position: absolute;
+            left: 50%;
+            width: 400px;
+            height: auto;
+            margin-left: -200px;
+            background: lightGreen;
+            text-align: center;
+            min-height: 50px;
+            height: 500px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+        #ems input{
+            height: 25px;
+            margin-top: 10px;
+        }
+        #list{
+            background: lightBlue;
+        }
+        #list li{
+            text-align: left;
+        }
+    </style>
+    <script src="data.js"></script>
+    <script>
+        window.onload = function () {
+            var btn = document.getElementById('btn');
+            btn.addEventListener('click', function () {
+                var list = result.data.info.context;
+                var html = '';
+                for (var i = 0; i < list.length; i++) {
+                    var item = list[i];
+                    var desc = item.desc;
+                    var d = new Date();
+                    d.setTime(parseInt(item.time + '000'));
+                    var str = d.getFullYear() + '年' + d.getMonth() + '月' + d.getDate() + 1 + '日 星期' + (d.getDay() + 1) + (d.getHours() > 12 ? ' 下午' : ' 上午') + d.getHours() %12 + ':' + d.getMinutes() + ':' + d.getSeconds();
+                    html += '<li><div>' + str + '</div><div>' + desc + '</div></li>';
+                }
+
+                var ul = document.createElement('ul');
+                ul.innerHTML = html;
+                document.getElementById('list').appendChild(ul);
+            });
+        }
+
+
+
+    </script>
+</head>
+<body>
+<div id="ems">
+    <div>
+        <input type="text" id="code">
+        <input type="button" value="查询" id="btn">
+    </div>
+    <div id="list">
+    </div>
+</div>
+</body>
+</html>

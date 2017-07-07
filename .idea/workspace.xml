@@ -2,205 +2,130 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73e5d306-ffdb-40e5-987f-cf1f8b47f079" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/images/bk-top1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/images/bk-top2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/images/bk-top3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/两侧广告跟随/images/1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/两侧广告跟随/images/2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/京东轮播图/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/京东轮播图/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/京东轮播图/images/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/京东轮播图/images/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/京东轮播图/images/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/京东轮播图/images/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/仿京东侧边栏/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/仿京东侧边栏/images/bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/仿京东侧边栏/images/dian.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/仿京东侧边栏/images/fu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/仿京东侧边栏/images/jia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/仿京东侧边栏/images/mei.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/仿京东侧边栏/images/top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/右下角的弹出广告/images/123.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/右下角的弹出广告/images/h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/固定导航栏/images/main.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/固定导航栏/images/nav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/固定导航栏/images/top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/层级轮播图/images/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/层级轮播图/images/02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/层级轮播图/images/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/层级轮播图/images/04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/层级轮播图/images/05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/b3_100901.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/bg1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/bg21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/bgs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/100.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/101.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/102.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/103.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/104.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/105.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/106.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/107.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/108.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/109.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/110.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/111.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/112.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/113.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/114.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/115.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/13.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/14.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/15.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/17.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/18.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/19.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/20.gif.baiduyun.downloading" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/20.gif.baiduyun.downloading.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/21.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/22.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/23.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/24.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/25.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/26.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/27.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/28.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/29.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/30.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/31.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/33.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/34.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/35.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/36.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/37.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/38.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/39.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/40.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/41.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/42.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/43.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/44.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/45.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/46.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/47.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/48.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/49.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/5.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/50.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/51.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/52.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/53.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/54.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/55.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/56.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/57.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/58.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/59.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/6.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/60.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/61.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/62.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/63.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/65.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/66.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/67.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/68.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/69.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/7.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/70.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/71.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/72.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/73.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/74.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/75.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/76.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/77.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/78.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/79.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/8.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/80.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/81.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/82.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/83.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/84.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/85.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/86.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/87.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/88.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/89.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/9.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/90.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/91.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/92.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/93.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/94.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/95.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/96.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/97.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/98.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/faces/99.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/images/wrapBg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/手风琴效果/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/手风琴效果/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/手风琴效果/images/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/手风琴效果/images/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/手风琴效果/images/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/QQ截图20121215110234.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/abg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/lili.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/冬裙.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/呢大衣.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/围巾.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/女包.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/女裤.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/女靴.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/棉服.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/毛衣.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/牛仔裤.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/男包.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/男棉服.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/男毛衣.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/男靴.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/登山鞋.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/皮带.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/皮衣.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/羽绒服.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/雪地靴.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/06.图片跟随鼠标移动.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/07.五角星案例.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/08.动态创建表格.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/09.回到顶部案例.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/10.城市多选案例.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/11.append()和appendTo()注意点.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/12.省市选择器.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/两侧广告跟随/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/京东轮播图/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/仿京东侧边栏/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/右下角的弹出广告/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/固定导航栏/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/层级轮播图/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/css/init.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/微博发布功能案例/js/jquery-3.2.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/手风琴效果/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jQuery/淘宝精品服饰广告/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery/html.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/19.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/21.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/23.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/25.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/26.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/27.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/28.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/29.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/30.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/31.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/33.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/34.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/35.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/36.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/37.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/38.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/39.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/40.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/41.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/42.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/44.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/45.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/46.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/47.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/48.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/49.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/51.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/52.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/53.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/54.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/55.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/56.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/57.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/58.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/59.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/60.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/61.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/62.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/63.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/64.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/65.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/66.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/67.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/68.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/69.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/70.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/71.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/72.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/73.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/74.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/75.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/76.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/77.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/78.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/79.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/80.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/81.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/82.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/83.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/84.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/85.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/86.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/87.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/88.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/89.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/90.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/91.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/92.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/93.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/94.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/95.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/96.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/97.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/SmallImgLeft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/kuang.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/kuang2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/layerclose.hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/left_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/list.dragover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/right_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/images/smallImgRight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ajax/01.Ajax示例.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ajax/02.JSON解析.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ajax/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/01.伪元素的妙用.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/02.data-*的用法.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/03.classList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/04.History API.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/05.flex布局.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/1.JavaScript方式.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/js/jquery-3.2.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/瀑布流布局/js/script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jQuery/清除浮动练习.html" afterPath="$PROJECT_DIR$/HTML/清除浮动练习.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jQuery/绝对定位练习.html" afterPath="$PROJECT_DIR$/HTML/绝对定位练习.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/form.html" afterPath="$PROJECT_DIR$/HTML/form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript/闭包.html" afterPath="$PROJECT_DIR$/JavaScript/闭包.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -217,42 +142,25 @@
     <favorites_list name="Web-Program" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jQuery/微博发布功能案例/index.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="02.JSON解析.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ajax/02.JSON解析.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="117" column="38" lean-forward="true" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
+            <state relative-caret-position="246">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jQuery/微博发布功能案例/js/index.js">
+      <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ajax/data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="33" column="64" lean-forward="false" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
+            <state relative-caret-position="100">
+              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding>
-                <element signature="e#0#44#0" expanded="false" />
+                <element signature="e#0#43#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bg1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jQuery/微博发布功能案例/images/bg1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="init.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jQuery/微博发布功能案例/css/init.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -262,9 +170,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -281,21 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaScript/js入门04/12.垂直滚动条.html" />
-        <option value="$PROJECT_DIR$/JavaScript/js入门04/14.固定导航栏.html" />
-        <option value="$PROJECT_DIR$/JavaScript/js入门04/15.两侧广告跟随移动.html" />
-        <option value="$PROJECT_DIR$/JavaScript/js入门04/js/myScroll.js" />
-        <option value="$PROJECT_DIR$/JavaScript/js入门04/16.返回顶部小火箭.html" />
-        <option value="$PROJECT_DIR$/JavaScript/js入门04/17.封装可视区域大小的函数.html" />
-        <option value="$PROJECT_DIR$/JavaScript/js入门04/19.onresize时改变页面颜色.html" />
-        <option value="$PROJECT_DIR$/JavaScript/js入门04/20.区别函数调用.html" />
-        <option value="$PROJECT_DIR$/云课堂响应式/css/mobile.css" />
-        <option value="$PROJECT_DIR$/云课堂响应式/index.html" />
-        <option value="$PROJECT_DIR$/JavaScript/js入门05/01.点击空白隐藏内容.html" />
-        <option value="$PROJECT_DIR$/JavaScript/js入门05/02.冒泡的问题.html" />
-        <option value="$PROJECT_DIR$/JavaScript/js入门05/03.选定文字弹出层.html" />
-        <option value="$PROJECT_DIR$/JavaScript/js入门05/04.动画的基本原理.html" />
-        <option value="$PROJECT_DIR$/JavaScript/js入门05/05.基本动画函数.html" />
         <option value="$PROJECT_DIR$/JavaScript/js入门05/06.匀速动画函数封装.html" />
         <option value="$PROJECT_DIR$/JavaScript/js入门05/07.轮播图.html" />
         <option value="$PROJECT_DIR$/HTML/CSS3新特性/04.手风琴效果.html" />
@@ -332,20 +225,57 @@
         <option value="$PROJECT_DIR$/jQuery/微博发布功能案例/css/init.css" />
         <option value="$PROJECT_DIR$/jQuery/微博发布功能案例/js/index.js" />
         <option value="$PROJECT_DIR$/jQuery/微博发布功能案例/index.html" />
+        <option value="$PROJECT_DIR$/HTML5/01.伪元素的妙用.html" />
+        <option value="$PROJECT_DIR$/HTML5/02.data-*的用法.html" />
+        <option value="$PROJECT_DIR$/HTML5/03.classList.html" />
+        <option value="$PROJECT_DIR$/HTML5/04.History API.html" />
+        <option value="$PROJECT_DIR$/HTML5/05.flex布局.html" />
+        <option value="$PROJECT_DIR$/瀑布流布局/js.html" />
+        <option value="$PROJECT_DIR$/瀑布流布局/css/init.css" />
+        <option value="$PROJECT_DIR$/瀑布流布局/css/style.css" />
+        <option value="$PROJECT_DIR$/瀑布流布局/1.JavaScript方式.html" />
+        <option value="$PROJECT_DIR$/瀑布流布局/js/script.js" />
+        <option value="$PROJECT_DIR$/Ajax/01.Ajax示例.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Ajax/02.XML解析.html" />
+        <option value="$PROJECT_DIR$/Ajax/data.js" />
+        <option value="$PROJECT_DIR$/Ajax/02.JSON解析.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="441" />
+    <option name="x" value="651" />
     <option name="y" value="22" />
-    <option name="width" value="838" />
+    <option name="width" value="897" />
     <option name="height" value="730" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -365,7 +295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -389,7 +318,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery" />
+              <option name="myItemId" value="JavaScript" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -403,86 +332,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="微博发布功能案例" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Web-Program" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Web-Program" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="微博发布功能案例" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Web-Program" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Web-Program" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="微博发布功能案例" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Web-Program" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Web-Program" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="微博发布功能案例" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="Ajax" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -491,13 +351,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/瀑布流布局/js" />
+      <recent name="$PROJECT_DIR$/瀑布流布局/images" />
+      <recent name="$PROJECT_DIR$/HTML5" />
       <recent name="$PROJECT_DIR$/jQuery/微博发布功能案例/images" />
       <recent name="$PROJECT_DIR$/jQuery/微博发布功能案例/js" />
-      <recent name="$PROJECT_DIR$/jQuery/images" />
-      <recent name="$PROJECT_DIR$/jQuery/京东轮播图/images" />
-      <recent name="$PROJECT_DIR$/jQuery/手风琴效果/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HTML" />
       <recent name="$PROJECT_DIR$/jQuery/微博发布功能案例/css" />
       <recent name="C:\Users\zhunj\Documents\SourceTree\Web-Program\HTML\CSS3新特性\images" />
       <recent name="$PROJECT_DIR$/Vue.js入门/js" />
@@ -632,11 +493,20 @@
       <workItem from="1498698271781" duration="10794000" />
       <workItem from="1498715763385" duration="3308000" />
       <workItem from="1498719425134" duration="5462000" />
+      <workItem from="1498785822908" duration="1172000" />
+      <workItem from="1499045230979" duration="573000" />
+      <workItem from="1499050731283" duration="6817000" />
+      <workItem from="1499063930366" duration="619000" />
+      <workItem from="1499130345715" duration="117000" />
+      <workItem from="1499131735239" duration="2997000" />
+      <workItem from="1499217395506" duration="7005000" />
+      <workItem from="1499302773591" duration="8230000" />
+      <workItem from="1499389063237" duration="1540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120319000" />
+    <option name="totallyTimeSpent" value="149389000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -648,10 +518,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="441" y="22" width="838" height="730" extended-state="0" />
+    <frame x="651" y="22" width="897" height="730" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28258362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24429224" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -700,168 +570,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML/CSS3新特性/07.照片墙.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门05/07.轮播图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/01.jQuery基本使用.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/下拉列表.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/CSS3新特性/08.下拉菜单.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1199">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门02/09.下拉菜单换肤.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门02/14.下拉菜单.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/js/jquery-3.2.0.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="1" column="156" lean-forward="true" selection-start-line="0" selection-start-column="84" selection-end-line="1" selection-end-column="156" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/02.下拉菜单.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="53" column="13" lean-forward="false" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/04.animate函数.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门04/15.两侧广告跟随移动.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/清除浮动练习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/绝对定位练习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/网站图片导航效果/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="62" column="15" lean-forward="false" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/03.动画效果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="79" column="7" lean-forward="true" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/网站图片导航效果/images/bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/Tab栏切换效果/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="74" column="38" lean-forward="false" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/05.事件对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/锚点.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/闭包.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/js入门04/14.固定导航栏.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="59" column="29" lean-forward="false" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/仿京东侧边栏/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="61" column="47" lean-forward="false" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/右下角的弹出广告/images/123.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/lili.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jQuery/淘宝精品服饰广告/images/男包.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -952,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="47" column="22" lean-forward="false" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,6 +719,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/微博发布功能案例/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="33" column="64" lean-forward="false" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/微博发布功能案例/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="120" column="9" lean-forward="false" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5/02.data-*的用法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5/01.伪元素的妙用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jQuery/微博发布功能案例/images/bg1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1019,26 +754,155 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jQuery/微博发布功能案例/css/init.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
+        <state relative-caret-position="336">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/微博发布功能案例/js/index.js">
+    <entry file="file://$PROJECT_DIR$/HTML5/03.classList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="33" column="64" lean-forward="false" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
+        <state relative-caret-position="340">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-566">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="895" column="23" lean-forward="false" selection-start-line="895" selection-start-column="23" selection-end-line="895" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/js入门02/08.Tab栏切换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/瀑布流布局/images/kuang.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/瀑布流布局/images/kuang2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5/05.flex布局.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="31" column="10" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5/04.History API.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/瀑布流布局/js.html" />
+    <entry file="file://$PROJECT_DIR$/瀑布流布局/js/jquery-3.2.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/js入门05/04.动画的基本原理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/清除浮动练习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/瀑布流布局/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/js入门05/05.基本动画函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/瀑布流布局/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/瀑布流布局/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/js入门05/16.封装运动框架基本函数(透明度,z-index).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/瀑布流布局/1.JavaScript方式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/01.Ajax示例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding>
-            <element signature="e#0#44#0" expanded="false" />
+            <element signature="e#0#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/微博发布功能案例/index.html">
+    <entry file="file://$PROJECT_DIR$/Ajax/02.JSON解析.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="117" column="38" lean-forward="true" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
+        <state relative-caret-position="246">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
