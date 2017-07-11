@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用artTemplate解析数据</title>
+    <style type="text/css">
+        #div1{
+            position:relative;
+            left: 50%;
+            background: lightGreen;
+            width: 300px;
+            height: 500px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            margin-left: -150px;
+            padding-bottom: 20px;
+        }
+        #div1 select{
+            margin-left : 80px;
+            margin-top : 10px;
+            height: 30px;
+        }
+        #div1 input{
+            height: 30px;
+        }
+        #div1 div{
+            width: 300px;
+            background: lightBlue;
+            border-bottom: red solid 1px;
+        }
+        #div1 div ul li{
+            list-style-type: none;
+            padding-left: 10px;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="template-web.js"></script>
+    <script id="art-weather" type="text/html">
+        {{if weather}}
+        {{each weather}}
+        <span>日期:{{$value.date}}</span>
+        <ul>
+            <li>白天天气:{{$value.info.day[1]}}</li>
+            <li>白天温度:{{$value.info.day[2]}}</li>
+            <li>白天风向:{{$value.info.day[3]}}</li>
+            <li>白天风速:{{$value.info.day[4]}}</li>
+        </ul>
+        <ul>
+            <li>夜间天气:{{$value.info.night[1]}}</li>
+            <li>夜间温度:{{$value.info.night[2]}}</li>
+            <li>夜间风向:{{$value.info.night[3]}}</li>
+            <li>夜间风速:{{$value.info.night[4]}}</li>
+        </ul>
+        {{/each}}
+        {{/if}}
+    </script>
+
+    <script>
+        $(function () {
+            $('#btn').on('click', function () {
+                var cityCode = $('#city option:selected').val();
+                queryWeather(cityCode);
+            });
+
+            // http://cdn.weather.hao.360.cn/api_weather_info.php?app=hao360&_jsonp=weather&code=101010100
+            function queryWeather(cityCode) {
+                $.ajax({
+                    type : 'GET',
+                    url : 'http://cdn.weather.hao.360.cn/api_weather_info.php?app=hao360&code=' + cityCode,
+                    dataType : 'jsonp',
+                    jsonp : '_jsonp',
+                    jsonpCallback : 'weather',
+                    success : function (data) {
+                        var html = template('art-weather', data);
+                        $('#info').html(html);
+                    },
+                    error : function (XMLHttpRequest, textStatus, errorThrown) {
+                        alert(textStatus + errorThrown);
+                    }
+                })
+            }
+        })
+    </script>
+</head>
+<body>
+<div id="div1">
+    <select id="city">
+        <option value="101010100">北京</option>
+        <option value="101020100">上海</option>
+        <option value="101280101">广州</option>
+        <option value="101280601">深圳</option>
+    </select>
+    <input type="button" value="查看天气" id="btn">
+    <div id="info"></div>
+</div>
+</body>
+</html>
