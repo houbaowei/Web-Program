@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>:target实现Tab选项卡</title>
+    <style>
+        .tabs {
+            width: 650px;
+            height: 300px;
+            float: none;
+            list-style: none;
+            position: relative;
+            margin: 80px 0 0 10px;
+            text-align: left;
+        }
+        .tabs li {
+            float: left;
+            display: block;
+        }
+        .tabs input[type="radio"] {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+        .tabs label {
+            display: block;
+            padding: 14px 21px;
+            border-radius: 2px 2px 0 0;
+            font-size: 20px;
+            font-weight: normal;
+            text-transform: uppercase;
+            background: #8e44ad;
+            cursor: pointer;
+            position: relative;
+            top: 4px;
+            -webkit-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+        }
+        .tabs label:hover {
+            background: #703688;
+        }
+        .tabs .tab-content {
+            z-index: 2;
+            display: none;
+            overflow: hidden;
+            width: 100%;
+            font-size: 17px;
+            line-height: 25px;
+            padding: 25px;
+            position: absolute;
+            top: 53px;
+            left: 0;
+            background: #612e76;
+        }
+        .tabs [id^="tab"]:checked + label {
+            top: 0;
+            padding-top: 17px;
+            background: #612e76;
+        }
+        .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+            display: block;
+        }
+
+
+
+
+
+
+
+
+        .tablist {
+            position:relative;
+            margin:50px auto;
+            min-height:200px;
+        }
+        /* this example style begin */
+        .tab_content {
+            position: absolute;/*set content box as absolute*/
+            /* content style begin*/
+            width:600px;
+            height:170px;
+            padding:15px;
+            border:1px solid #91a7b4;
+            border-radius:3px;
+            box-shadow:0 2px 3px rgba(0,0,0,0.1);
+            font-size:1.2em;
+            line-height:1.5em;
+            color:#666;
+            background:#fff;
+        }
+
+        /*
+        :target伪类用来改变页面中锚链接URL所指向的ID样式，
+        例如你要改变描链接指向#tab的元素字体颜色为蓝色，
+        那么你可以这样写成 #tab:target {color:blue}
+        */
+        #tab01:target, #tab02:target, #tab03:target {
+            z-index: 1;
+        }
+
+
+        /* tabmenu style */
+        .tabmenu {
+            position:absolute;
+            top:100%;
+            margin:0;
+        }
+        .tabmenu li{
+            display:inline-block;
+        }
+        .tabmenu li a {
+            display:block;
+            padding:5px 10px;
+            margin:0 10px 0 0;
+            border:1px solid #91a7b4;
+            border-radius:0 0 5px 5px;
+            background:#e3f1f8;
+            color:#333;
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body>
+<ul class="tabs">
+    <li>
+        <input type="radio" name="tabs" id="tab1" checked />
+        <label for="tab1">选项卡 1</label>
+        <div id="tab-content1" class="tab-content">
+            <p>选项卡内容 1</p>
+        </div>
+    </li>
+
+    <li>
+        <input type="radio" name="tabs" id="tab2" />
+        <label for="tab2">选项卡 2</label>
+        <div id="tab-content2" class="tab-content">
+            <p>选项卡内容 2</p>
+        </div>
+    </li>
+</ul>
+
+
+<div class="tablist">
+    <ul class="tabmenu">
+        <li><a href="#tab01">标签一</a></li>
+        <li><a href="#tab02">标签二</a></li>
+        <li><a href="#tab03">标签三</a></li>
+    </ul>
+    <div id="tab01" class="tab_content">
+        欢迎加设计达人Q群：50063010<br />设计达人以原创和分享一些高质量的设计文章为主，希望喜欢！
+        <!-- end tab1 content --></div>
+    <div id="tab02" class="tab_content">
+        <p>本Tab切换效果纯CSS3制作，无任何JavaScript</p>最新Q群：50063010<br />爱设计，爱分享——设计达人（http://www.shejidaren.com）
+        <!-- end tab2 content--></div>
+    <div id="tab03" class="tab_content">
+        <p style="font-size:24px;">高质量设计文章分享平台</p>
+        <p>欢迎加设计达人Q群：50063010<br />设计达人以原创和分享一些高质量的设计文章为主，希望喜欢</p>
+        <!-- end tab3 content--></div>
+</div>
+
+
+
+</body>
+</html>
