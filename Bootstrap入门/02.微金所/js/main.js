@@ -16,7 +16,7 @@ $(function () {
 
 
 
-            // 小图尺寸适应手机屏幕,需要等比例缩放
+            // -------- 小图尺寸适应手机屏幕,需要等比例缩放 ----------
             if (bigScreen) {
                 $(item).html('');
                 $(item).css('backgroundImage', 'url("'+imgSrc+'")');
@@ -25,10 +25,30 @@ $(function () {
                 $(item).removeAttr('style');
             }
 
+
+            // ------- 产品 tab栏 设置滚动条 ----------
+            var $tabs = $('.nav-tabs');
+            var width = 20; // 20是因为tab栏默认有20的padding
+            $tabs.find('li').each(function (index, element) {
+                width += $(element).width();
+            });
+
+            // 超过屏幕宽度以后ul设置实际宽度,盛放ul的div设置横向滚动
+            if (width > $(window).width()) {
+                $tabs.css('width', width).parent().css('overflow-x', 'scroll');
+            }
+            // 默认撑满会自动换行
         });
 
     }
 
     // 屏幕缩放动态改变图片尺寸
     $(window).on('resize', resizeImg).trigger('resize');
+
+
+    // ----- 激活 static tooltip 提示框效果 -------
+    $('[data-toggle="tooltip"]').tooltip();
+
+
+
 });

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>移动设备上判断左滑还是右滑</title>
+    <style>
+        #demo {
+            width: 500px;
+            height: 300px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+<div id="demo"></div>
+
+<script>
+    var demo = document.getElementById('demo');
+    var startX = 0, endX = 0;
+    demo.addEventListener('touchstart', function (event) {
+        startX = event.targetTouches[0].clientX;
+        // 这里赋值是为了避免只产生touchstart事件不产生touchmove事件导致endX为0,startX肯定会大于endX造成的bug
+        endX = event.targetTouches[0].clientX;
+    });
+    demo.addEventListener('touchmove', function (event) {
+        endX = event.targetTouches[0].clientX;
+    });
+    //设置 阈值 避免只要点击就会出现判断的情况
+    var threshold = 30;
+    demo.addEventListener('touchend', function () {
+        console.log(startX + '---' + endX);
+
+        // 有方向变化,再进行判断
+        if (Math.abs(startX - endX) > threshold) {
+            console.log(startX > endX ? '←' : '→');
+        }
+        // 设置为0是避免只产生touchstart事件不产生touchmove事件时会和上一次的值进行比较的bug
+        startX = 0;
+        endX = 0;
+    });
+</script>
+</body>
+</html>
