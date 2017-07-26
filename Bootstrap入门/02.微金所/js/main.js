@@ -27,7 +27,7 @@ $(function () {
 
 
             // ------- 产品 tab栏 设置滚动条 ----------
-            var $tabs = $('.nav-tabs');
+            var $tabs = $('#products .nav-tabs');
             var width = 20; // 20是因为tab栏默认有20的padding
             $tabs.find('li').each(function (index, element) {
                 width += $(element).width();
@@ -50,5 +50,31 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip();
 
 
+    // 新闻模块点击切换标题
+    $('.news-nav a').on('click', function () {
+       $('.news-title').text($(this).data('title'));
+    });
 
+
+    // 轮播左滑/右滑
+    var $carousel = $('#carousel-weijinsuo'),
+        startX = 0, endX = 0,
+        offset = 50;
+
+    $carousel.on('touchstart', function (event) {
+        endX = startX = event.originalEvent.targetTouches[0].clientX;
+    });
+    $carousel.on('touchmove', function (event) {
+        endX = event.originalEvent.targetTouches[0].clientX;
+    });
+    $carousel.on('touchend', function (event) {
+        console.log(startX + '---' + endX);
+
+        var distance = Math.abs(startX - endX);
+        if (distance > offset) {
+            $(this).carousel(startX > endX ? 'next' : 'prev');
+        }
+        startX = 0;
+        endX = 0;
+    });
 });

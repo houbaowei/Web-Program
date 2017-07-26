@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-md-3 text-center">
                     <a href="#" id="registerBtn" class="btn btn-weijinsuo btn-sm">免费注册</a>
-                    <a href="#" class="btn btn-link btn-sm">登录</a>
+                    <a href="#" class="btn btn-link btn-sm" data-toggle="modal" data-target="#loginModal">登录</a>
                 </div>
             </div>
         </div>
@@ -1443,20 +1443,21 @@
                     全部新闻
                 </div>
             </div>
-            <div class="col-md-1">
+            <div class="col-md-1 news-icon">
                 <!-- Nav tabs -->
-                <ul class="nav nav-tabs" role="tablist">
+                <ul class="nav nav-tabs nav-pills nav-stacked news-nav" role="tablist">
                     <li role="presentation" class="active"><a href="#news_1" aria-controls="news_1" role="tab" data-toggle="tab" data-title="全部新聞"><em class="icon-news01"></em></a></li>
                     <li role="presentation"><a href="#news_2" aria-controls="news_2" role="tab" data-toggle="tab" data-title="媒體報道"><em class="icon-news02"></em></a></li>
                     <li role="presentation"><a href="#news_3" aria-controls="news_3" role="tab" data-toggle="tab" data-title="微金所頭條"><em class="icon-news03"></em></a></li>
                     <li role="presentation"><a href="#news_4" aria-controls="news_4" role="tab" data-toggle="tab" data-title="行業資訊"><em class="icon-news04"></em></a></li>
                 </ul>
+                <em class="line hidden-sm hidden-xs"></em>
             </div>
 
             <div class="col-md-7">
                 <!-- Tab panes -->
                 <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active" id="news_1">
+                    <div role="tabpanel" class="tab-pane active fade in" id="news_1">
                         <ul>
                             <li>【微还款】2015年12月10日共23个项目按时完成全部还款</li>
                             <li>【微还款】2015年12月10日共23个项目按时完成全部还款</li>
@@ -1468,7 +1469,7 @@
                             <li>【微还款】2015年12月10日共23个项目按时完成全部还款</li>
                         </ul>
                     </div>
-                    <div role="tabpanel" class="tab-pane" id="news_2">
+                    <div role="tabpanel" class="tab-pane fade in" id="news_2">
                         <ul>
                             <li>【微还款】2016年12月10日共23个项目按时完成全部还款</li>
                             <li>【微还款】2016年12月10日共23个项目按时完成全部还款</li>
@@ -1477,7 +1478,7 @@
                             <li>【微还款】2016年12月10日共23个项目按时完成全部还款</li>
                         </ul>
                     </div>
-                    <div role="tabpanel" class="tab-pane" id="news_3">
+                    <div role="tabpanel" class="tab-pane fade in" id="news_3">
                         <ul>
                             <li>【微还款】2017年12月10日共23个项目按时完成全部还款</li>
                             <li>【微还款】2017年12月10日共23个项目按时完成全部还款</li>
@@ -1488,7 +1489,7 @@
                             <li>【微还款】2017年12月10日共23个项目按时完成全部还款</li>
                         </ul>
                     </div>
-                    <div role="tabpanel" class="tab-pane" id="news_4">
+                    <div role="tabpanel" class="tab-pane fade in" id="news_4">
                         <ul>
                             <li>【微还款】2018年12月10日共23个项目按时完成全部还款</li>
                             <li>【微还款】2018年12月10日共23个项目按时完成全部还款</li>
@@ -1508,12 +1509,80 @@
 <!-- /新闻列表 -->
 
 <!-- 合作伙伴 -->
-<section></section>
+<section id="partner" class="hidden-xs">
+    <div class="container">
+        <div class="row">
+            <h3 class="text-center">合作伙伴</h3>
+            <ul class="partner-list text-center">
+                <li>
+                    <a class="icon-uniE930" href="http://www.chinapay.com/" target="_blank"></a>
+                </li>
+                <li>
+                    <a class="icon-uniE92F" href="http://www.chinapay.com/" target="_blank"></a>
+                </li>
+                <li>
+                    <a class="icon-uniE92E" href="http://www.chinapay.com/" target="_blank"></a>
+                </li>
+                <li>
+                    <a class="icon-uniE92A" href="http://www.chinapay.com/" target="_blank"></a>
+                </li>
+                <li>
+                    <a class="icon-uniE929" href="http://www.chinapay.com/" target="_blank"></a>
+                </li>
+                <li>
+                    <a class="icon-uniE931" href="http://www.chinapay.com/" target="_blank"></a>
+                </li>
+                <li>
+                    <a class="icon-uniE92C" href="http://www.chinapay.com/" target="_blank"></a>
+                </li>
+                <li>
+                    <a class="icon-uniE92B" href="http://www.chinapay.com/" target="_blank"></a>
+                </li>
+                <li>
+                    <a class="icon-uniE92D" href="http://www.chinapay.com/" target="_blank"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
 <!-- /合作伙伴 -->
 
 <!-- 底部区域 -->
 <footer id="footer"></footer>
 <!-- /底部区域 -->
+
+<!-- 登录对话框 -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">用户登录</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">用户名:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="请输入用户名或邮箱">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">密码:</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="请输入密码">
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> 记住用户名和密码
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">登录</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- /登录对话框 -->
 
 <script src="lib/jQuery/jquery-3.2.1.min.js"></script>
 <script src="lib/Bootstrap/js/bootstrap.min.js"></script>
