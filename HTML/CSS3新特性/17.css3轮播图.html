@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3轮播图</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul,ol {
+            list-style: none;
+        }
+        .clearFix::before,
+        .clearFix::after {
+            content: '';
+            display: block;
+            height: 0;
+            visibility: hidden;
+            clear: both;
+        }
+        .clearFix {
+            *zoom: 1;
+        }
+
+        .slider-container {
+            width: 670px;
+            height: 300px;
+            margin: 50px auto;
+            position: relative;
+            overflow: hidden;
+        }
+        .slider {
+            width: 1000%;
+        }
+        .slider-item {
+            width: 670px;
+            height: 300px;
+            float: left;
+            background-repeat: no-repeat;
+        }
+        .slider-item1 {
+            background-image: url(images/asd1.jpg);
+        }
+        .slider-item2 {
+            background-image: url(images/asd2.jpg);
+        }
+        .slider-item3 {
+            background-image: url(images/asd3.jpg);
+        }
+        .slider-item4 {
+            background-image: url(images/asd4.jpg);
+        }
+        .slider-item5 {
+            background-image: url(images/asd5.jpg);
+        }
+        .slider-item6 {
+            background-image: url(images/asd6.jpg);
+        }
+        @keyframes slider-animation {
+            0%,15% {
+                margin-left: 0;
+            }
+            20%,35% {
+                margin-left: -670px;
+            }
+            40%,55% {
+
+            }
+            60%,75% {
+
+            }
+
+        }
+    </style>
+</head>
+<body>
+<section class="slider-container">
+    <ul class="slider">
+        <li class="slider-item slider-item1"></li>
+        <li class="slider-item slider-item2"></li>
+        <li class="slider-item slider-item3"></li>
+        <li class="slider-item slider-item4"></li>
+        <li class="slider-item slider-item5"></li>
+        <li class="slider-item slider-item6"></li>
+    </ul>
+    <ul class="focus-container">
+        <li>
+            <div class="focus-item focus-item1"></div>
+        </li>
+        <li>
+            <div class="focus-item focus-item2"></div>
+        </li>
+        <li>
+            <div class="focus-item focus-item3"></div>
+        </li>
+        <li>
+            <div class="focus-item focus-item4"></div>
+        </li>
+        <li>
+            <div class="focus-item focus-item5"></div>
+        </li>
+        <li>
+            <div class="focus-item focus-item6"></div>
+        </li>
+    </ul>
+</section>
+</body>
+</html>
