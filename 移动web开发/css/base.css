@@ -80,6 +80,14 @@ img {
     left: 0;
     top: 0;
 }
+.jd-topBar h3 {
+    width: 100%;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: inherit;
+}
 .jd-topBar form {
     width: 100%;
     height: 44px;

@@ -20,7 +20,7 @@ body {
     min-width: 300px;
     max-width: 640px;
     height: 40px;
-    background-color: rgba(201, 21, 35, 0.85);
+    background-color: rgba(201, 21, 35, 0.0);
 }
 .jd-header-box .icon-logo {
     /*display: block;*/
@@ -68,7 +68,6 @@ body {
 /*轮播图开始*/
 .jd-banner {
     width: 100%;
-    padding-top: 40px;
 }
 .swiper-slide img {
     width: 100%;
