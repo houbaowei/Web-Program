@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$scope-作用域</title>
+    <script src="js/angular.min.js"></script>
+</head>
+<body>
+<div ng-app="myApp">
+    <div ng-controller="myCtrl">
+        <h1>姓氏为 {{firstName}} 家族成员:</h1>
+        <ul>
+            <li ng-repeat="x in names">{{firstName}}  {{x}}</li>
+        </ul>
+    </div>
+    <div ng-controller="myCtrl_1">
+        <div>scope中的值为 {{firstName_1}}</div>
+        <div>rootScope中的值是 {{$root.firstName}}</div>
+    </div>
+</div>
+
+<!--
+$rootScope设置的变量在所有controller里面都是可以直接用{{$root.变量名}}来显示的，当然也可以赋值给$scope.
+-->
+
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function ($scope, $rootScope) {
+        $scope.names = ['ZhangSan', 'LiSi', 'WangWu', 'ZhaoLiu'];
+        $rootScope.firstName = "NiGuLaSi";
+    });
+
+    app.controller('myCtrl_1', function ($scope, $rootScope) {
+        $scope.firstName_1 = $rootScope.firstName;
+    })
+</script>
+</body>
+</html>
