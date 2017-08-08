@@ -21,6 +21,7 @@ body {
     max-width: 640px;
     height: 40px;
     background-color: rgba(201, 21, 35, 0.0);
+    position: relative;
 }
 .jd-header-box .icon-logo {
     /*display: block;*/

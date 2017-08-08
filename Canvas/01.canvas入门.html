@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>canvas入门</title>
+</head>
+<body>
+<canvas id="cavsElem">
+    您的浏览器不支持canvas,请升级浏览器
+</canvas>
+</body>
+</html>
+
+<script>
+
+    // 1. 拿到canvas标签
+    var canvas = document.getElementById('cavsElem');
+
+    // 2. 获取上下文
+    var ctx = canvas.getContext('2d');
+
+    // 3. 绘制图形
+    ctx.moveTo(100, 100); // 设置起点
+    ctx.lineTo(200, 100);
+    ctx.lineTo(100, 200);
+
+    ctx.stroke();
+</script>

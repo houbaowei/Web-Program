@@ -2,11 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73e5d306-ffdb-40e5-987f-cf1f8b47f079" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Angular/01.HelloWorld.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Angular/02.scope(作用域).html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Angular/js/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Canvas/01.canvas入门.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web开发/京东商城/js/zepto.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/移动web开发/js/jquery-3.2.1.min.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/cart.html" afterPath="$PROJECT_DIR$/移动web开发/京东商城/cart.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/category.html" afterPath="$PROJECT_DIR$/移动web开发/京东商城/category.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/css/base.css" afterPath="$PROJECT_DIR$/移动web开发/京东商城/css/base.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/css/cart.css" afterPath="$PROJECT_DIR$/移动web开发/京东商城/css/cart.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/css/category.css" afterPath="$PROJECT_DIR$/移动web开发/京东商城/css/category.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/css/index.css" afterPath="$PROJECT_DIR$/移动web开发/京东商城/css/index.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/css/swiper.min.css" afterPath="$PROJECT_DIR$/移动web开发/京东商城/css/swiper.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/banner_1.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/banner_1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/banner_1.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/banner_1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/banner_2.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/banner_2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/buy-logo.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/buy-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/buy-pro1.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/buy-pro1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/cp1.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/cp1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/cp2.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/cp2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/cp3.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/cp3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/cp4.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/cp4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/cp5.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/cp5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/cp6.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/cp6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/delete_down.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/delete_down.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/delete_up.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/delete_up.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/detail01.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/detail01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/detail02.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/detail02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/focus-icon.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/focus-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/header-bg.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/header-bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/icon-updown-arrow.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/icon-updown-arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/l1.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/l1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/l2.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/l2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/l3.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/l3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/l4.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/l4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/l5.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/l5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/l6.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/l6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/l7.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/l7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/l8.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/l8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/nav0.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/nav0.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/nav1.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/nav1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/nav2.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/nav2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/nav3.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/nav3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/nav4.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/nav4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/nav5.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/nav5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/nav6.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/nav6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/nav7.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/nav7.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/none.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/none.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/nv-fy.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/nv-fy.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/safe_icon.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/safe_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/scroll-to-top-icon.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/scroll-to-top-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/seckill-icon.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/seckill-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/seckill_1.jpg" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/seckill_1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/shop-icon.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/shop-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/sprites.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/sprites.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/images/sprits_btm_new.png" afterPath="$PROJECT_DIR$/移动web开发/京东商城/images/sprits_btm_new.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/index.html" afterPath="$PROJECT_DIR$/移动web开发/京东商城/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/js/main.js" afterPath="$PROJECT_DIR$/移动web开发/京东商城/js/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web开发/js/swiper.min.js" afterPath="$PROJECT_DIR$/移动web开发/京东商城/js/swiper.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/移动web开发/js/main.js" afterPath="$PROJECT_DIR$/移动web开发/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,99 +75,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/移动web开发/index.html">
+      <file leaf-file-name="01.canvas入门.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Canvas/01.canvas入门.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="150" column="25" lean-forward="false" selection-start-line="150" selection-start-column="25" selection-end-line="150" selection-end-column="25" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cart.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/移动web开发/cart.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1218">
-              <caret line="311" column="54" lean-forward="false" selection-start-line="311" selection-start-column="40" selection-end-line="311" selection-end-column="54" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#1641#1646#0" expanded="true" />
-                <element signature="e#2897#2902#0" expanded="true" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#4671#4676#0" expanded="true" />
-                <element signature="n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#5977#5982#0" expanded="true" />
-                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#7787#7792#0" expanded="true" />
-                <element signature="e#9111#9116#0" expanded="true" />
-                <element signature="n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#10885#10890#0" expanded="true" />
-                <element signature="e#12191#12196#0" expanded="true" />
-                <element signature="e#13216#13221#0" expanded="true" />
-                <element signature="e#13284#13289#0" expanded="true" />
-                <element signature="e#13296#13302#0" expanded="true" />
-                <element signature="e#13302#13308#0" expanded="true" />
-                <element signature="e#13308#13314#0" expanded="true" />
-                <element signature="e#13314#13320#0" expanded="true" />
-                <element signature="e#13324#13329#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cart.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/移动web开发/css/cart.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2730">
-              <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete_up.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/移动web开发/images/delete_up.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/移动web开发/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01.HelloWorld.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/01.HelloWorld.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02.scope(作用域).html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Angular/02.scope(作用域).html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+            <state relative-caret-position="330">
+              <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -126,8 +90,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -170,15 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jQuery/11.append()和appendTo()注意点.html" />
-        <option value="$PROJECT_DIR$/jQuery/10.城市多选案例.html" />
-        <option value="$PROJECT_DIR$/jQuery/12.省市选择器.html" />
-        <option value="$PROJECT_DIR$/jQuery/微博发布功能案例/init.css" />
-        <option value="$PROJECT_DIR$/jQuery/微博发布功能案例/css/init.css" />
-        <option value="$PROJECT_DIR$/jQuery/微博发布功能案例/js/index.js" />
-        <option value="$PROJECT_DIR$/jQuery/微博发布功能案例/index.html" />
-        <option value="$PROJECT_DIR$/HTML5/01.伪元素的妙用.html" />
-        <option value="$PROJECT_DIR$/HTML5/02.data-*的用法.html" />
         <option value="$PROJECT_DIR$/HTML5/03.classList.html" />
         <option value="$PROJECT_DIR$/HTML5/04.History API.html" />
         <option value="$PROJECT_DIR$/HTML5/05.flex布局.html" />
@@ -221,6 +176,15 @@
         <option value="$PROJECT_DIR$/移动web开发/js/main.js" />
         <option value="$PROJECT_DIR$/Angular/01.HelloWorld.html" />
         <option value="$PROJECT_DIR$/Angular/02.scope(作用域).html" />
+        <option value="$PROJECT_DIR$/移动web开发/京东商城/js/zepto.min.js" />
+        <option value="$PROJECT_DIR$/移动web开发/京东商城/category.html" />
+        <option value="$PROJECT_DIR$/移动web开发/京东商城/index.html" />
+        <option value="$PROJECT_DIR$/移动web开发/京东商城/css/index.css" />
+        <option value="$PROJECT_DIR$/移动web开发/京东商城(轮播图)/category.html" />
+        <option value="$PROJECT_DIR$/移动web开发/京东商城(轮播图)/css/index.css" />
+        <option value="$PROJECT_DIR$/移动web开发/京东商城(轮播图)/js/main.js" />
+        <option value="$PROJECT_DIR$/移动web开发/京东商城(轮播图)/index.html" />
+        <option value="$PROJECT_DIR$/Canvas/01.canvas入门.html" />
       </list>
     </option>
   </component>
@@ -238,9 +202,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="309" />
+    <option name="x" value="403" />
     <option name="y" value="22" />
-    <option name="width" value="874" />
+    <option name="width" value="907" />
     <option name="height" value="730" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -287,29 +251,13 @@
             <path>
               <item name="Web-Program" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Program" type="462c0819:PsiDirectoryNode" />
-              <item name="Angular" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Program" type="462c0819:PsiDirectoryNode" />
-              <item name="移动web开发" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Program" type="462c0819:PsiDirectoryNode" />
-              <item name="移动web开发" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Program" type="462c0819:PsiDirectoryNode" />
-              <item name="移动web开发" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="Canvas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -326,7 +274,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,19 +287,19 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/ZHUNJIEE/Documents/SourceTree/Web-Program/移动web开发/index.html" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/移动web开发/京东商城" />
+      <recent name="$PROJECT_DIR$/Angular/js" />
+      <recent name="$PROJECT_DIR$/Angular" />
+      <recent name="$PROJECT_DIR$/Bootstrap入门/01.Hello World" />
+      <recent name="$PROJECT_DIR$/Bootstrap入门/lib/jQuery" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/移动web开发/js" />
       <recent name="$PROJECT_DIR$/移动web开发/css" />
       <recent name="$PROJECT_DIR$/移动web开发/images" />
       <recent name="$PROJECT_DIR$/Bootstrap入门/02.微金所/images" />
       <recent name="$PROJECT_DIR$/Bootstrap入门/02.微金所/font" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Angular/js" />
-      <recent name="$PROJECT_DIR$/Angular" />
-      <recent name="$PROJECT_DIR$/Bootstrap入门/01.Hello World" />
-      <recent name="$PROJECT_DIR$/Bootstrap入门/lib/jQuery" />
-      <recent name="$PROJECT_DIR$/Bootstrap入门/lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -537,11 +484,12 @@
       <workItem from="1501638975152" duration="13976000" />
       <workItem from="1502068196000" duration="8871000" />
       <workItem from="1502092252538" duration="2443000" />
+      <workItem from="1502155205862" duration="13637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313897000" />
+    <option name="totallyTimeSpent" value="327534000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -553,12 +501,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="309" y="22" width="874" height="730" extended-state="0" />
+    <frame x="403" y="22" width="907" height="730" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23681125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.261851" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24971098" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -605,69 +553,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ajax/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax/01.原生Ajax示例.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax/02.jQuery Ajax实例.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="82" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax/template-web.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="2" column="5025" lean-forward="false" selection-start-line="2" selection-start-column="5017" selection-end-line="2" selection-end-column="5025" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax/05.百度搜索提示.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="78" column="42" lean-forward="false" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax/04.使用artTemplate解析数据.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="76" column="61" lean-forward="true" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ajax/03.JSON解析.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bootstrap入门/01.Hello World/lib/Bootstrap/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bootstrap入门/01.Hello World/lib/html5shiv/html5shiv.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-167">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bootstrap入门/01.Hello World/lib/respond/respond.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-400">
@@ -817,7 +702,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/移动web开发/images/cp4.jpg">
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城/images/cp4.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -844,47 +729,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/移动web开发/css/base.css">
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1786">
           <caret line="88" column="25" lean-forward="false" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/移动web开发/images/safe_icon.png">
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城/images/safe_icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/移动web开发/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/移动web开发/css/category.css">
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城/css/category.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
           <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/移动web开发/category.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/移动web开发/images/delete_down.png">
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城/images/delete_down.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/移动web开发/cart.html">
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城/images/delete_up.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城/css/cart.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1218">
+        <state relative-caret-position="2730">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/js/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-222">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/02.scope(作用域).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/01.HelloWorld.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="215" column="28" lean-forward="false" selection-start-line="215" selection-start-column="28" selection-end-line="215" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
           <caret line="311" column="54" lean-forward="false" selection-start-line="311" selection-start-column="40" selection-end-line="311" selection-end-column="54" />
           <folding>
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -918,23 +844,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/移动web开发/images/delete_up.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/移动web开发/css/cart.css">
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2730">
-          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        <state relative-caret-position="262">
+          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/移动web开发/index.html">
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="150" column="25" lean-forward="false" selection-start-line="150" selection-start-column="25" selection-end-line="150" selection-end-column="25" />
+        <state relative-caret-position="401">
+          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="36" />
           <folding>
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -942,36 +863,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/移动web开发/js/main.js">
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城(轮播图)/category.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        <state relative-caret-position="438">
+          <caret line="215" column="39" lean-forward="false" selection-start-line="215" selection-start-column="39" selection-end-line="215" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/js/angular.min.js">
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城(轮播图)/cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-222">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/01.HelloWorld.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="186">
+          <caret line="328" column="21" lean-forward="false" selection-start-line="328" selection-start-column="21" selection-end-line="328" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/02.scope(作用域).html">
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城(轮播图)/css/swiper.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        <state relative-caret-position="-4770">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城/js/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="1" column="26318" lean-forward="false" selection-start-line="1" selection-start-column="26318" selection-end-line="1" selection-end-column="26318" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城/js/swiper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城(轮播图)/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="34" column="54" lean-forward="true" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城(轮播图)/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="74" column="7" lean-forward="false" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动web开发/京东商城(轮播图)/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="26" column="89" lean-forward="false" selection-start-line="26" selection-start-column="89" selection-end-line="26" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Canvas/01.canvas入门.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
           <folding />
         </state>
       </provider>
