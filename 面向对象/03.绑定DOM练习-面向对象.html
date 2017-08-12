@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绑定DOM练习-面向对象</title>
+</head>
+<body>
+<div class="container">
+    <ul id="products">
+
+    </ul>
+</div>
+
+<script>
+    var Product = function (name, price, image) {
+        // 名称
+        this.name = name;
+        // 价格
+        this.price = price;
+        // 图片名称
+        this.image = image;
+    };
+
+    Product.prototype = {
+        bindDOM : function () {
+            var str = '';
+            str += '<li>';
+                str += '<a href="#">';
+                    str += '<img src="images/' + this.image + '" alt="">';
+                    str += '<p>' + this.name + '</p>';
+                    str += '<p>&yen;' + this.price + '</p>';
+                str += '</a>';
+            str += '</li>';
+            return str;
+        },
+        bindEvents : function () {
+
+        }
+    };
+
+
+    window.onload = function () {
+        var p1 = new Product('兰蔻', '180', '1_04739613064003932_420.jpg');
+        var p2 = new Product('雅诗兰黛', '200', '1_04739619755503356_420.jpg');
+        var p3 = new Product('大宝', '9.9', '1_04739631158957511_420.jpg');
+        var products = [p1, p2, p3];
+
+        var ul = document.getElementById('products');
+        var html = '';
+        for (var i = 0; i < products.length; i++) {
+            html += products[i].bindDOM();
+        }
+        ul.innerHTML = html;
+    };
+</script>
+</body>
+</html>

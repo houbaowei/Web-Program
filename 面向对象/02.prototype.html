@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>prototype</title>
+</head>
+<body>
+<script>
+    function Employee(name, job, born) {
+        this.name = name;
+        this.job = job;
+        this.born = born;
+    }
+    // prototype 可以向对象添加属性或者方法
+    Employee.prototype = {
+        work : function () {
+            console.log('老子在拼命的工作!');
+        },
+        play : function () {
+            console.log('玩玩玩!!!');
+        }
+    };
+    Employee.prototype.salary = null;
+
+    var bill = new Employee('尼古拉斯 赵四', '搬砖工', '1998');
+    bill.salary = 2000;
+    bill.work();
+    console.log(bill.salary);
+</script>
+</body>
+</html>

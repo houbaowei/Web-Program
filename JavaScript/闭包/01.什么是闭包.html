@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>什么是闭包?</title>
+</head>
+<body>
+<!--
+在程序语言中，所谓闭包，是指语法域位于某个特定的区域，具有持续参照(读写)位于该区域内自身范围之外的执行域上的非持久型变量值能力的段落。这些外部执行域的非持久型变量神奇地保留他们在闭包最初定义(或创建)时的值。
+
+人话:
+我们可以用一个函数 去访问 另一个函数 内部变量 的方式就成为闭包.
+
+-->
+<script>
+    function outerFun() {
+        var num = 10;
+
+        function innerFun() {
+            console.log(num);
+        }
+
+        return innerFun;    // 特别注意:千万不能加括号
+    }
+
+    var out = outerFun();   // 此句返回的是一个函数体,而不是一个结果
+    out();  // 结果 10
+
+
+    function outer() {
+        var a = 0;
+
+        function inner() {
+            a++;
+            alert(a);
+        }
+
+        return inner;
+    }
+
+    var obj = outer();
+    obj();  // 1
+    obj();  // 2
+
+    var obj2 = outer();
+    obj2(); // 1
+    obj2(); // 2
+</script>
+
+</body>
+</html>

@@ -28,7 +28,7 @@
             position: absolute;
             top: 0;
             left: 0;
-            cursor: pointer;
+            cursor: move;
             display: none;
         }
         .big {
@@ -58,11 +58,11 @@
             small.onmouseover = function () {
                 mask.style.display = 'block';
                 big.style.display = 'block';
-            }
+            };
             small.onmouseout = function () {
                 mask.style.display = 'none';
                 big.style.display = 'none';
-            }
+            };
 
             // 鼠标在small内移动
             var x = 0;

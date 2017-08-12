@@ -35,7 +35,10 @@
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="template-web.js"></script>
+
+    <!--2. 定义和第一步一样的id名称的script-->
     <script id="art-weather" type="text/html">
+
         {{if weather}}
         {{each weather}}
         <span>日期:{{$value.date}}</span>
@@ -71,6 +74,7 @@
                     jsonp : '_jsonp',
                     jsonpCallback : 'weather',
                     success : function (data) {
+                        // 1. 用art-template
                         var html = template('art-weather', data);
                         $('#info').html(html);
                     },

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>闭包传递参数</title>
+    <style>
+        .demo {
+            position: relative;
+        }
+
+        .square {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+<div class="demo">
+    <button id="btn1">向左</button>
+    <button id="btn2">向右</button>
+    <div class="square"></div>
+</div>
+
+<script>
+    var btn1 = document.getElementById('btn1');
+    var btn2 = document.getElementById('btn2');
+    var square = document.getElementsByClassName('square')[0];
+/*
+    var speed = 5;  // 全局变量,不好不好
+    btn1.onclick = function () {
+        console.log('btn1 click');
+        square.style.left = square.offsetLeft - speed + 'px';
+    };
+    btn2.onclick = function () {
+        console.log('btn2 click');
+        square.style.left = square.offsetLeft + speed + 'px';
+    };
+*/
+
+    function move(speed) {
+        return function () {
+            square.style.left = square.offsetLeft + speed + 'px';
+        }
+    }
+    btn1.onclick = move(-5);
+    btn2.onclick = move(5);
+</script>
+</body>
+</html>
+

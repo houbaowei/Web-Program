@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>变量提升与函数提升</title>
+</head>
+<body>
+<script>
+    var x = 10;
+    function fn() {
+        console.log(x);
+        var x = 1;
+    }
+    fn(); // 结果 undefine    变量声明提升
+
+
+    var y = 10;
+    function fn1() {
+        console.log(y);
+        y = 1;
+    }
+    fn1(); // 结果 10
+    // 没有通过var声明的变量为全局变量, 全局变量声明提升以后发现:哎,外面那不就是我的全局变量吗? 所以就把10拿过来咯
+
+
+    ﻿function show(){
+        var a=b=c=d=5;
+        console.log(a); // 5
+    }
+    show();
+    console.log(a);     // 报错（not defined）
+    console.log(b);    // 而b、c、d都能弹出5
+    // var a=(b=(c=(d=5))); 而b,c,d自动解析为全局变量, a就只在函数体有声明,外面拿不到的
+</script>
+</body>
+</html>
