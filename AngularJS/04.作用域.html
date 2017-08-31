@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作用域</title>
+</head>
+<body ng-app="App">
+<div class="father" ng-controller="ParentController" ng-init="name='雍正'">
+    <nav>
+        <a href="javascript:">首页</a>
+        <a href="javascript:">列表</a>
+    </nav>
+    <h1>{{name}}</h1>
+    <div class="son" ng-controller="ChildController">
+        <p>{{name}}</p>
+    </div>
+</div>
+
+<script src="js/angular.min.js"></script>
+<script>
+    var App = angular.module('App', []);
+    App.controller('ParentController', ['$scope', function ($scope) {
+        $scope.name = '康熙';
+    }]);
+
+    App.controller('ChildController', ['$scope', function ($scope) {
+        $scope.name = '乾隆';
+    }]);
+</script>
+</body>
+</html>

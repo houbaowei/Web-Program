@@ -1,71 +1,107 @@
 @charset "UTF-8";
 
 /*css 初始化 */
-html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
-fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }
-ul, ol { list-style:none; }
-input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
-select, input { vertical-align:middle;}
-select, input, textarea { font-size:12px; margin:0; }
-textarea { resize:none; } /*防止拖动*/
-img {border:0;	vertical-align:middle; }  /*  去掉图片底部默认的3像素空白缝隙*/
-table { border-collapse:collapse; }
-body {
-    font:12px/150% Arial,Verdana,"\5b8b\4f53";
-    color:#666;
-    background:#fff;
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+ul, ol {
+    list-style: none;
+}
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+select, input {
+    vertical-align: middle;
+}
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+textarea {
+    resize: none;
 }
 
+/*防止拖动*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  去掉图片底部默认的3像素空白缝隙*/
+table {
+    border-collapse: collapse;
+}
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    color: #666;
+    background: #fff;
+}
 
 /* 清除浮动 */
 .clearfix:before, .clearfix:after {
     content: "";
     display: table;
 }
-
 .clearfix:after {
     clear: both;
 }
-
 .clearfix {
     *zoom: 1; /*IE/7/6*/
 }
-
-
-a {color:#666; text-decoration:none; }
-a:hover{color:#C81623;}
-h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-size:100%;}
-s,i,em{font-style:normal;text-decoration:none;}
-.col-red{color: #C81623!important;}
-
+a {
+    color: #666;
+    text-decoration: none;
+}
+a:hover {
+    color: #C81623;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+.col-red {
+    color: #C81623 !important;
+}
 
 /*公共类*/
-.w {  /*版心 提取 */
+.w {
+
+    /*版心 提取 */
     width: 1210px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 .fl {
-    float:left
+    float: left
 }
 .fr {
-    float:right
+    float: right
 }
 .al {
-    text-align:left
+    text-align: left
 }
 .ac {
-    text-align:center
+    text-align: center
 }
 .ar {
-    text-align:right
+    text-align: right
 }
 .hide {
-    display:none
+    display: none
 }
-
-
-
-
 
 /* 头部分start */
 
@@ -75,13 +111,11 @@ s,i,em{font-style:normal;text-decoration:none;}
     line-height: 30px;
     background-color: #f1f1f1;
 }
-.dt,
-.shortcut .fore {
+.dt, .shortcut .fore {
     padding: 0 20px 0 10px;
     position: relative;
 }
-.dt i,
-.fore i {
+.dt i, .fore i {
     font: 400 15px/15px "宋体";
     position: absolute;
     top: 13px;
@@ -90,8 +124,7 @@ s,i,em{font-style:normal;text-decoration:none;}
     overflow: hidden;
     width: 15px;
 }
-.dt s,
-.fore s {
+.dt s, .fore s {
     position: absolute;
     top: -8px;
     left: 0;
@@ -107,18 +140,19 @@ s,i,em{font-style:normal;text-decoration:none;}
     margin-top: 9px;
     padding: 0;
 }
-.shortcut .tel-jd{
-    padding:0 20px 0 25px;
+.shortcut .tel-jd {
+    padding: 0 20px 0 25px;
 }
-.tel{
+.tel {
     position: absolute;
     width: 15px;
     height: 20px;
     background: url(../images/sprite.png) no-repeat;
     background-position: 0 0;
     left: 5px;
-    top:5px;
+    top: 5px;
 }
+
 /*顶部导航end*/
 
 /*topbanner start*/
@@ -139,6 +173,7 @@ s,i,em{font-style:normal;text-decoration:none;}
 .close-banner:hover {
     background-position: bottom;
 }
+
 /*topbanner end*/
 
 /* logo */
@@ -200,7 +235,6 @@ s,i,em{font-style:normal;text-decoration:none;}
     border: 1px solid #DFDFDF;
     position: relative;
 }
-
 .car .icon1 {
     position: absolute;
     top: 10px;
@@ -209,14 +243,12 @@ s,i,em{font-style:normal;text-decoration:none;}
     height: 13px;
     background: url("../images/sprite.png") no-repeat -1px -59px;
 }
-
 .car .icon2 {
     font: 400 13px/13px "simsun";
     position: absolute;
     top: 10px;
     right: 10px;
 }
-
 .car .icon3 {
     position: absolute;
     width: 16px;
@@ -228,7 +260,6 @@ s,i,em{font-style:normal;text-decoration:none;}
     top: -4px;
     border-radius: 7px 7px 7px 0;
 }
-
 .hotwords {
     padding: 7px 0;
     float: left;
@@ -268,7 +299,6 @@ s,i,em{font-style:normal;text-decoration:none;}
     height: 465px;
     background-color: #C81623;
 }
-
 .dropdown .items {
     height: 31px;
     line-height: 31px;
@@ -287,7 +317,6 @@ s,i,em{font-style:normal;text-decoration:none;}
     font-family: "宋体";
     font-weight: 600;
 }
-
 .navitems {
     float: left;
     height: 44px;
@@ -295,7 +324,9 @@ s,i,em{font-style:normal;text-decoration:none;}
 .navitems li {
     float: left;
 }
-.navitems li.new { /* li.new 不加空格表示class为new的li */
+.navitems li.new {
+
+    /* li.new 不加空格表示class为new的li */
     background: url("../images/new.jpg") no-repeat right top;
     background-color: skyblue;
 }
@@ -318,13 +349,12 @@ s,i,em{font-style:normal;text-decoration:none;}
     display: block;
     height: 44px;
 }
+
 /* 头部分end */
-
-
 
 /* 底部分start */
 .slogon {
-    height:54px;
+    height: 54px;
     padding: 20px 0;
     background-color: #f5f5f5;
     position: relative;
@@ -348,14 +378,11 @@ s,i,em{font-style:normal;text-decoration:none;}
 .slogon4 {
     margin-left: 304px;
 }
-
-
 .shopping dl {
     width: 198px;
     float: left;
 }
-.shopping dt,
-.coverage .dt {
+.shopping dt, .coverage .dt {
     font: 400 16px/28px "微软雅黑";
     padding-top: 5px;
     padding-bottom: 5px;
@@ -364,14 +391,12 @@ s,i,em{font-style:normal;text-decoration:none;}
 .shopping dd {
     height: 20px;
 }
-
 .coverage {
     width: 210px;
     height: 165px;
     float: right;
-    background:url("../images/china.png") no-repeat left bottom;
+    background: url("../images/china.png") no-repeat left bottom;
 }
-
 .coverage .dd {
     margin-top: 10px;
 }
@@ -382,7 +407,6 @@ s,i,em{font-style:normal;text-decoration:none;}
     text-align: right;
     margin-top: 5px;
 }
-
 .againw {
     border-top: 1px solid #E5E5E5;
     margin-top: 30px;
@@ -399,4 +423,5 @@ s,i,em{font-style:normal;text-decoration:none;}
     line-height: 18px;
     margin-bottom: 10px;
 }
+
 /* 底部分end */

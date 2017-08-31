@@ -27,19 +27,21 @@
 </html>
 
 <script>
-    function getClass(classname) {
+    // IE9 以下不支持 getElementsByClassName
+    function getClass(obj, clsName) {
+        obj = obj || document;
         // 判断是否支持
-        if (document.getElementsByClassName) {
-            return document.getElementsByClassName(classname);
+        if (obj.getElementsByClassName) {
+            return obj.getElementsByClassName(clsName);
         }
 
         var  arr = [];
-        var dom = document.getElementsByTagName("*");
+        var dom = obj.getElementsByTagName("*");
         for (var i = 0; i < dom.length; i++) {
             // 分割 class="test1 test2"这种形式的
             var txtArr = dom[i].className.split(" ");
             for (var j = 0; j < txtArr.length; j++) {
-                if (txtArr[j] === classname) {
+                if (txtArr[j] === clsName) {
                     arr.push(textArr[j]);
                 }
             }

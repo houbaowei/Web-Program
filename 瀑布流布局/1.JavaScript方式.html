@@ -18,20 +18,24 @@
 
 <!-- 动态创建图片元素-->
 <script>
-    var data = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24];
+    var data = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 
     var main = document.getElementById('main');
+    var html = '';
     for (var i = 0; i < data.length; i++) {
-        var box = document.createElement('div');
-        box.className = 'box';
-        var pic = document.createElement('div');
-        pic.className = 'pic';
-        box.appendChild(pic);
-        var img = document.createElement('img');
-        img.setAttribute('src', "images/" + data[i] + ".jpg");
-        pic.appendChild(img);
-        main.appendChild(box);
+//        var box = document.createElement('div');
+//        box.className = 'box';
+//        var pic = document.createElement('div');
+//        pic.className = 'pic';
+//        box.appendChild(pic);
+//        var img = document.createElement('img');
+//        img.setAttribute('src', "images/" + data[i] + ".jpg");
+//        pic.appendChild(img);
+//        main.appendChild(box);
+
+        html += '<div class="box"><div class="pic"><img src="images/' + data[i] + '.jpg" alt="#"></div></div>';
     }
+    main.innerHTML = html;
 </script>
 </body>
 </html>

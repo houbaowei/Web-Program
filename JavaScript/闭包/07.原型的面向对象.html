@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原型的面向对象</title>
+</head>
+<body>
+<script>
+    function Person(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    Person.prototype.showName = function () {
+        alert('我的名字是:' + this.name);
+    };
+    Person.prototype.showAge = function () {
+        alert('我的年龄是:' + this.age);
+    };
+
+    var xiaoMing = new Person('小明', 18);
+    xiaoMing.showName();
+    xiaoMing.showAge();
+</script>
+</body>
+</html>

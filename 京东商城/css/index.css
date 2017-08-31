@@ -11,7 +11,6 @@
     height: 604px;
     background: url("../images/banner.jpg") no-repeat top center;
 }
-
 .main {
     position: relative;
 }
@@ -25,12 +24,11 @@
 }
 .circle {
     position: absolute;
-    bottom: 8px;
-    /*
-    绝对定位盒子居中:
-        left: 50%;
-        margin-left: -自身宽度的一半
-    */
+    bottom: 8px;    /*
+                    绝对定位盒子居中:
+                        left: 50%;
+                        margin-left: -自身宽度的一半
+                    */
     left: 50%;
     margin-left: -66px;
 }
@@ -46,11 +44,9 @@
     margin: 0 2px;
     cursor: pointer;
 }
-
 .circle li.current {
     background-color: #B61B1F;
 }
-
 .arrow-l, .arrow-r {
     position: absolute;
     width: 28px;
@@ -60,7 +56,7 @@
     color: #ffffff;
     font: 500 18px/62px "宋体";
     text-align: center;
-    background: rgba(0,0,0,.2);
+    background: rgba(0, 0, 0, .2);
 }
 .arrow-l {
     left: 0;
@@ -69,10 +65,9 @@
     right: 0;
 }
 .arrow-l:hover, .arrow-r:hover {
-    background: rgba(0,0,0,.4);
+    background: rgba(0, 0, 0, .4);
     color: #ffffff;
 }
-
 .news {
     width: 248px;
     height: 451px;
@@ -97,13 +92,11 @@
     color: #666;
     margin-left: 15px;
 }
-
 .jd-news .dt a {
     float: right;
     font: 13px/43px "宋体";
     margin-right: 15px;
 }
-
 .jd-news .dd ul {
     padding: 8px 0 0 15px;
 }
@@ -114,7 +107,6 @@
     font-weight: 700;
     margin-right: 5px;
 }
-
 .lifeservice {
     height: 251px;
     overflow: hidden;
@@ -129,12 +121,13 @@
     border: 1px solid #E4E4E4;
     float: left;
     margin-left: -1px; /*消除左右2px border*/
+
     /*margin-top: -1px;*/ /*消除上下2px border*/
-     
-    border-top: 0; 
-    
+
+    border-top: 0;
 }
 .lifeservice li a {
+
     /*a:行内元素,无法设置宽高,所以要改变为块级元素*/
     display: block;
     height: 70px;
@@ -150,12 +143,9 @@
     height: 25px;
     background: url("../images/icon_lifeserv.png") no-repeat right top;
 }
-
 .lifeservice .song {
     background: url("../images/song.png") no-repeat right top;
 }
-
-
 .todays {
     position: relative;
 }

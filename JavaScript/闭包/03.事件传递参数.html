@@ -46,6 +46,12 @@
     }
     btn1.onclick = move(-5);
     btn2.onclick = move(5);
+
+    btn1.onclick = function (speed) {
+        return function () {
+            square.style.left = square.offsetLeft + speed + 'px';
+        }
+    }(-5);
 </script>
 </body>
 </html>

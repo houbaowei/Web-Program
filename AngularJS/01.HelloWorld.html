@@ -7,17 +7,21 @@
 </head>
 <body>
 <div ng-app="myApp" ng-controller="myCtrl">
+
     <p>姓: <input type="text" ng-model="firstName"></p>
+
     <p><input type="text" ng-model="lastName"></p>
+
     <h3>姓名: {{firstName + " " + lastName}}</h3>
+
 </div>
 
 <script>
     var app = angular.module('myApp', []);
-    app.controller('myCtrl', function ($scope) {
+    app.controller('myCtrl', ['$scope', function ($scope) {
         $scope.firstName = 'Zhang';
         $scope.lastName = 'San';
-    });
+    }]);
 </script>
 </body>
 </html>

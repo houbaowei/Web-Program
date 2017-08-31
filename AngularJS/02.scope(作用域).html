@@ -25,14 +25,14 @@ $rootScope设置的变量在所有controller里面都是可以直接用{{$root.�
 
 <script>
     var app = angular.module('myApp', []);
-    app.controller('myCtrl', function ($scope, $rootScope) {
+    app.controller('myCtrl', ['$scope', '$rootScope', function ($scope, $rootScope) {
         $scope.names = ['ZhangSan', 'LiSi', 'WangWu', 'ZhaoLiu'];
         $rootScope.firstName = "NiGuLaSi";
-    });
+    }]);
 
-    app.controller('myCtrl_1', function ($scope, $rootScope) {
+    app.controller('myCtrl_1', ['$scope', '$rootScope', function ($scope, $rootScope) {
         $scope.firstName_1 = $rootScope.firstName;
-    })
+    }])
 </script>
 </body>
 </html>

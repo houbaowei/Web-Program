@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>屏幕缩放事件(闭包版函数节流)</title>
+</head>
+<body>
+<div id="demo"></div>
+<script>
+    var num = 0;
+    var demo = document.getElementById('demo');
+
+//    var timer = null;
+//    window.onresize = function () {
+//        clearTimeout(timer);
+//        timer = setTimeout(function () {
+//            demo.innerHTML = window.innerWidth || document.documentElement.clientWidth;
+//            num++;
+//            console.log(num);
+//        }, 300);
+//    };
+
+    window.onresize = throttle(function () {
+        demo.innerHTML = window.innerWidth || document.documentElement.clientWidth;
+        num++;
+        console.log(num);
+    }, 300);
+
+    // 闭包节流
+    function throttle(fn, delay) {
+        var timer = null;
+
+        return function () {
+            clearTimeout(timer);
+            timer = setTimeout(fn, delay);
+        }
+    }
+</script>
+</body>
+</html>

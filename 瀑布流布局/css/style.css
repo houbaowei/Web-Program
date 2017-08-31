@@ -2,9 +2,10 @@
     position: relative;
 }
 .box {
+    /* 用padding好获取宽度 */
     padding: 15px 0 0 15px;
     float: left;
-    position: absolute;
+    /*position: absolute;*/
 }
 .pic {
     padding: 10px;

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ng-include的使用</title>
+</head>
+<body ng-app="App">
+
+<!--千万注意里面的引号-->
+<div ng-include="'./header.html'"></div>
+<section>主体</section>
+<div ng-include="'./footer.html'"></div>
+
+<script src="../js/angular.min.js"></script>
+<script>
+    var App = angular.module('App', []);
+</script>
+</body>
+</html>

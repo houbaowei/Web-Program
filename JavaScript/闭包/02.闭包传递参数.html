@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>闭包传递参数</title>
+</head>
+<body>
+<script>
+    function fn(x) {
+        return function (y) {
+            console.log(x + y);
+        }
+    }
+
+    var obj = fn(3);
+    obj();  // NaN  因为y没有给值, 3 + 未定义 = NaN
+    obj(4); // 7
+</script>
+</body>
+</html>
