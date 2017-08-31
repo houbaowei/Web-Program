@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>路由</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: #F7F7F7;
+            font-family: Arial, sans-serif;
+        }
+        .wrapper {
+            max-width: 980px;
+            margin: 50px auto;
+        }
+        ul {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            list-style: none;
+            background-color: #000;
+            border-radius: 4px;
+        }
+        li {
+            float: left;
+            width: 120px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            font-size: 18px;
+        }
+        li.active {
+            background-color: #333;
+        }
+        li a {
+            display: block;
+            color: #FFF;
+            text-decoration: none;
+        }
+        .content {
+            margin-top: 30px;
+            font-size: 24px;
+            padding: 0 20px;
+        }
+    </style>
+</head>
+<body ng-app="App">
+    <div class="wrapper">
+        <ul>
+            <li class="active">
+                <a href="#/index/5/6/实参">Index</a>
+            </li>
+            <li>
+                <a href="#/introduce">Introduce</a>
+            </li>
+            <li>
+                <a href="#/contact">Contact</a>
+            </li>
+            <li>
+                <a href="#/list">List</a>
+            </li>
+        </ul>
+        <div class="content">
+            <!--通过ng-view指令布局模板, 路由匹配的视图会被加载渲染到那些区域-->
+            <div ng-view></div>
+        </div>
+    </div>
+
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script>
+        var App = angular.module('App', ['ngRoute']);
+
+        App.config(['$routeProvider', function ($routeProvider) {
+            $routeProvider.when('/index/:id/:page/:param',{
+                templateUrl: 'abc.html',
+                controller: 'IndexController'
+            }
+            ).when('/introduce',{
+                template: '<h1>妈卖批</h1>'
+            }
+            ).when('/contact',{
+                template: '<h1>10086</h1>'
+            }
+            ).when('/list',{
+                template: '<h1>th/tr/td</h1>'
+            }
+            ).otherwise( {
+                redirectTo: "/index"
+            }
+            );
+        }
+        ]);
+
+        App.controller('IndexController', ['$scope', '$routeParams', function ($scope, $routeParams) {
+            $scope.content = '路由练习';
+            console.log($routeParams);
+        }]);
+    </script>
+</body>
+</html>
