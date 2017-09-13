@@ -495,7 +495,7 @@ img {
   overflow-x: hidden;
 }
 .collapse {
-  transform: translate(12.8125rem);
+  transform: translate(12.8125rem); /* 向右移动12.8125rem的距离 */
 }
 .loading {
   width: 2rem;
@@ -505,7 +505,7 @@ img {
   width: 12.8125rem;
   height: 100%;
   background-color: #e7eaee;
-  transition: all 0.5s 0.1s;
+  transition: all 0.5s 0.1s; /* 控制移动时的过渡效果 */
   position: fixed;
   left: -12.8125rem;
   top: 0;
@@ -862,7 +862,6 @@ img {
 }
 .body .settings li {
   line-height: 1;
-  padding-right: ;
   padding: 0.875rem 0.75rem 0.875rem 0;
   font-size: 1rem;
   border-bottom: 1px solid #dadada;

@@ -2,9 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>服务(service)</title>
 </head>
-<body>
-$END$
+<body ng-app="DemoApp">
+<div ng-controller="LocationController">
+    <ul>
+        <li>绝对路径:{{absUrl}}</li>
+        <li>端口号:{{port}}</li>
+        <li>主机地址:{{host}}</li>
+        <li>锚点:{{hash}}</li>
+        <li>协议:{{protocol}}</li>
+    </ul>
+</div>
+<div ng-controller="TimeController">
+    <p>$timeout : {{time1}}</p>
+    <p>$interval : {{time2}}</p>
+</div>
+<div ng-controller="FilterController">
+    <p>{{money}}</p>
+</div>
+
+<script src="js/angular.min.js"></script>
+<script>
+    var Demo = angular.module('DemoApp', []);
+
+//    $location
+    Demo.controller('LocationController', ['$scope', '$location', function ($scope, $location) {
+        $scope.absUrl = $location.absUrl();
+        $scope.port = $location.port();
+        $scope.host = $location.host();
+        $scope.hash = $location.hash();
+        $scope.protocol = $location.protocol();
+    }]);
+
+//    $timeout    $interval
+    Demo.controller('TimeController', ['$scope', '$timeout', '$interval', function ($scope, $timeout, $interval) {
+        $timeout(function () {
+            $scope.time1 = 'timeout出现啦!';
+        }, 3000);
+
+        var i = 10;
+        var timer = $interval(function () {
+            $scope.time2 = i--;
+            if (i < 0) {
+                $interval.cancel(timer);
+                $scope.time2 = 'interval出现啦!';
+            }
+        }, 1000);
+    }]);
+
+
+//    $filter : 过滤器
+    Demo.controller('FilterController', ['$scope', '$filter', function ($scope, $filter) {
+        $scope.money = 11.11;
+        var currency = $filter('currency');
+        $scope.money = currency($scope.money);
+    }])
+</script>
 </body>
 </html>

@@ -7,6 +7,8 @@ var navs = document.querySelector('.navs');
 var dd = navs.querySelectorAll('dd');
 
 menu.onclick = function () {
+    // H5新特性 classList
+    // toggle()为classList的 切换css类名有无 的方法
 	header.classList.toggle('collapse');
 	body.classList.toggle('collapse');
 	navs.classList.toggle('collapse');

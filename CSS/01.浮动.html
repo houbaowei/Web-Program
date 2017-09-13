@@ -2,9 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>浮动产生的影响</title>
+    <style>
+        body {
+            width: 500px;
+            margin: 50px auto;
+            background-color: #EEEEEE;
+        }
+        .clearfix::after {
+            content: '';
+            display: block;
+            height: 0;
+            visibility: hidden;
+            clear: both;
+        }
+        .clearfix {
+            *zoom: 1;
+        }
+        .main {
+            border: 1px solid #000000;
+            color: white;
+            padding: 2px;
+            text-align: center;
+            overflow: hidden;
+        }
+        .div-left {
+            float: left;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            background-color: deepskyblue;
+        }
+        .div-right {
+            float: right;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            background-color: orangered;
+        }
+    </style>
 </head>
 <body>
-$END$
+<div class="main">
+    <div class="div-left">float: left</div>
+    <div class="div-right">float: right</div>
+</div>
 </body>
 </html>

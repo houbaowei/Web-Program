@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>$http服务</title>
 </head>
-<body>
-$END$
+<body ng-app="App">
+<div ng-controller="DemoController">
+    <p>{{result}}</p>
+</div>
+<script src="js/angular.min.js"></script>
+<script>
+    var App = angular.module('App', []);
+    App.controller('DemoController', ['$scope', '$http', function ($scope, $http) {
+        $http({
+            url: '/someUrl',
+            method: 'GET',
+            params: {
+                name : 'zhangsan',
+                age : 13
+            }
+        }).then(function successCallback(response) {
+            $scope.result = response.result;
+        }, function errorCallback(response) {
+            console.log(response);
+        })
+    }])
+</script>
 </body>
 </html>

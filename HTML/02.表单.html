@@ -2,9 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>表单练习</title>
 </head>
 <body>
-$END$
+<h3>输入框</h3>
+<form action="#">
+    <label for="username">用户名：</label>
+    <input type="text" id="username">
+    <br>
+    <label for="password">密码：</label>
+    <input type="password" name="password" id="password">
+</form>
+<hr>
+<h3>文本域（textarea）</h3>
+<textarea name="textarea" id="textarea" cols="30" rows="10">{resize:none;}取消拖拽效果</textarea>
+<hr>
+<h3>单选框</h3>
+<form action="#">
+    <label for="man">男</label>
+    <input type="radio" name="gender" id="man" value="1">
+    <label for="woman">女</label>
+    <input type="radio" name="gender" id="woman" value="2">
+</form>
+<hr>
+<h3>复选框</h3>
+<form action="#">
+    <label for="eat">吃饭</label>
+    <input type="checkbox" name="favorite" id="eat" value="1">
+    <label for="sleep">睡觉</label>
+    <input type="checkbox" name="favorite" id="sleep" value="2">
+    <label for="play">打豆豆</label>
+    <input type="checkbox" name="favorite" id="play" value="3">
+</form>
+<hr>
+<h3>下拉列表</h3>
+<form action="#">
+    <label for="select">爱好：</label>
+    <select name="select" id="select">
+        <optgroup label="爱好">
+            <option value="1">吃饭</option>
+            <option value="2">睡觉</option>
+            <option value="3">打豆豆</option>
+        </optgroup>
+        <optgroup label="爱好">
+            <option value="1">吃饭</option>
+            <option value="2">睡觉</option>
+            <option value="3">打豆豆</option>
+        </optgroup>
+    </select>
+</form>
 </body>
 </html>
