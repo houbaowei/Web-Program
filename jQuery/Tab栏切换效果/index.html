@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -8,20 +9,26 @@
             margin: 0;
             padding: 0;
         }
-        ul, ol {
+
+        ul,
+        ol {
             list-style: none;
         }
+
         a {
             text-decoration: none;
         }
+
         img {
             vertical-align: middle;
         }
+
         .wrapper {
             width: 1000px;
             height: 475px;
             margin: 100px auto;
         }
+
         .tab {
             border: 1px solid #DDDDDD;
             border-bottom: 0;
@@ -39,6 +46,7 @@
             cursor: pointer;
             position: relative;
         }
+
         .tab span {
             position: absolute;
             right: 0;
@@ -48,20 +56,25 @@
             height: 14px;
             overflow: hidden;
         }
+
         .tab li.active {
             border-color: red;
             border-bottom: 0;
             background-color: #DDDDDD;
         }
+
         .product {
             width: 1002px;
             border: 1px solid #DDDDDD;
             height: 476px;
         }
+
         .product .main {
             float: left;
-            display: none; /*彻底消失,不占位置*/
+            display: none;
+            /*彻底消失,不占位置*/
         }
+
         .product .main.selected {
             display: block;
         }
@@ -72,25 +85,28 @@
             $('.tab-item').mouseenter(function () {
                 console.log($(this));
                 $(this).addClass('active').siblings('li').removeClass('active');
-                $('.product .main').eq($(this).index()).addClass('selected').siblings('div').removeClass('selected');
+                $('.product .main').eq($(this).index()).addClass('selected').siblings('div').removeClass(
+                    'selected');
             })
-        })
+        });
     </script>
 </head>
+
 <body>
-<div class="wrapper">
-    <ul class="tab">
-        <li class="tab-item active">国际大牌<span></span></li>
-        <li class="tab-item">国妆名品<span></span></li>
-        <li class="tab-item">清洁用品<span></span></li>
-        <li class="tab-item">男士用品<span></span></li>
-    </ul>
-    <div class="product">
-        <div class="main selected"><a href="#"><img src="images/guojidapai.jpg" alt="#"></a></div>
-        <div class="main"><a href="#"><img src="images/guozhuangmingpin.jpg" alt="#"></a></div>
-        <div class="main"><a href="#"><img src="images/qingjieyongpin.jpg" alt="#"></a></div>
-        <div class="main"><a href="#"><img src="images/nanshijingpin.jpg" alt="#"></a></div>
+    <div class="wrapper">
+        <ul class="tab">
+            <li class="tab-item active">国际大牌<span></span></li>
+            <li class="tab-item">国妆名品<span></span></li>
+            <li class="tab-item">清洁用品<span></span></li>
+            <li class="tab-item">男士用品<span></span></li>
+        </ul>
+        <div class="product">
+            <div class="main selected"><a href="#"><img src="images/guojidapai.jpg" alt="#"></a></div>
+            <div class="main"><a href="#"><img src="images/guozhuangmingpin.jpg" alt="#"></a></div>
+            <div class="main"><a href="#"><img src="images/qingjieyongpin.jpg" alt="#"></a></div>
+            <div class="main"><a href="#"><img src="images/nanshijingpin.jpg" alt="#"></a></div>
+        </div>
     </div>
-</div>
 </body>
+
 </html>

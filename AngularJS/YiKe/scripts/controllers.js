@@ -1,6 +1,6 @@
 /*
-* 控制器模块
-* */
+ * 控制器模块
+ * */
 angular.module('Controllers', [])
     .controller('DemoController', ['$scope', function ($scope) {
         console.log('启动啦!!!');
@@ -9,13 +9,36 @@ angular.module('Controllers', [])
     // 导航菜单
     .controller('NavController', ['$scope', function ($scope) {
         // 导航数据
-        $scope.navs = [
-            {link: '#/today', text: '今日一刻', icon: 'icon-home'},
-            {link: '#/older', text: '往期内容', icon: 'icon-file-empty'},
-            {link: '#/author', text: '热门作者', icon: 'icon-pencil'},
-            {link: '#/category', text: '栏目浏览', icon: 'icon-menu'},
-            {link: '#/favourite', text: '我的喜欢', icon: 'icon-heart'},
-            {link: '#/settings', text: '设置', icon: 'icon-cog'}
+        $scope.navs = [{
+                link: '#/today',
+                text: '今日一刻',
+                icon: 'icon-home'
+            },
+            {
+                link: '#/older',
+                text: '往期内容',
+                icon: 'icon-file-empty'
+            },
+            {
+                link: '#/author',
+                text: '热门作者',
+                icon: 'icon-pencil'
+            },
+            {
+                link: '#/category',
+                text: '栏目浏览',
+                icon: 'icon-menu'
+            },
+            {
+                link: '#/favourite',
+                text: '我的喜欢',
+                icon: 'icon-heart'
+            },
+            {
+                link: '#/settings',
+                text: '设置',
+                icon: 'icon-cog'
+            }
         ];
     }])
 
@@ -32,7 +55,9 @@ angular.module('Controllers', [])
         $http({
             url: './api/today.php',
             method: 'get',
-            params: { today : today }
+            params: {
+                today: today
+            }
 
         }).then(function successCallback(response) {
             $rootScope.loaded = true;
@@ -45,17 +70,17 @@ angular.module('Controllers', [])
     }])
     // 往期内容
     .controller('OlderController', ['$rootScope', '$scope', '$http', function ($rootScope, $scope, $http) {
-            $rootScope.title = '往期内容';
-            $rootScope.index = 1;
-            $rootScope.loaded = false;
+        $rootScope.title = '往期内容';
+        $rootScope.index = 1;
+        $rootScope.loaded = false;
 
-            $http({
-                url: './api/older.php'
-            }).then(function (response) {
-                $rootScope.loaded = true;
-                $scope.date = response.data.date;
-                $scope.posts = response.data.posts;
-            })
+        $http({
+            url: './api/older.php'
+        }).then(function (response) {
+            $rootScope.loaded = true;
+            $scope.date = response.data.date;
+            $scope.posts = response.data.posts;
+        })
     }])
     // 热门作者
     .controller('AuthorController', ['$rootScope', '$scope', '$http', function ($rootScope, $scope, $http) {
@@ -84,5 +109,4 @@ angular.module('Controllers', [])
     .controller('SettingsController', ['$rootScope', '$scope', function ($rootScope, $scope) {
         $rootScope.title = '设置';
 
-    }])
-;
+    }]);
