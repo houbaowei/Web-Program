@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AngularJS的路由原理</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- 导航菜单 -->
+        <ul>
+            <li><a href="#index">Index</a></li>
+            <li><a href="#introduce">Introduce</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#setting">Setting</a></li>
+        </ul>
+        <!-- 内容 -->
+        <div class="content">
+            Index Pages
+        </div>
+    </div>
+</body>
+<script>
+    // 监听锚点变化然后发送请求
+    window.addEventListener('hashchange', function(){
+        // 获取锚点
+        var hash = location.hash;
+        // 处理 #
+        hash = hash.substr(1);
+
+        var xhr = new XMLHttpRequest;
+        xhr.open('get', '123.php?hash=' + hash);
+        xhr.send(null);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                var result = xhr.responseText;
+                // 将结果添加到页面
+                document.querySelector('.content').innerHTML = result;
+            }
+        }
+    })
+</script>
+</html>

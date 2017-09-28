@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>多媒体标签</title>
+</head>
+
+<body>
+    <div class="video">
+        <h3>video标签</h3>
+        <!-- 
+            autoplay : 自动播放
+            controls: 是否显示控制条
+            poster: 占位图片
+            loop: 是否循环播放
+            preload: 预加载
+            muted: 静音
+            width/height: 宽/高
+         -->
+        <video width="320" height="240" controls="controls" preload="preload" poster="images/1.png">
+            <source src="images/sb1.webm" type="video/webm"></source>
+            <source src="images/sb1.ogg" type="video/ogg"></source>
+            <!-- 谷歌浏览器这个MP4格式的无画面,可能是视频本身有问题 -->
+            <source src="images/sb1.mp4" type="video/mp4"></source>
+            当前浏览器不支持 video直接播放，点击这里下载视频： <a href="myvideo.webm">下载视频</a>
+        </video>
+    </div>
+    <hr>
+    <div class="audio">
+        <h3>audio标签</h3>
+        <audio src="images/yinyue.mp3" controls="controls"></audio>
+    </div>
+</body>
+
+</html>
