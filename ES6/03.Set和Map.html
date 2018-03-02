@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Set和Map的使用方法</title>
+</head>
+<body>
+<script>
+    // set的一大作用：去除重复数据
+    /*
+    let s1 = new Set([1, 2, 3, '3', 2, 4, 3]);
+
+    // s1.add('哈哈');
+
+    s1.delete(3);
+
+    // s1.clear();
+
+    console.log(s1);
+
+    console.log(s1.size);
+
+    console.log(s1.has('haha'));
+    */
+
+
+
+
+    /* - -- - - - -- - - - Map - - - -- - - - - - - --- */
+    let m1 = new Map([
+        ['zhangsan', 59],
+        ['lisi', 77],
+        ['wangwu', 67],
+        ['zhaoliu', 89],
+        ['zhengqi', 76]
+    ]);
+    console.log(m1);
+    console.log(m1.size);
+
+    // 遍历
+    m1.forEach(function (value, key) {
+        console.log('key = ' + key + ', value = ' + value);
+    })
+</script>
+</body>
+</html>

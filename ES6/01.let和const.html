@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>let和const</title>
+</head>
+<body>
+<button>按钮1</button>
+<button>按钮2</button>
+<button>按钮3</button>
+<button>按钮4</button>
+<button>按钮5</button>
+
+<script>
+    // 1. let作用域只局限于当前代码块
+/*
+    {
+        var str = '张三';
+        let str1 = '李四';
+
+        console.log(str);
+        console.log(str1);
+    }
+    console.log('+++++' + str); // 李四
+    console.log('-----' + str1);    // 报错
+*/
+
+
+    // 2. let不会变量声明提升
+    /*{
+        console.log('=====' + str2);  // undefine
+        var str2 = '王五';
+        console.log('.....' + str2); //
+
+        console.log(str3); // 报错
+        let str3 = '赵六';
+    }*/
+
+
+    // 3. let在相同的作用域中不能声明相同的变量
+    /*{
+        var str4 = '郑七';
+        var str4 = '猪八';
+        console.log(str4);  // 猪八
+
+        let str5 = '哈哈';
+        let str5 = '呵呵';
+        console.log(str5);  // 报错
+    }*/
+
+    // 4. for循环体现父子作用域
+    /*
+    var buttons = document.querySelectorAll("button");
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].onclick = function () {
+            alert('点击了第' + i + '个按钮');  // 点击时for循环已经结束,i永远是5
+        }
+    }
+    */
+
+    // 闭包修改
+    /*
+    var buttons = document.querySelectorAll("button");
+    for (var i = 0; i < buttons.length; i++) {
+        (function(i) {
+            buttons[i].onclick = function () {
+                alert('点击了第' + i + '个按钮');  // 点击时for循环已经结束,i永远是5
+            }
+        })(i);
+    }
+    */
+
+    // 用let更好
+    let buttons = document.querySelectorAll("button");
+    for (let i = 0; i < buttons.length; i++) {
+        buttons[i].onclick = function () {
+            alert('点击了第' + i + '个按钮');  // 点击时for循环已经结束,i永远是5
+        }
+    }
+
+
+
+    /* ---------------- const -------------------- */
+
+    // 1.const只在当前代码块中有效
+    {
+        const a = '123';
+        console.log(a);     // 123
+    }
+    console.log(a);     // 报错
+
+
+    // 2.const声明的常量必须赋值
+    /*
+    const b    // 报错
+    */
+
+
+    // 3.const声明的常量不能再修改啦!
+    /*
+    const c = '123';
+    c = 'qqq';
+    console.log(c);
+    */
+</script>
+</body>
+</html>

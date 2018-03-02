@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>IOS 通过浏览器打开App(看美)</title>  
+    <meta charset="utf-8">  
+    <style type="text/css">  
+        .back{  
+            position:absolute; top:50px;left:360px;float:left;  
+  
+        }  
+    </style>  
+</head>  
+<body>  
+    <div class="back">  
+    <p>  
+        <font size="20px">  
+        11111111<br>  
+        22222222<br>  
+        <a href="http://www.dtdjzx.gov.cn/staticPage/app/index/20170927/2386932.html?share=1&from=singlemessage&isappinstalled=0?type=news&id=12345" >点此跳转App</a><br>
+        44444444<br>  
+    
+    
+        </font>  
+    </p>  
+    </div> 
+
+<script language="javascript">
+window.onload = function () {
+alert("1");
+var u = navigator.userAgent;
+if (u.indexOf('Android') > -1 || u.indexOf('Linux') > -1) {//安卓手机
+alert("安卓手机");
+// window.location.href = "mobile/index.html";
+} else if (u.indexOf('iPhone') > -1) {//苹果手机
+// window.location.href = "mobile/index.html";
+alert("苹果手机");
+} else if (u.indexOf('Windows Phone') > -1) {//winphone手机
+alert("winphone手机");
+// window.location.href = "mobile/index.html";
+}
+}
+</script>
+</body>  
+</html>  

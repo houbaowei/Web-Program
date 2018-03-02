@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3方式实现瀑布流</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #main {
+            /*设置列数*/
+            -webkit-column-count: 6;
+            -moz-column-count: 6;
+            column-count: 6;
+
+            /*设置列间距*/
+            -webkit-column-gap: 0;
+            -moz-column-gap: 0;
+            column-gap: 0;
+        }
+
+        .box {
+            padding: 15px 0 0 15px;
+        }
+        .pic {
+            padding: 10px;
+            border: 1px solid #CCCCCC;
+            border-radius: 5px;
+            -webkit-box-shadow: 0 0  5px #CCCCCC;
+            -moz-box-shadow: 0 0  5px #CCCCCC;
+            box-shadow: 0 0  5px #CCCCCC;
+        }
+
+        .pic img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="main clearfix" id="main">
+    <!--<div class="box">-->
+        <!--<div class="pic">-->
+            <!--<img src="images/0.jpg" alt="#">-->
+        <!--</div>-->
+    <!--</div>-->
+</div>
+
+<!-- 动态创建图片元素-->
+<script>
+    var data = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
+    var main = document.getElementById('main');
+    var html = '';
+    for (var i = 0; i < data.length; i++) {
+        html += '<div class="box"><div class="pic"><img src="images/' + data[i] + '.jpg" alt="#"></div></div>';
+    }
+    main.innerHTML = html;
+</script>
+</body>
+</html>

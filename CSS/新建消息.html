@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-size: 14px;
+        }
+        ul, ol {
+            list-style: none;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* placeholder for contenteditable dom */
+        [contenteditable=true]:empty:before {
+            content: attr(placeholder);
+            color: #a6a6a6;
+        }
+
+        #content {
+            padding: 10px 0;
+            font-family: Helvetica;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            min-height: 100px;
+        }
+
+
+
+        .main li {
+            margin-left: 10px;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: rgba(240, 240, 240, 1);
+            margin-bottom: 10px;
+        }
+
+        .main li:nth-child(3) {
+            border-bottom-width: 0;
+        }
+
+        .main input {
+            height: 30px;
+            font-size: 14px;
+            border-style: none;
+            border-radius: 0;
+            outline: none;
+            -webkit-appearance: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        /* 收件人 */
+        .main .receiver-label {
+            display: inline-block;
+            width: 55px;
+        }
+
+        /* 选择联系人按钮 */
+        #contacts-button {
+            width: 30px;
+            height: 30px;
+            background-color: red;
+            margin-top: 8px;
+        }
+
+        /* 主题 */
+        .main .title-label {
+            width: 40px;
+        }
+    </style>
+</head>
+
+<body>
+<ul class="main">
+    <li>
+        <span class="receiver-label">收件人:</span>
+        <input type="text" name="receiver" id="receiver">
+        <button id="contacts-button"></button>
+    </li>
+    <li>
+        <span class="title-label">主题:</span>
+        <input type="text" name="main-title" id="main-title"
+               class="order-info"></li>
+    <li>
+        <span for="content" class="order-left">内容:</span>
+        <div id="content" contenteditable="true" onmouseup="saveSelection();" onkeyup="saveSelection();"
+             onfocus="restoreSelection();">
+        </div>
+    </li>
+</ul>
+
+<script>
+    // 设置输入框的宽度
+    var screenWidth = document.documentElement.clientWidth;
+    var receiver_input = document.getElementById('receiver');
+    receiver_input.style.width = screenWidth - 125 + 'px';
+    var title_input = document.getElementById('main-title');
+    title_input.style.width = screenWidth - 70 + 'px';
+
+
+    var savedRange, isInFocus;
+    var editableContent = document.getElementById("content");
+
+
+    function triggerFocus() {
+        editableContent.focus();
+    }
+
+
+    function saveSelection() {
+        if (window.getSelection) {
+            savedRange = window.getSelection().getRangeAt(0);
+        }
+        else if (document.selection) {
+            savedRange = document.selection.createRange();
+        }
+    }
+
+
+    function restoreSelection() {
+        isInFocus = true;
+        editableContent.focus();
+        if (savedRange != null) {
+            if (window.getSelection) {
+                var s = window.getSelection();
+                if (s.rangeCount > 0)
+                    s.removeAllRanges();
+                s.addRange(savedRange);
+            }
+            else if (document.createRange) {
+                window.getSelection().addRange(savedRange);
+            }
+            else if (document.selection) {
+                savedRange.select();
+            }
+        }
+    }
+
+
+    function insertImage(imageName, imagePath) {
+        restoreSelection();
+        var imageElement = document.createElement('img');
+        var breakElement = document.createElement('div');
+        imageElement.setAttribute('src', imagePath);
+        imageElement.setAttribute('id', imageName);
+        breakElement.innerHTML = "<br>";
+        editableContent.appendChild(imageElement);
+        editableContent.appendChild(breakElement);
+    }
+
+
+    function updateImageURL(imageName, imageURL) {
+        var selectedElement = document.getElementById(imageName);
+        selectedElement.setAttribute('src', imageURL);
+    }
+
+
+    function placeHTMLToEditor(html) {
+        editableContent.innerHTML = html;
+    }
+
+</script>
+</body>
+</html>
