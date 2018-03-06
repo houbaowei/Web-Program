@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>延展操作符</title>
+</head>
+<body>
+<script>
+    let str = '今天天气很好!';
+    // ...延展操作符可以将字符串展开
+    let strArr = [...str];
+    console.log(strArr);    // ["今", "天", "天", "气", "很", "好", "!"]
+
+    // 去重之后返回数组
+    let myArr = [1, 2, 10, '张三', 20, 2, 1];
+    console.log([...new Set(myArr)]);   // [1, 2, 10, "张三", 20]
+
+
+    // 形参默认值
+    function sum(num1 = 10, num2 = 20) {
+        console.log(num1 + num2);
+    }
+    // 2. 参数形式 延展操作符
+    function sums(...nums) {
+        let result = 0;
+        for (let value of nums) {
+            result += value;
+        }
+        console.log(result);
+    }
+</script>
+</body>
+</html>

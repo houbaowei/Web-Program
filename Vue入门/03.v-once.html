@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-once的使用</title>
+
+</head>
+<body>
+    <div id="app">
+        <p v-once>原始值: {{message}}</p>
+        <p>更新的值: {{message}}</p>
+        <input type="text" v-model="message">
+    </div>
+</body>
+<script src="vue.js"></script>
+<script>
+    let app = new Vue({
+        el: '#app',
+        data() {
+            return {
+                message : '今天天气不错!'
+            }
+        }
+    })
+</script>
+</html>

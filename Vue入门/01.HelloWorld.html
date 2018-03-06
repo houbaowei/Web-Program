@@ -7,14 +7,15 @@
 </head>
 <body>
 <div id="app">
-    {{message}}
+    <p>{{message}}</p>
 </div>
 
 <script>
-    var app = new  Vue({
+    // 创建Vue实例
+    let app = new  Vue({
         el: '#app',
         data: {
-            message : 'Hello World!'
+            message : '你好,世界!'
         }
     })
 </script>
