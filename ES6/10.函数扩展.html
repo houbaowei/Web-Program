@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数扩展</title>
+</head>
+<body>
+<script>
+    // 1. 形参设置默认值
+    // ES5
+    function sum(num1, num2) {
+        num1 = num1 || 10;
+        num2 = num2 || 20;
+        console.log(num1 + num2);
+    }
+    // ES6
+    function sum1(num1 = 10, num2 = 20) {
+        console.log(num1 + num2);
+    }
+
+    // 2. 参数形式 ...延展操作符
+    function sum2() {
+        let result = 0;
+        for (let value of arguments) {
+            result += value;
+        }
+        return result;
+    }
+    console.log(sum2(1, 2, 3)); // 6
+
+    function sum3(name, sex, ...nums) {
+        let result = 0;
+        console.log(name);
+        console.log(sex);
+
+        for (let value of nums) {
+            result += value;
+        }
+        return result;
+    }
+    console.log(sum3('张三', '男', 10, 12, 13));
+
+
+
+    // 箭头函数
+    let sum4 = (num1, num2) => {
+        return num1 + num2;
+    };
+    console.log(sum4(12, 13));
+    
+    let nameArr = ['张三', '李四', '王五'];
+    nameArr.forEach(function (value, index, array) {
+        console.log(index + ' : ' + value);
+    });
+
+
+    function demo1() {
+        setTimeout(function () {
+            console.log('ES5 this:' + this);
+        }, 1000);
+
+        setTimeout(() => {
+            console.log('ES6 this:' + this);
+        }, 1000);
+    }
+
+    demo1();    // ES5 : Window     ES6 : window
+
+    let obj11 = {};
+    demo1.call(obj11);   // ES5 this:[object Window]         ES6 this:[object Object]
+</script>
+</body>
+</html>

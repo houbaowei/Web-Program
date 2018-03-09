@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内置对象扩展</title>
+</head>
+<body>
+<ul>
+    <li>1111</li>
+    <li>1112</li>
+    <li>1113</li>
+    <li>1114</li>
+    <li>1115</li>
+</ul>
+
+<script>
+    // 1. 模板字符串
+    let className = 'test';
+    let str = '适合敲代码!';
+
+    let html = `<html>
+                    <head></head>
+                    <body>
+                        <p>今天天气很好!</p>
+                        <div class="${className}">${str}</div>
+                    </body>
+                </html>`;
+
+    console.log(html);
+
+
+    // 2. 数组的扩展
+    // 2.1 Array.from - 将类数组对象和可遍历对象转换为真正的数组
+    let lis = document.querySelectorAll('li');
+    console.log(lis);   // NodeList(5) [li, li, li, li, li]
+    console.log(Array.isArray(lis));    // false
+
+    console.log(Array.from(lis));   // [li, li, li, li, li]
+    console.log(Array.isArray(Array.from(lis)));    // true
+
+
+    // 2.2 Array.of - 将一组值转换为数组
+    console.log(Array.of(1, 2, 3, 4));
+    console.log(Array.of('张三', '李四', '王五', '赵六'));
+
+
+
+    // 3. 对象的扩展
+    // key和value是一样的,写一个就够了]
+    let name = '张三';
+    let age = 18;
+    let person = {
+        name,
+        age
+    };
+
+
+    // Object.assign(target, ...sources) - 把一个或多个源对象的可枚举属性值复制到目标对象中，返回值为目标对象
+    let obj1 = {
+        name : '张三',
+        age : 18
+    };
+    let obj2 = {sex : '男'};
+    let obj3 = {friends: '李四'};
+    let obj = {};
+
+    Object.assign(obj, obj1, obj2, obj3);
+    console.log(obj);   // {name: "张三", age: 18, sex: "男", friends: "李四"}
+
+
+
+    // 延展操作符
+    let str1 = '今天天气很好!';
+    let strArr = [...str1];
+    console.log(strArr);    // ["今", "天", "天", "气", "很", "好", "!"]
+
+    /*let student = {
+        name : '张三',
+        age : 18,
+        sex : '男'
+    };
+    <Person {...student} />*/
+
+
+    // 面试
+    let myArr = [1, 2, 10, '张三', 20, 2, 1];
+    console.log(new Set(myArr));    // Set(5) {1, 2, 10, "张三", 20}
+    console.log([...new Set(myArr)]); // [1, 2, 10, "张三", 20]
+</script>
+</body>
+</html>
