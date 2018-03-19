@@ -8,6 +8,8 @@
 <body>
 <div id="app">
     <p>{{message}}</p>
+    <p v-text="chat"></p>
+    <p v-html="title"></p>
 </div>
 
 <script>
@@ -15,7 +17,9 @@
     let app = new  Vue({
         el: '#app',
         data: {
-            message : '你好,世界!'
+            message : '你好,世界!',
+            chat : '你是我的小呀小苹果🍎!',
+            title : '<h3>我是标题啊</h3>'
         }
     })
 </script>
