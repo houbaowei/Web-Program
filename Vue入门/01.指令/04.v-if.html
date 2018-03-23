@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-if的使用</title>
+</head>
+<body>
+<div id="app">
+    <p v-if="seen">你看得见我吗?</p>
+    <button v-on:click="change()">切换</button>
+</div>
+</body>
+
+<script src="js/vue.js"></script>
+<script>
+    let app = new Vue({
+        el: '#app',
+        data : {
+            seen : true
+        },
+        methods : {
+            change() {
+                this.seen = !this.seen;
+            }
+        }
+    })
+</script>
+</html>

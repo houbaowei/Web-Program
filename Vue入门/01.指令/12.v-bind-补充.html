@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-bind-补充</title>
+    <style>
+        .active {
+            background-color: orangered;
+            font-size: 20px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <p v-for="(college, index) in colleges" :class="index === activeIndex ? 'active' : ''">
+        {{college}}
+    </p>
+    <p :style="{color: fontColor}">今天天气真好!</p>
+</div>
+<script src="js/vue.js"></script>
+<script>
+    let app = new Vue({
+        el: '#app',
+        data: {
+            colleges: [
+                '家里蹲',
+                '北大',
+                '清华',
+                '北大青鸟',
+                '哈佛'
+            ],
+            activeIndex: 0,
+            fontColor: 'green'
+        }
+    })
+</script>
+</body>
+</html>

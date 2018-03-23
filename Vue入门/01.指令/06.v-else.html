@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-else的用法</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+
+<div id="app">
+    <p v-if="height > 1.7">小明的身高为:{{height}}米</p>
+    <p v-else>小明的身高为:{{height}}米</p>
+</div>
+
+<script>
+    let app = new Vue({
+        el: '#app',
+        data: {
+            height : 1.68
+        }
+    })
+</script>
+</body>
+</html>

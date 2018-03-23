@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多层组件之间的通信</title>
+</head>
+<body>
+<div id="app">
+    <my-parent :imgsrc="img" :imgtitle="title"></my-parent>
+</div>
+
+
+<template id="my_img">
+    <img :src="src" alt="#" width="200">
+</template>
+
+<template id="my_title">
+    <h3>{{title}}</h3>
+</template>
+
+<template id="my_parent">
+    <div>
+        <!-- 组件之间的通信必须用动态props-->
+        <child1 :src="imgsrc"></child1>
+        <child2 :title="imgtitle"></child2>
+    </div>
+</template>
+<script src="js/vue.js"></script>
+<script>
+
+    let Child1 = Vue.extend({
+        template: '#my_img',
+        props: ['src']
+    });
+    let Child2 = {
+        template: '#my_title',
+        props: ['title']
+    };
+    Vue.component('my-parent', {
+        template: '#my_parent',
+        components: {
+            'child1' : Child1,
+            'child2' : Child2
+        },
+        props: ['imgsrc', 'imgtitle']
+    });
+
+    new Vue({
+        el: '#app',
+        data: {
+            title: '我是不是最漂亮?',
+            img: 'img/img_01.jpg'
+        }
+    })
+</script>
+</body>
+</html>

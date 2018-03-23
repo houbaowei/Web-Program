@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue的局部组件</title>
+</head>
+<body>
+<div id="app">
+    <my-date></my-date>
+    <my-color></my-color>
+</div>
+<script src="js/vue.js"></script>
+<script>
+    let Profile1 = {
+        template: `
+            <div>
+                <input type="date">
+                <p>今天怎么不开心?</p>
+            </div>
+        `
+    };
+    let Profile2 = {
+        template: `
+            <div>
+                <input type="color">
+                <p>我是一个调色板</p>
+            </div>
+        `
+    };
+
+    let app = new Vue({
+        el: '#app',
+        components: {
+            'my-date' : Profile1,
+            'my-color' : Profile2
+        }
+    })
+</script>
+</body>
+</html>

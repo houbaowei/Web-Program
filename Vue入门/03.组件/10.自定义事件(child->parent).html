@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义事件(child->parent)</title>
+</head>
+<body>
+<div id="app">
+    <my-btn @total="allCounter()"></my-btn>
+    <my-btn @total="allCounter()"></my-btn>
+    <my-btn @total="allCounter()"></my-btn>
+    <my-btn @total="allCounter()"></my-btn>
+    <my-btn @total="allCounter()"></my-btn>
+    <p>一共点击了{{totalCounter}}次</p>
+</div>
+
+
+<template id="my_btn">
+    <button @click="total()">点击了{{counter}}次</button>
+</template>
+
+<script src="js/vue.js"></script>
+<script>
+    Vue.component('my-btn', {
+        template: '#my_btn',
+        data() {
+            return {
+                counter : 0
+            }
+        },
+        methods: {
+            total() {
+                this.counter += 1;
+
+                // 通知外界我调用了这个方法
+                this.$emit('total');
+            }
+        }
+    });
+
+    new Vue({
+        el: '#app',
+        data: {
+            totalCounter : 0
+        },
+        methods: {
+            allCounter() {
+                this.totalCounter += 1;
+            }
+        }
+    })
+</script>
+</body>
+</html>

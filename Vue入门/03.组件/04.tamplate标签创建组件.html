@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>template标签</title>
+</head>
+<body>
+<div id="app">
+    <my-div></my-div>
+</div>
+
+
+<template id="my_div">
+    <!--template 只能有一个入口-->
+    <div>
+        <div>我叫MT!</div>
+        <input type="date">
+        <img src="img/img_02.jpg" alt="" width="200">
+    </div>
+</template>
+
+<script src="js/vue.js"></script>
+<script>
+    // 实例化组件
+    Vue.component('my-div', {
+        template: '#my_div'
+    });
+
+    new Vue({
+        el: '#app'
+    });
+</script>
+</body>
+</html>

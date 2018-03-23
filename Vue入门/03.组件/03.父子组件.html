@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>父子组件</title>
+</head>
+<body>
+<div id="app">
+    <parent></parent>
+    <child></child>
+</div>
+
+<script src="js/vue.js"></script>
+<script>
+    let Child1 = {
+        template: '<img src="img/img_01.jpg" width="200px">'
+    };
+    let Child2 = {
+        template: `<p>我真是太美啦!!!</p>`
+    };
+
+    // 父子组件
+    Vue.component('parent', {
+        components: {
+            'my-child1' : Child1,
+            'my-child2' : Child2
+        },
+        template: `
+            <div>
+                <my-child1></my-child1>
+                <my-child2></my-child2>
+            </div>
+            `
+    });
+
+    // 实在想要用子组件的话, 必须要重新注册
+    Vue.component('child', Child1);
+
+    new Vue({
+        el: '#app',
+        data: {
+            msg: '今天天气很不错!'
+        }
+    })
+</script>
+</body>
+</html>

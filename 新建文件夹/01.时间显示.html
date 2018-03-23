@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>时间显示</title>
+</head>
+<body>
+<div id="time"></div>
+
+<script>
+    window.onload = function () {
+        setInterval('startTime()', 500);
+    };
+
+
+
+    function startTime() {
+        let date = new Date();
+        let h = date.getHours();
+        let m = date.getMinutes();
+        let s = date.getSeconds();
+        m = checkTime(m);
+        s = checkTime(s);
+
+        document.getElementById('time').innerHTML = h + ':' + m + ':' + s;
+
+        // setTimeout('startTime()', 500);
+    }
+
+    function checkTime(i) {
+        if (i < 10) {
+            i = '0' + i;
+        }
+        return i;
+    }
+</script>
+</body>
+</html>

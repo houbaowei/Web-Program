@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>观察者-watch</title>
+</head>
+<body>
+<div id="app">
+    <input type="text" v-model="children.name">
+    <input type="text" v-model="lastName">
+</div>
+
+
+<script src="js/vue.js"></script>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            children: {
+                name: '赵四',
+                age: 20,
+                sex: '男'
+            },
+            tdArray: ['1', '2', '3'],
+            lastName: '尼古拉斯'
+        },
+        watch: {
+            children: {
+                handler: function (val, oldVal) {
+                    console.log(val.name);
+                },
+                deep: true  // 对象内部的属性监听, 也叫深度监听
+            },
+
+            'children.name': function (val, oldVal) {
+                console.log(val + ' ... ' + oldVal);
+            },
+
+            lastName: function (val, oldVal) {
+                console.log(this.lastName);
+            }
+        }
+    });
+
+    vm.$watch('lastName', function (val, oldVal) {
+        console.log(val);
+    });
+</script>
+</body>
+</html>

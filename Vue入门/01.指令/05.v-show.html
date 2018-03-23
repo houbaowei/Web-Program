@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-show的使用</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+
+<div id="app">
+    <p v-show="show">要显示出来!</p>
+    <p v-show="hide">不要显示出来!</p>
+    <p v-show="height > 1.55">小明的身高:{{height}}米</p>
+    <p v-show="height1 > 1.68">小明的身高:{{height1}}米</p>
+</div>
+
+<script>
+    let app = new Vue({
+        el: '#app',
+        data: {
+            show : true,
+            hide : false,
+
+            height : 1.68,
+            height1 : 1.50
+        }
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详解自定义事件</title>
+</head>
+<body>
+<div id="app">
+    <parent></parent>
+</div>
+
+
+
+<script src="js/vue.js"></script>
+<script>
+    var childNode = {
+        template: `<button @click="incrementCounter()">点击了{{counter}}次</button>`,
+        data() {
+            return {
+                counter : 0
+            }
+        },
+        methods: {
+            incrementCounter() {
+                this.counter ++;
+                // 告诉外界,我调用了increment方法
+                this.$emit('increment');
+            }
+        }
+    };
+
+    var parentNode = {
+        template: `
+            <div class="parent">
+                <child @increment="incrementTotal()"></child>
+                <child @increment="incrementTotal()"></child>
+                <child @increment="incrementTotal()"></child>
+                <p>一共点击了{{total}}次</p>
+            </div>
+        `,
+        components: {
+            'child' : childNode
+        },
+        data() {
+            return {
+                total : 0
+            }
+        },
+        methods: {
+            incrementTotal() {
+                this.total ++;
+            }
+        }
+    }
+
+
+    new Vue({
+        el: '#app',
+        components: {
+            'parent' : parentNode
+        }
+    })
+</script>
+</body>
+</html>

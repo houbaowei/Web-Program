@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-on的用法</title>
+</head>
+<body>
+<div id="app">
+    <p :style="{color: fontColor}">{{message}}</p>
+    <button v-on:click="message='今天天气好热'">改变内容</button>
+    <button @click="changeContent()">改变内容1</button>
+    <button @click="changeColor()">改变颜色</button>
+</div>
+<script src="js/vue.js"></script>
+<script>
+    let app = new Vue({
+        el: '#app',
+        data: {
+            message: '今天天气很不错!',
+            fontColor: 'red'
+        },
+        methods: {
+            changeContent() {
+                this.message = '测试测试!'
+            },
+
+            changeColor() {
+                this.fontColor = 'green'
+            }
+        }
+    })
+</script>
+</body>
+</html>

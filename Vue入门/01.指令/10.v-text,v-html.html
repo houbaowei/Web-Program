@@ -2,21 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>v-if的使用</title>
+    <title>v-text,v-html</title>
 </head>
 <body>
 <div id="app">
-    <p v-if="seen">你看得见我吗?</p>
+    <p v-text="text">heheheheh</p>
+    <p v-html="html">hahahaha</p>
 </div>
-</body>
 
 <script src="js/vue.js"></script>
 <script>
     let app = new Vue({
         el: '#app',
-        data : {
-            seen : true
+        data: {
+            text : '我是文字',
+            html : '<h3>我是html代码</h3>'
         }
     })
 </script>
+</body>
 </html>

@@ -17,28 +17,57 @@
 <div id="app1" v-bind:title="message1">鼠标悬停显示信息</div>
 <a id="app2" :href="link">点击跳转到百度</a>
 
+<hr>
+
 <!-- v-html方式 -->
+<div id="app3">
+    <p v-html="message"></p>
+</div>
+
+<hr>
+
+<!-- v-text方式 -->
+<div id="app4">
+    <p v-text="message"></p>
+</div>
+
+
+
 <script>
-    var app = new Vue({
+    let app = new Vue({
         el: '#app',
         data: {
             message: 'Hello Vue'
         }
-    })
+    });
 
-    var app1 = new Vue({
+    let app1 = new Vue({
       el: '#app1',
       data: {
           message1: '猴哥猴哥'
       }
-    })
+    });
 
-    var app2 = new Vue({
+    let app2 = new Vue({
         el: '#app2',
         data: {
             link : 'http://www.baidu.com'
         }
-    })
+    });
+
+    let app3 = new Vue({
+        el: '#app3',
+        data: {
+            message : '<h3>我是标题啊!</h3>'
+        }
+    });
+
+    let app4 = new Vue({
+        el: '#app4',
+        data: {
+            message : 'v-text方式绑定数据!'
+        }
+    });
 </script>
 </body>
 </html>
