@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片切换</title>
+    <style>
+        #icon {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div id="image-slider">
+    <img id="icon" src="img/icon_01.png" alt="#">
+    <button id="prev">上一张</button>
+    <button id="next">下一张</button>
+</div>
+
+
+<script>
+    window.onload = function () {
+        var icon = document.getElementById('icon');
+        var prev = document.getElementById('prev');
+        var next = document.getElementById('next');
+
+        var maxIndex = 9, minIndex = 1, currentIndex = minIndex;
+        prev.onclick = function () {
+            if (currentIndex === minIndex) {
+                currentIndex = maxIndex;
+            } else {
+                currentIndex--;
+            }
+            // icon.src = "img/icon_0" + currentIndex + ".png";
+            icon.setAttribute('src', "img/icon_0" + currentIndex + ".png");
+        }
+        next.onclick = function () {
+            if (currentIndex === maxIndex) {
+                currentIndex = minIndex;
+            } else {
+                currentIndex++;
+            }
+            icon.setAttribute('src', 'img/icon_0' + currentIndex + '.png');
+        }
+    }
+</script>
+</body>
+</html>

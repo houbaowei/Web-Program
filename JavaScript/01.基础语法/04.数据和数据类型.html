@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据和数据类型</title>
+</head>
+<body>
+
+<script type="text/html">
+    console.log(typeof 10);     // number
+    console.log(typeof '10');   // string
+</script>
+<script type="text/html">
+var num1 = 123;
+var num2 = 3.14159265354;
+console.log(typeof num1);   // number
+console.log(typeof num2);   // number
+
+// 最大值
+console.log(Number.MAX_VALUE);  // 1.7976931348623157e+308
+// 最小值
+console.log(Number.MIN_VALUE);  // 5e-324
+//正无穷
+console.log(typeof Infinity);   // number
+// 负无穷
+console.log(typeof -Infinity);  // number
+</script>
+<script type="text/html">
+    var bool1 = true;
+    console.log(typeof bool1);   // boolean
+    console.log(typeof false);  // boolean
+
+    var bool2 = Boolean(0);
+    console.log(bool2);
+</script>
+<script type="text/html">
+    var str1 = null;
+    var str2 = undefined;
+    console.log(str1);  // null
+    console.log(str2);  // undefined
+    console.log(str1 == str2);  // true
+    console.log(str1 === str2); // false
+</script>
+<script>
+    /* --------------类型转换--------------- */
+
+    // toString()
+    var num1 = 123;
+    var str1 = num1.toString();
+    console.log(typeof str1);   // string
+
+    // String(str)
+    var str2 = String(num1);
+    console.log(typeof str2);   // string
+
+    /*
+    var num2 = undefined;
+    console.log(num2.toString());   // 报错
+    var num3 = null;
+    console.log(num3.toString());   // 报错
+    */
+
+
+
+    var str3 = '123';
+    var str4 = "13213.4646asfafasfa";
+    console.log(Number(str3));  // 123
+    console.log(Number(str4));  // NaN
+    console.log(parseInt(str4));    // 13213
+    console.log(parseFloat(str4));  // 13213.4646
+
+
+
+    var bool1 = true;
+    var bool2 = false;
+    console.log(Number(bool1)); // 1
+    console.log(Number(bool2)); // 0
+
+
+
+
+    console.log(Boolean(1));    // true
+    console.log(Boolean(0));    // false
+    console.log(Boolean('1'));  // true
+    console.log(Boolean('0'));  // true
+    console.log(Boolean(''));   // false
+    console.log(Boolean(undefined));    // false
+    console.log(Boolean(null));     // false
+</script>
+</body>
+</html>

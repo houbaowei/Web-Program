@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常量和变量</title>
+</head>
+<body>
+
+<script type="text/html">
+    // 数值常量
+    console.log(3);
+    console.log(3 + 5);
+    console.log(3.3 + 5.5);
+    
+    // 字符串常量
+    console.log('a');
+    console.log('B');
+    console.log('123');
+    console.log('Hello World！');
+    
+    // 布尔常量
+    console.log(true);
+    console.log(false);
+    
+    // 特殊字符
+    console.log('\n');
+    console.log('\t');
+    console.log('\r');
+</script>
+
+<script>
+    // 定义变量
+
+    // 1. 在函数体外声明的变量为 - 全局变量
+    var name;
+    var age = 18;
+    sex = '男';
+
+    function demo() {
+        // 2. 在函数体内，且通过var声明的变量才是 - 局部变量
+        var a = 30;
+
+        // 3. 所有没有var直接赋值的变量都属于全局变量
+        i = 20;
+    }
+    num = 23333;
+
+
+
+    var a = b = c = 1;
+    console.log(a); // 1
+    console.log(b); // 1
+    console.log(c); // 1
+
+    var x, y, z = 1;
+    console.log(x); // undefined
+    console.log(y); // undefined
+    console.log(z); // 1
+</script>
+</body>
+</html>

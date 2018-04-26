@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>回调函数</title>
+</head>
+<body>
+<script>
+    function add(num1, num2) {
+        return num1 + num2;
+    }
+    function sub(num1, num2) {
+        return num1 - num2;
+    }
+    function mul(num1, num2) {
+        return num1 * num2;
+    }
+    function div(num1, num2) {
+        return num1 / num2;
+    }
+    
+    
+    function calculate(num1, num2, fn) {
+        console.log(fn(num1, num2));
+    }
+
+    calculate(1, 2, add);
+    calculate(1, 2, sub);
+</script>
+</body>
+</html>

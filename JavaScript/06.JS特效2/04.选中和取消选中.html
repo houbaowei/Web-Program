@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选中和取消选中</title>
+</head>
+<body>
+<div id="panel">
+    <section class="panel-header">
+        <h3>歌曲排行榜</h3>
+        <hr>
+    </section>
+
+    <section class="panel-content">
+    </section>
+
+    <section class="panel-footer">
+        <hr>
+        <button id="all-select">全选</button>
+        <button id="cancel-select">取消选中</button>
+        <button id="reverse-select">反选</button>
+    </section>
+</div>
+
+
+<script>
+    window.onload = function () {
+        createSongList();
+
+        var allSelect = document.getElementById('all-select');
+        var cancelSelect = document.getElementById('cancel-select');
+        var reverseSelect = document.getElementById('reverse-select');
+
+        var songList = document.getElementsByTagName('input');
+
+        // 全选
+        allSelect.onclick = function () {
+            for (var i = 0; i < songList.length; i++) {
+                songList[i].checked = true;
+            }
+        };
+
+        // 取消
+        cancelSelect.onclick = function () {
+            for (var i = 0; i < songList.length; i++) {
+                songList[i].checked = false;
+            }
+        };
+
+        // 反选
+        reverseSelect.onclick = function () {
+            for (var i = 0; i < songList.length; i++) {
+                songList[i].checked = !songList[i].checked;
+            }
+        }
+    };
+
+
+    /*
+    * 动态创建歌曲列表
+    * */
+    function createSongList() {
+        var songArr = ['时间都去哪了', '海阔天空', '真的爱你', '不在犹豫', '光辉岁月', '喜欢你', '偏偏喜欢你', '爱拼才会赢', '老街'];
+        var panel_content = document.getElementsByClassName('panel-content')[0];
+        for (var i = 0; i < songArr.length; i++) {
+            var p = document.createElement('p');
+
+            var input = document.createElement('input');
+            input.type = 'checkbox';
+            input.id = 'song' + i + 1;
+            p.appendChild(input);
+
+            var label = document.createElement('label');
+            label.setAttribute('for', 'song' + i + 1);
+            label.innerText = (i+1) + '.' + songArr[i];
+            p.appendChild(label);
+
+            panel_content.appendChild(p);
+        }
+    }
+</script>
+</body>
+</html>

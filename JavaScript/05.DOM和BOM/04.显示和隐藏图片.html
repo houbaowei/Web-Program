@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>显示和隐藏图片</title>
+</head>
+<body>
+<img id="icon" src="img/img_01.jpg" alt="#">
+<p></p>
+<button>隐藏</button>
+
+<script>
+    window.onload = function () {
+        var btn = document.getElementsByTagName('button')[0];
+        var icon = document.getElementById('icon');
+
+        btn.onclick = function () {
+            if (this.innerText === '隐藏') {
+                this.innerText = '显示';
+                icon.style.display = 'none';
+            } else {
+                this.innerText = '隐藏';
+                icon.style.display = 'block';
+            }
+        }
+    }
+</script>
+</body>
+</html>

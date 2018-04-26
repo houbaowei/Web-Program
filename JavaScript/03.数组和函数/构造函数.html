@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>构造函数</title>
+</head>
+<body>
+<script>
+    function Dog(name, age, dogFriends) {
+            this.name = name;
+            this.age = age;
+            this.dogFriends = dogFriends;
+
+            this.eat = function (eatThing) {
+                console.log(this.name + '在吃' + eatThing);
+            }
+    }
+
+    var wangcai = new Dog('旺财', 2, ['阿黄', '小花']);
+    wangcai.eat('骨头');
+
+
+
+    // 参数传对象最好了
+    function Person(argus) {
+        this.name = argus.name;
+        this.age = argus.age;
+        this.sex = argus.sex;
+    }
+
+    Person.prototype = {
+        eat: function (something) {
+            alert('吃' + something);
+        }
+    };
+
+</script>
+</body>
+</html>

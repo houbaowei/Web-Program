@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>节点操作</title>
+</head>
+<body>
+<div id="box">
+    <p id="word">哈哈哈</p>
+    <button id="btn">点我</button>
+    <img>
+</div>
+
+<script type="text/html">
+    window.onload = function () {
+        var box = document.getElementById('box');
+
+        // 1. 创建节点
+        // 方式一
+        var img = document.createElement('img');
+        img.src = 'img/img1.jpg';
+        // box.appendChild(img);
+
+        // 方式二
+        var btn = document.getElementsByTagName('button')[0];
+        box.insertBefore(img, btn);
+
+
+        // 2. 删除节点
+        var word = document.getElementById('word');
+        word.parentNode.removeChild(word);  // 删除自己
+        box.removeChild(btn);
+    }
+</script>
+<script type="text/html">
+    window.onload = function () {
+        var box = document.getElementById('box');
+
+        // 克隆节点
+        var newTag = box.cloneNode(true);
+        document.body.appendChild(newTag);
+    }
+</script>
+<script>
+    window.onload = function () {
+        var img = document.getElementsByTagName("img")[0];
+
+        // 1. 设置属性: setAttribute('name', 'value')
+        img.setAttribute('src', 'img/img2.jpg');
+        img.setAttribute('alt', '图片');
+        img.setAttribute('aaa', '啊啊啊啊');
+        img.setAttribute('bbbbb', '呵呵呵呵呵');
+        console.log(img);
+
+
+        // 2. 获取属性: getAttribute('attr')
+        console.log(img.getAttribute('src'));
+        console.log(img.getAttribute('aaa'));
+
+
+        // 3. 删除属性: removeAttribute('attr')
+        img.removeAttribute('alt');
+        img.removeAttribute('bbbbb');
+        console.log(img);
+    }
+</script>
+</body>
+</html>

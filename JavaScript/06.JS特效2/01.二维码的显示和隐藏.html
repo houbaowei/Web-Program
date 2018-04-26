@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>二维码的显示和隐藏</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #e-code {
+            width: 50px;
+            height: 50px;
+            background: url('img/e_coder_normal.png') no-repeat;
+            position: fixed;
+            top: 40%;
+            cursor: pointer;
+        }
+
+        div#e-app {
+            position: absolute;
+            left: 50px;
+            top: -50px;
+
+            /* 隐藏 */
+            display: none;
+        }
+        #e-app img {
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+<div id="e-code">
+    <div id="e-app">
+        <img src="img/e_coder.jpg" alt="公众号">
+    </div>
+</div>
+
+
+<script>
+    window.onload = function () {
+        var e_code = document.getElementById('e-code');
+        var e_app = document.getElementById('e-app');
+
+        e_code.onmouseover = function () {
+            this.style.background = 'url(\'img/e_coder_selected.png\') no-repeat'
+            e_app.style.display = 'block';
+        }
+        e_code.onmouseout = function () {
+            this.style.background = 'url(\'img/e_coder_normal.png\') no-repeat';
+            e_app.style.display = 'none';
+        }
+    }
+</script>
+</body>
+</html>

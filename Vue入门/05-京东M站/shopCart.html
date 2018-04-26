@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/shopCart.css">
+</head>
+<body>
+   <div id="jd_shop_cart">
+       <!--头部区域-->
+       <div class="header">
+           <a href="index.html" class="icon_back"></a>
+           <h3>购物车</h3>
+           <a href="" class="icon_menu"></a>
+       </div>
+       <!--安全提示-->
+       <div class="jd_safe_tip">
+           <p class="tip_word">
+               您正在安全购物环境中，请放心购物
+           </p>
+       </div>
+       <!--中间的列表-->
+       <main class="jd_shopCart_list">
+           <section>
+               <div class="shopCart_list_title">
+                   <span class="cart_logo"></span>
+                   <span class="cart_title">京东自营</span>
+                   <span class="cart_sale">您享受满100元免运费服务</span>
+               </div>
+               <div class="shopCart_list_con">
+                   <div class="list_con_left">
+                       <a href="javascript:;" class="cart_check_box" checked></a>
+                   </div>
+                   <div class="list_con_right">
+                       <div class="shop_img">
+                           <img src="images/img_01.jpg" alt="360智能摄像机云台版 全景监控 360全景云台1080P">
+                       </div>
+                       <div class="shop_con">
+                           <a href="">360智能摄像机云台版 全景监控 360全景云台1080P</a>
+                           <div class="shop_price">
+                               <div class="singer">¥299</div>
+                               <div class="total">¥299</div>
+                           </div>
+                           <div class="shop_deal">
+                               <div class="shop_deal_left">
+                                   <span>-</span>
+                                   <input type="tel" value="1">
+                                   <span>+</span>
+                               </div>
+                               <div class="shop_deal_right">
+                                   <span></span>
+                                   <span></span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </section>
+           <section>
+               <div class="shopCart_list_title">
+                   <span class="cart_logo"></span>
+                   <span class="cart_title">京东自营</span>
+                   <span class="cart_sale">您享受满100元免运费服务</span>
+               </div>
+               <div class="shopCart_list_con">
+                   <div class="list_con_left">
+                       <a href="javascript:;" class="cart_check_box" checked></a>
+                   </div>
+                   <div class="list_con_right">
+                       <div class="shop_img">
+                           <img src="images/img_01.jpg" alt="360智能摄像机云台版 全景监控 360全景云台1080P">
+                       </div>
+                       <div class="shop_con">
+                           <a href="">360智能摄像机云台版 全景监控 360全景云台1080P</a>
+                           <div class="shop_price">
+                               <div class="singer">¥299</div>
+                               <div class="total">¥299</div>
+                           </div>
+                           <div class="shop_deal">
+                               <div class="shop_deal_left">
+                                   <span>-</span>
+                                   <input type="tel" value="1">
+                                   <span>+</span>
+                               </div>
+                               <div class="shop_deal_right">
+                                   <span></span>
+                                   <span></span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </section>
+           <section>
+               <div class="shopCart_list_title">
+                   <span class="cart_logo"></span>
+                   <span class="cart_title">京东自营</span>
+                   <span class="cart_sale">您享受满100元免运费服务</span>
+               </div>
+               <div class="shopCart_list_con">
+                   <div class="list_con_left">
+                       <a href="javascript:;" class="cart_check_box" checked></a>
+                   </div>
+                   <div class="list_con_right">
+                       <div class="shop_img">
+                           <img src="images/img_01.jpg" alt="360智能摄像机云台版 全景监控 360全景云台1080P">
+                       </div>
+                       <div class="shop_con">
+                           <a href="">360智能摄像机云台版 全景监控 360全景云台1080P</a>
+                           <div class="shop_price">
+                               <div class="singer">¥299</div>
+                               <div class="total">¥299</div>
+                           </div>
+                           <div class="shop_deal">
+                               <div class="shop_deal_left">
+                                   <span>-</span>
+                                   <input type="tel" value="1">
+                                   <span>+</span>
+                               </div>
+                               <div class="shop_deal_right">
+                                   <span></span>
+                                   <span></span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </section>
+       </main>
+       <!--底部通栏-->
+       <div id="tab_bar">
+           <div class="tab-bar-left">
+               <a href="javascript:;" class="cart_check_box" checked></a>
+               <span style="font-size: 16px;">全选</span>
+               <div class="select-all">
+                   合计：<span class="total-price">¥299</span>
+               </div>
+           </div>
+           <div class="tab-bar-right">
+               <a href="index.html" class="pay">去结算</a>
+           </div>
+       </div>
+       <!--弹出面板-->
+       <div class="panel panel_is_show">
+           <div class="panel_content">
+               <div class="panel_title">您确认删除这个商品吗?</div>
+               <div class="panel_footer">
+                   <button class="cancel" @click="isHideDelPanel = true">取消</button>
+                   <button class="submit" @click="delShop()">确定</button>
+               </div>
+           </div>
+       </div>
+   </div>
+
+<script src="lib/vue.js"></script>
+<script src="lib/vue-resource.js"></script>
+<script src="js/base.js"></script>
+<script src="js/shopCart.js"></script>
+<script src="js/shopCartloop.js"></script>
+</body>
+</html>

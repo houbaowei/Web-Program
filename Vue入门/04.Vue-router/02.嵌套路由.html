@@ -121,7 +121,7 @@
             children: [
                 {path: 'basic', component: Basic, name: 'basic'},
                 {path: 'big', component: Big, name: 'big'},
-                {path:'/', redirect: 'basic'}
+                {path:'/', redirect: 'basic'}   // 默认子路由
             ]
         },
         {
@@ -134,7 +134,7 @@
             component: Python,
             name: 'python'
         },
-        //    配置跟路由, 即进入界面默认显示的内容
+        //    配置根路由, 即进入界面默认显示的内容
         {
             path: '/',
             redirect: '/h5'
