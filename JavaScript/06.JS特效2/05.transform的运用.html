@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>transform的运用</title>
+    <style>
+        #box {
+            width: 90px;
+            height: 90px;
+            background-color: red;
+            margin: 100px;
+        }
+    </style>
+</head>
+<body>
+<button id="btn">形变</button>
+<div id="box"></div>
+
+<script>
+    window.onload = function () {
+        var index = 0;
+        document.getElementById('btn').onclick = function () {
+            index++;
+            document.getElementById('box').style.transform = 'translate('+index*10+'px, '+index*11+'px) rotate('+index*10+'deg) scale(1.2, 1.2)';
+        }
+    }
+</script>
+</body>
+</html>

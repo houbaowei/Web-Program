@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL编码和解码</title>
+</head>
+<body>
+
+<script>
+    var urlStr = 'http://www.baidu.com/index.html?a=1&b=2';
+    var encodeUrlStr = 'http%3A%2F%2Fwww.baidu.com%2Findex.html%3Fa%3D1%26b%3D2';
+    // 编码
+    console.log(encodeURIComponent(urlStr));
+    // 解码
+    console.log(decodeURIComponent(encodeUrlStr));
+
+
+
+
+    // 保留小数位数
+    var PI = 3.14159265354;
+    // 保留三位小数,后面的小数会四舍五入
+    console.log(PI.toFixed(3));     // 3.142
+
+
+
+
+
+    // 大小写转换
+    var lower = 'hello world!';
+    console.log(lower.toUpperCase());
+
+    var upper = 'HELLO WORLD!';
+    console.log(upper.toLowerCase());
+</script>
+</body>
+</html>

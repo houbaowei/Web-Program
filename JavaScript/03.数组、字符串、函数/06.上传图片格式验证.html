@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上传图片格式验证</title>
+</head>
+<body>
+<label for="">上传图片的格式验证:</label>
+<input type="file" id="file">
+
+<script>
+    window.onload = function () {
+        var file = document.getElementById('file');
+        file.onchange = function () {
+            var path = this.value;
+
+            var suffix = path.substr(path.lastIndexOf('.'));
+
+            var lower_suffix = suffix.toLowerCase();
+
+            if (lower_suffix === '.jpg' || lower_suffix === '.png' || lower_suffix === '.gif') {
+                alert('上传图片格式正确');
+            } else {
+                alert('格式不正确,请重新选择');
+            }
+        }
+    }
+</script>
+</body>
+</html>

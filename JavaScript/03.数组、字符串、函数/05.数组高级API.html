@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数组高级API</title>
+    <style>
+        /* 清除浮动 */
+        .clearfix::after {
+            content: '';
+            display: block;
+            height: 0;
+            visibility: hidden;
+            clear: both;
+        }
+        .clearfix {
+            zoom: 1;
+        }
+
+        #demo {
+            margin: 100px auto;
+            width: 300px;
+            border: 1px solid #000;
+        }
+
+        .left {
+            float: left;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+        }
+        .right {
+            float: right;
+            width: 100px;
+            height: 30px;
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+<div id="demo" class="clearfix">
+    <div class="left">左边</div>
+    <div class="right">右边</div>
+</div>
+
+
+<script type="text/html">
+    var arr = [1, 2, '哈哈哈'];
+    console.log(typeof arr);    // object
+    console.log(arr instanceof Object); // true
+    console.log(arr instanceof Array);  // true
+    console.log(arr instanceof String); // false
+</script>
+
+<script type="text/html">
+    var arr2 = new Array();
+    var name = "jack";
+    console.log(Array.isArray(arr2));
+    console.log(Array.isArray(name));
+</script>
+
+<script type="text/html">
+    var arr = [1, 2, "哈哈哈"];
+    console.log(arr.toString());    // 1,2,哈哈哈
+
+    console.log(arr.valueOf());     // [1, 2, "哈哈哈"]
+
+    console.log(arr.join());    // 1,2,哈哈哈
+    console.log(arr.join(''));  // 12哈哈哈
+</script>
+
+<script>
+    // 编码
+    var str = 'http://www.baidu.com/index.html';
+    console.log(encodeURIComponent(str));   // http%3A%2F%2Fwww.baidu.com%2Findex.html
+
+    // 解码
+    var str2 = 'http%3A%2F%2Fwww.baidu.com%2Findex.html';
+    console.log(decodeURIComponent(str2));  // http://www.baidu.com/index.html
+</script>
+</body>
+</html>

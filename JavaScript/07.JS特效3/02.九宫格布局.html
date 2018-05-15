@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>九宫格布局</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        #top {
+            padding: 20px;
+        }
+        #bottom {
+            position: relative;
+        }
+        .box {
+            width: 220px;
+            height: 360px;
+            margin: 0 15px 15px 0;
+            background-color: #e8e8e8;
+        }
+        .box p:last-child {
+            font-size: 13px;
+            color: orangered;
+        }
+    </style>
+</head>
+<body>
+<div id="sudoku">
+    <div id="top">
+        <button>3列</button>
+        <button>4列</button>
+        <button>5列</button>
+    </div>
+    <div id="bottom">
+        <div class="box">
+            <img src="img/1.jpg" alt="">
+            <p>因为遇见你</p>
+            <p>孙怡邓伦牵手演绎刺绣奇缘</p>
+        </div>
+        <div class="box">
+            <img src="img/2.jpg" alt="">
+            <p>因为遇见你</p>
+            <p>孙怡邓伦牵手演绎刺绣奇缘</p>
+        </div>
+        <div class="box">
+            <img src="img/3.jpg" alt="">
+            <p>因为遇见你</p>
+            <p>孙怡邓伦牵手演绎刺绣奇缘</p>
+        </div>
+        <div class="box">
+            <img src="img/4.jpg" alt="">
+            <p>因为遇见你</p>
+            <p>孙怡邓伦牵手演绎刺绣奇缘</p>
+        </div>
+        <div class="box">
+            <img src="img/5.jpg" alt="">
+            <p>因为遇见你</p>
+            <p>孙怡邓伦牵手演绎刺绣奇缘</p>
+        </div>
+        <div class="box">
+            <img src="img/6.jpg" alt="">
+            <p>因为遇见你</p>
+            <p>孙怡邓伦牵手演绎刺绣奇缘</p>
+        </div>
+        <div class="box">
+            <img src="img/7.jpg" alt="">
+            <p>因为遇见你</p>
+            <p>孙怡邓伦牵手演绎刺绣奇缘</p>
+        </div>
+        <div class="box">
+            <img src="img/8.jpg" alt="">
+            <p>因为遇见你</p>
+            <p>孙怡邓伦牵手演绎刺绣奇缘</p>
+        </div>
+        <div class="box">
+            <img src="img/9.jpg" alt="">
+            <p>因为遇见你</p>
+            <p>孙怡邓伦牵手演绎刺绣奇缘</p>
+        </div>
+        <div class="box">
+            <img src="img/10.jpg" alt="">
+            <p>因为遇见你</p>
+            <p>孙怡邓伦牵手演绎刺绣奇缘</p>
+        </div>
+        <div class="box">
+            <img src="img/11.jpg" alt="">
+            <p>因为遇见你</p>
+            <p>孙怡邓伦牵手演绎刺绣奇缘</p>
+        </div>
+        <div class="box">
+            <img src="img/12.jpg" alt="">
+            <p>因为遇见你</p>
+            <p>孙怡邓伦牵手演绎刺绣奇缘</p>
+        </div>
+        <div class="box">
+            <img src="img/13.jpg" alt="">
+            <p>因为遇见你</p>
+            <p>孙怡邓伦牵手演绎刺绣奇缘</p>
+        </div>
+        <div class="box">
+            <img src="img/14.jpg" alt="">
+            <p>因为遇见你</p>
+            <p>孙怡邓伦牵手演绎刺绣奇缘</p>
+        </div>
+        <div class="box">
+            <img src="img/15.jpg" alt="">
+            <p>因为遇见你</p>
+            <p>孙怡邓伦牵手演绎刺绣奇缘</p>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    window.onload = function () {
+        var btns = document.getElementById('top').children;
+
+        j_flex(3);
+
+        btns[0].onclick = function () {
+            j_flex(3);
+        };
+
+        btns[1].onclick = function () {
+            j_flex(4);
+        };
+
+        btns[2].onclick = function () {
+            j_flex(5);
+        };
+
+
+        function j_flex(column) {
+            var boxW = 220, boxH = 360, marginXY = 15;
+            var boxs = document.getElementsByClassName('box');
+
+            for (var i = 0; i < boxs.length; i++) {
+                var col = parseInt(i % column);
+                var row = parseInt(i / column);
+
+                var currentBox = boxs[i];
+                currentBox.style.position = 'absolute';
+                currentBox.style.left = col * (boxW + marginXY) + 'px';
+                currentBox.style.top = row * (boxH + marginXY) + 'px';
+            }
+
+            var sudoku = document.getElementById('sudoku');
+            var contentW = boxW * column + marginXY * (column - 1);
+            var marginL = (window.innerWidth -  contentW) / 2;
+            if (marginL > 0) {
+                sudoku.style.marginLeft = marginL + 'px';
+            } else {
+                sudoku.style.marginLeft = '0px';
+            }
+
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Date的基本使用</title>
+</head>
+<body>
+
+<script>
+    var now = new Date();
+    console.log(now);   // 当前时间
+
+    var haoMiao = now.getTime();
+    console.log(haoMiao);   // 时间戳,即当前毫秒数
+
+    console.log(now.getFullYear());     // 年
+    console.log(now.getMonth());        // 月    0-11
+    console.log(now.getDate());         // 日    1-31
+    console.log(now.getDay());          // 星期   0(日)-6(六)
+    console.log(now.getHours());        // 0-23
+    console.log(now.getMinutes());      // 0-59
+    console.log(now.getSeconds());      // 0-59
+    console.log(now.getMilliseconds()); // 0-999
+
+</script>
+</body>
+</html>

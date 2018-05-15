@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tab选项卡</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+
+        #tab {
+            width: 499px;
+            height: 120px;
+            border: 1px solid #CCCCCC;
+            margin: 100px auto;
+        }
+        #tab_header {
+            background-color: #e8e8e8;
+            height: 28px;
+            line-height: 28px;
+        }
+        #tab_header ul {
+            width: 500px;
+
+            /*
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            */
+        }
+        #tab_header ul li {
+            float: left;
+
+            /*
+             500 / 5 = 100
+             98 + 1 + 1 = 100
+            */
+            width: 98px;
+            /*先占满*/
+            padding: 0 1px;
+
+            border-bottom: 1px solid #CCCCCC;
+            text-align: center;
+            cursor: pointer;
+        }
+        #tab_header ul li.selected {
+            background-color: #fff;
+            border-bottom: none;
+
+            /* 取消占位padding,改为border */
+            padding: 0;
+            border-left: 1px solid #CCCCCC;
+            border-right: 1px solid #CCCCCC;
+
+        }
+        #tab_header ul li:first-child {
+            border-left: none;
+        }
+        #tab_header ul li:last-child {
+            border-right: none;
+        }
+        #tab_header ul li:hover {
+            font-weight: bolder;
+            color: orangered;
+        }
+
+        #tab_content {
+
+        }
+        #tab_content .dom {
+            padding-top: 20px;
+            display: none;
+        }
+        #tab_content .dom ul li {
+            float: left;
+            width: 249px;
+            margin: 5px 0;
+            text-align: center;
+        }
+        #tab_content .dom ul li a:hover {
+            color: orangered;
+        }
+    </style>
+</head>
+<body>
+<div id="tab">
+    <div id="tab_header">
+        <ul>
+            <li class="selected">公告</li>
+            <li>规则</li>
+            <li>论坛</li>
+            <li>安全</li>
+            <li>公益</li>
+        </ul>
+    </div>
+    <div id="tab_content">
+        <div class="dom" style="display:block;">
+            <ul>
+                <li><a href="#">数据七夕:金牛爱送玫瑰</a></li>
+                <li><a href="#"> 阿里打造"互联网监管"</a></li>
+                <li><a href="#">10万家店60万新品</a></li>
+                <li><a href="#">全球最大网上时装周</a></li>
+            </ul>
+        </div>
+        <div class="dom">
+            <ul>
+                <li><a href="#">“全额返现”要管控啦</a></li>
+                <li><a href="#">淘宝新规发布汇总(7月)</a></li>
+                <li><a href="#">炒信规则调整意见反馈</a></li>
+                <li><a href="#">质量相关规则近期变更</a></li>
+            </ul>
+        </div>
+        <div class="dom">
+            <ul>
+                <li><a href="#">阿里建商家全链路服务</a></li>
+                <li><a href="#">个性化的消费时代来临</a></li>
+                <li><a href="#">跨境贸易是中小企业机</a></li>
+                <li><a href="#">美妆行业虚假信息管控</a></li>
+            </ul>
+        </div>
+        <div class="dom">
+            <ul>
+                <li><a href="#">接次文件，毁了一家店</a></li>
+                <li><a href="#">账号安全神器阿里钱盾</a></li>
+                <li><a href="#">新版阿里110上线了</a></li>
+                <li><a href="#">卖家学违禁避免被处罚</a></li>
+            </ul>
+        </div>
+        <div class="dom">
+            <ul>
+                <li><a href="#">为了公益high起来</a></li>
+                <li><a href="#">魔豆妈妈在线申请</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    window.onload = function () {
+        var tab_header = document.getElementById('tab_header');
+        var tab_content = document.getElementById('tab_content');
+
+        var allLi = tab_header.getElementsByTagName('li');
+        var allDom = tab_content.getElementsByClassName('dom');
+
+        for (var i = 0; i < allLi.length; i++) {
+            var li = allLi[i];
+            li.index = i;
+            li.onmouseover = function () {
+                // 先去除全部样式
+                for (var j = 0; j < allLi.length; j++) {
+                    allLi[j].className = '';
+                    allDom[j].style.display = 'none';
+                }
+
+                this.className = 'selected';
+                allDom[this.index].style.display = 'block';
+            }
+        }
+    }
+</script>
+</body>
+</html>

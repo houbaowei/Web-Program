@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>字符串的相关操作</title>
+</head>
+<body>
+
+<script type="text/html">
+    var str = '张三';
+    var age = 18;
+    console.log(typeof str);    // string
+    console.log(typeof age);    // number
+
+    // 转字符串的方法
+    console.log(typeof (age + ''));
+    console.log(typeof String(age));
+    console.log(typeof age.toString());
+</script>
+
+<script>
+    var str = 'a,Hello World!';
+    var str1 = "你好,中国!";
+    console.log(str.charAt(1));     // ,
+    console.log(str1.charAt(4));    // 国
+
+    console.log(str.charCodeAt(0));     // 97
+    console.log(str1.charCodeAt(0));    // 20320
+</script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单验证</title>
+    <style>
+        #prompt {
+            font-size: 14px;
+            color: darkgray;
+        }
+        #score {
+            border: 1px solid darkgray;
+        }
+
+        .right {
+            background: #fff url('img/right.png') 5px center no-repeat;
+            -webkit-background-size: 15px 15px;
+            background-size: 15px 15px;
+            padding-left: 22px;
+            color: lightgreen !important;
+        }
+        .error {
+            background: #fff url('img/error.png') 5px center no-repeat;
+            -webkit-background-size: 15px 15px;
+            background-size: 15px 15px;
+            padding-left: 22px;
+            color: red !important;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <label for="score">您的成绩:</label>
+    <input type="text" id="score" placeholder="请输入分数">
+    <span id="prompt">请输入您的成绩!</span>
+</div>
+
+<script>
+    window.onload = function() {
+        var score = document.getElementById('score');
+        var prompt = document.getElementById('prompt');
+
+        // 失去焦点后验证成绩
+        score.onblur = function () {
+            var value = parseFloat(this.value);
+            if (this.value.length === 0) {
+                dealStyle('', '请输入您的成绩!', 'darkgray');
+            } else if (isNaN(value)) {
+                dealStyle('error', '输入的成绩不正确', 'red');
+            } else {
+                if (value >= 0 && value <= 100) {
+                    dealStyle('right', '输入的成绩正确', 'lightgreen');
+                } else {
+                    dealStyle('error', '输入的成绩超出范围', 'red');
+                }
+            }
+        };
+
+        score.onfocus = function () {
+            this.style.outline = 'none';
+            this.value = '';
+            dealStyle('', '请输入您的成绩!', 'darkgray');
+        };
+
+
+        function dealStyle(className, text, color) {
+            prompt.className = className;
+            prompt.innerText = text;
+            prompt.style.borderColor = color;
+        }
+    }
+</script>
+</body>
+</html>
